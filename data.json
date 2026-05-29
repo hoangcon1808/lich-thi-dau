@@ -1,1 +1,26 @@
-
+{
+    "last_updated": "2026-05-29 17:58:30",
+    "matches": [
+        {
+            "time": "02:00",
+            "home": "Real Madrid",
+            "away": "Dortmund",
+            "score": "2 - 1",
+            "status": "FT"
+        },
+        {
+            "time": "22:00",
+            "home": "Man Utd",
+            "away": "Man City",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "23:30",
+            "home": "Arsenal",
+            "away": "Liverpool",
+            "score": "1 - 0",
+            "status": "HT"
+        }
+    ]
+}
