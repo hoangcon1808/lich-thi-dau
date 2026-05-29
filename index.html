@@ -15,6 +15,7 @@
             --dark-green: #059669;
             --light-green: #d1fae5;
             --league-bg: #f8fafc;
+            --live-red: #ef4444; 
         }
 
         body {
@@ -56,18 +57,16 @@
 
         h1 { margin: 0; font-size: 24px; font-weight: 800; text-transform: uppercase; }
         
-        /* CSS CHO ĐỒNG HỒ THỜI GIAN THỰC */
         .live-clock {
             margin-top: 12px;
             font-size: 14px;
             font-weight: 600;
             color: #ffffff;
-            background: rgba(0, 0, 0, 0.15); /* Nền mờ đục nhìn rất sang */
+            background: rgba(0, 0, 0, 0.15);
             display: inline-block;
             padding: 6px 16px;
             border-radius: 20px;
             letter-spacing: 0.5px;
-            box-shadow: inset 0 0 5px rgba(0,0,0,0.1);
         }
 
         .status-text { margin-top: 10px; font-size: 12px; color: rgba(255, 255, 255, 0.85); }
@@ -84,16 +83,25 @@
         .match-list-wrapper::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 10px; }
         .match-list-wrapper::-webkit-scrollbar-thumb:hover { background: var(--primary-green); }
 
-        .match-list { margin: 0; padding: 0; }
+        /* KHỐI TIÊU ĐỀ LỚN (ĐANG DIỄN RA / SẮP DIỄN RA) */
+        .master-section {
+            padding: 12px 15px;
+            font-size: 15px;
+            font-weight: 800;
+            text-align: center;
+            letter-spacing: 0.5px;
+            border-bottom: 2px solid var(--border-color);
+        }
+        .section-live { background: #fee2e2; color: #b91c1c; }
+        .section-upcoming { background: #f1f5f9; color: #334155; }
 
         .league-header {
             background-color: var(--league-bg);
             color: var(--dark-green);
-            padding: 10px 15px;
+            padding: 8px 15px;
             font-size: 13px;
             font-weight: 700;
             text-transform: uppercase;
-            border-top: 1px solid var(--border-color);
             border-bottom: 1px solid var(--border-color);
             position: sticky;
             top: 0;
@@ -123,39 +131,33 @@
             text-align: center; font-size: 13px; font-weight: bold; color: white;
             background: var(--primary-green); padding: 5px 0; border-radius: 20px;
         }
-
         .match-status { text-align: right; font-size: 12px; color: var(--primary-green); font-weight: 600; }
+
+        @keyframes blink {
+            0% { opacity: 1; }
+            50% { opacity: 0.4; }
+            100% { opacity: 1; }
+        }
+
+        .score.is-live {
+            background: var(--live-red);
+            box-shadow: 0 2px 6px rgba(239, 68, 68, 0.4);
+            font-size: 15px;
+        }
+        .match-status.is-live {
+            color: var(--live-red);
+            animation: blink 1.5s infinite;
+        }
 
         @media (max-width: 600px) {
             body { padding: 0; align-items: stretch; }
-            .dashboard { 
-                max-width: 100%; 
-                height: 100vh; 
-                max-height: 100vh;
-                border-radius: 0; 
-                border: none;
-            }
-            .match-row { 
-                grid-template-columns: 1fr 60px 1fr; 
-                grid-template-rows: auto auto auto; 
-                row-gap: 8px; 
-                padding: 12px 10px; 
-            }
-            .time { 
-                grid-column: 1 / span 3; 
-                text-align: center; 
-                padding-bottom: 5px; 
-                border-bottom: 1px dashed var(--border-color); 
-                font-size: 13px;
-            }
+            .dashboard { max-width: 100%; height: 100vh; max-height: 100vh; border-radius: 0; border: none; }
+            .match-row { grid-template-columns: 1fr 70px 1fr; grid-template-rows: auto auto auto; row-gap: 8px; padding: 12px 10px; }
+            .time { grid-column: 1 / span 3; text-align: center; padding-bottom: 5px; border-bottom: 1px dashed var(--border-color); font-size: 13px; }
             .team.home { text-align: right; padding-right: 10px; }
             .team.away { text-align: left; padding-left: 10px; }
             .score { width: 100%; margin: 0; padding: 4px 0; }
-            .match-status { 
-                grid-column: 1 / span 3; 
-                text-align: center; 
-                padding-top: 5px;
-            }
+            .match-status { grid-column: 1 / span 3; text-align: center; padding-top: 5px; }
         }
     </style>
 </head>
@@ -168,14 +170,11 @@
             <div class="status-text" id="updateTime">Bot đang tải dữ liệu...</div>
         </header>
 
-        <div class="match-list-wrapper">
-            <div class="match-list" id="matchesList">
-                </div>
-        </div>
+        <div class="match-list-wrapper" id="matchesList">
+            </div>
     </div>
 
     <script>
-        // 1. CHỨC NĂNG ĐỒNG HỒ THỜI GIAN THỰC
         function startRealTimeClock() {
             function updateClock() {
                 const now = new Date();
@@ -184,22 +183,17 @@
                 const d = String(now.getDate()).padStart(2, '0');
                 const m = String(now.getMonth() + 1).padStart(2, '0');
                 const y = now.getFullYear();
-                
                 const hr = String(now.getHours()).padStart(2, '0');
                 const min = String(now.getMinutes()).padStart(2, '0');
                 const sec = String(now.getSeconds()).padStart(2, '0');
                 
                 document.getElementById('realTimeClock').innerHTML = `🕒 Hôm nay: ${dayName}, ${d}/${m}/${y} | ${hr}:${min}:${sec}`;
             }
-            
-            setInterval(updateClock, 1000); // Cập nhật mỗi 1 giây
-            updateClock(); // Chạy ngay lập tức khi load trang
+            setInterval(updateClock, 1000);
+            updateClock();
         }
-        
-        // Kích hoạt đồng hồ
         startRealTimeClock();
 
-        // 2. CHỨC NĂNG LẤY DỮ LIỆU TỪ BOT GITHUB ACTIONS
         const dataUrl = 'data.json?t=' + new Date().getTime();
 
         fetch(dataUrl)
@@ -210,10 +204,36 @@
                 const container = document.getElementById('matchesList');
                 container.innerHTML = ''; 
                 
-                if(data.leagues && data.leagues.length > 0) {
-                    data.leagues.forEach(league => {
+                let hasAnyMatch = false;
+
+                // 1. RENDER KHU VỰC ĐANG DIỄN RA
+                if(data.live_leagues && data.live_leagues.length > 0) {
+                    hasAnyMatch = true;
+                    container.innerHTML += `<div class="master-section section-live">🔴 ĐANG DIỄN RA</div>`;
+                    
+                    data.live_leagues.forEach(league => {
                         container.innerHTML += `<div class="league-header">${league.name}</div>`;
-                        
+                        league.matches.forEach(match => {
+                            container.innerHTML += `
+                                <div class="match-row">
+                                    <div class="time">${match.time}</div>
+                                    <div class="team home">${match.home}</div>
+                                    <div class="score is-live">${match.score}</div>
+                                    <div class="team away">${match.away}</div>
+                                    <div class="match-status is-live">${match.status}</div>
+                                </div>
+                            `;
+                        });
+                    });
+                }
+
+                // 2. RENDER KHU VỰC SẮP DIỄN RA
+                if(data.upcoming_leagues && data.upcoming_leagues.length > 0) {
+                    hasAnyMatch = true;
+                    container.innerHTML += `<div class="master-section section-upcoming">🗓 SẮP DIỄN RA</div>`;
+                    
+                    data.upcoming_leagues.forEach(league => {
+                        container.innerHTML += `<div class="league-header">${league.name}</div>`;
                         league.matches.forEach(match => {
                             container.innerHTML += `
                                 <div class="match-row">
@@ -226,8 +246,10 @@
                             `;
                         });
                     });
-                } else {
-                    container.innerHTML = '<div style="padding: 40px; text-align: center; color: #718096; font-size: 15px;">⚽ Hôm nay không còn trận đấu nào sắp diễn ra.</div>';
+                }
+
+                if(!hasAnyMatch) {
+                    container.innerHTML = '<div style="padding: 40px; text-align: center; color: #718096; font-size: 15px;">⚽ Hôm nay chưa có trận đấu nào.</div>';
                 }
             })
             .catch(error => {
