@@ -1,4 +1,4 @@
-import requests
+from curl_cffi import requests  # Thay thế requests thường bằng curl_cffi
 import json
 from datetime import datetime
 import time
@@ -15,17 +15,12 @@ PROXIES = {
 }
 
 # 2. HEADERS GIẢ LẬP
+# Với curl_cffi, ta không cần bộ Headers quá dài dòng vì nó đã tự động fake
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
     "Accept": "*/*",
-    "Accept-Language": "vi-VN,vi;q=0.9,en-US;q=0.8,en;q=0.7",
+    "Accept-Language": "en-US,en;q=0.9",
     "Origin": "https://www.sofascore.com",
-    "Referer": "https://www.sofascore.com/",
-    "Connection": "keep-alive",
-    "Sec-Fetch-Dest": "empty",
-    "Sec-Fetch-Mode": "cors",
-    "Sec-Fetch-Site": "same-site",
-    "Cache-Control": "max-age=0"
+    "Referer": "https://www.sofascore.com/"
 }
 
 def fetch_sofascore_api():
@@ -35,9 +30,20 @@ def fetch_sofascore_api():
     try:
         print(f"[{datetime.now()}] Đang kết nối API Sofascore ({current_date})...")
         
-        response = requests.get(api_url, headers=HEADERS, proxies=PROXIES, timeout=20)
-        response.raise_for_status()
+        # SỬ DỤNG curl_cffi VỚI THUỘC TÍNH impersonate
+        response = requests.get(
+            api_url, 
+            headers=HEADERS, 
+            proxies=PROXIES, 
+            impersonate="chrome120", # Chìa khóa vượt qua Cloudflare
+            timeout=30
+        )
         
+        # Nếu vẫn dính lỗi 403, in ra để debug
+        if response.status_code != 200:
+            print(f"Lỗi HTTP {response.status_code}: Bị chặn. Nội dung: {response.text[:100]}")
+            return
+            
         raw_data = response.json()
         events = raw_data.get('events', [])
         
@@ -45,19 +51,15 @@ def fetch_sofascore_api():
         
         # BÓC TÁCH VÀ LỌC DỮ LIỆU
         for event in events:
-            # Lấy loại trạng thái trận đấu
             status_type = event.get('status', {}).get('type')
             
             # ĐIỀU KIỆN LỌC: Chỉ lấy trận "Chưa bắt đầu" (notstarted)
-            # Bỏ qua các trận inprogress (đang đá), finished (đã xong), canceled (hủy)...
             if status_type != "notstarted":
                 continue
                 
-            # Xử lý thời gian thi đấu (Cộng thêm 7 tiếng cho múi giờ Việt Nam)
             timestamp = event.get('startTimestamp')
             time_str = datetime.fromtimestamp(timestamp + 7 * 3600).strftime("%H:%M") if timestamp else "N/A"
             
-            # Thông tin đội bóng
             home_team = event['homeTeam']['name']
             away_team = event['awayTeam']['name']
             
@@ -65,7 +67,7 @@ def fetch_sofascore_api():
                 "time": time_str,
                 "home": home_team,
                 "away": away_team,
-                "score": "vs", # Trận chưa đá luôn để chữ "vs"
+                "score": "vs",
                 "status": "Sắp diễn ra"
             })
 
@@ -81,12 +83,8 @@ def fetch_sofascore_api():
             
         print("Đã cập nhật data.json thành công!")
 
-    except requests.exceptions.HTTPError as err:
-        print(f"Lỗi HTTP: {err}")
-    except requests.exceptions.RequestException as e:
-        print(f"Lỗi Proxy / Mạng: {e}")
     except Exception as e:
-        print(f"Lỗi bóc tách JSON: {e}")
+        print(f"Lỗi hệ thống hoặc bóc tách JSON: {e}")
 
 if __name__ == "__main__":
     fetch_sofascore_api()
