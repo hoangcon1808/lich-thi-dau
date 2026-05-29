@@ -3,17 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Live Fixtures Dashboard</title>
+    <title>Lịch Thi Đấu Bóng Đá</title>
     <style>
         :root {
-            --bg-color: #0b0f19;
-            --container-bg: #111827;
-            --text-main: #e2e8f0;
-            --text-muted: #94a3b8;
-            --border-color: #1e293b;
-            --neon-blue: #38bdf8;
-            --neon-green: #34d399;
-            --neon-red: #f87171;
+            /* Bảng màu Trắng + Xanh lá */
+            --bg-color: #f3f6f4;
+            --container-bg: #ffffff;
+            --text-main: #2d3748;
+            --text-muted: #718096;
+            --border-color: #e2e8f0;
+            --primary-green: #10b981;
+            --dark-green: #059669;
+            --light-green: #d1fae5;
         }
 
         body {
@@ -30,33 +31,61 @@
             width: 100%;
             max-width: 800px;
             background: var(--container-bg);
-            border-radius: 12px;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5), 0 0 2px var(--neon-blue);
+            border-radius: 16px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
             overflow: hidden;
             border: 1px solid var(--border-color);
         }
 
         header {
-            background: linear-gradient(90deg, #1e293b 0%, #0f172a 100%);
+            background: linear-gradient(135deg, var(--dark-green) 0%, var(--primary-green) 100%);
             padding: 25px 20px;
             text-align: center;
-            border-bottom: 2px solid var(--neon-blue);
+            color: white;
+            /* Đảm bảo header luôn nằm trên cùng khi cuộn */
+            position: relative;
+            z-index: 10;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
         }
 
         h1 {
             margin: 0;
-            font-size: 28px;
-            letter-spacing: 1px;
+            font-size: 26px;
+            letter-spacing: 0.5px;
             text-transform: uppercase;
-            color: #ffffff;
-            text-shadow: 0 0 10px rgba(56, 189, 248, 0.4);
+            font-weight: 800;
         }
 
         .status-text {
-            margin-top: 10px;
-            font-size: 14px;
-            color: var(--neon-blue);
-            font-family: monospace;
+            margin-top: 8px;
+            font-size: 13px;
+            color: rgba(255, 255, 255, 0.85);
+            font-weight: 500;
+        }
+
+        /* KHUNG CHỨA KẾT QUẢ CÓ THANH CUỘN */
+        .match-list-wrapper {
+            max-height: 500px; /* Chiều cao tối đa của danh sách. Bạn có thể tăng/giảm tuỳ ý */
+            overflow-y: auto;  /* Tự động hiện thanh cuộn dọc nếu nội dung dài hơn 500px */
+            background: var(--container-bg);
+        }
+
+        /* Tùy chỉnh (Custom) thanh cuộn cho mượt và đẹp */
+        .match-list-wrapper::-webkit-scrollbar {
+            width: 8px; /* Độ rộng của thanh cuộn */
+        }
+
+        .match-list-wrapper::-webkit-scrollbar-track {
+            background: #f1f5f9; /* Màu nền của rãnh cuộn */
+        }
+
+        .match-list-wrapper::-webkit-scrollbar-thumb {
+            background: #cbd5e1; /* Màu của thanh trượt */
+            border-radius: 10px; /* Bo tròn thanh trượt */
+        }
+
+        .match-list-wrapper::-webkit-scrollbar-thumb:hover {
+            background: var(--primary-green); /* Đổi sang màu xanh khi di chuột vào thanh trượt */
         }
 
         .match-list {
@@ -66,54 +95,61 @@
 
         .match-row {
             display: grid;
-            grid-template-columns: 80px 1fr 80px 1fr 100px;
+            grid-template-columns: 80px 1fr 70px 1fr 100px;
             align-items: center;
-            padding: 20px;
+            padding: 16px 20px;
             border-bottom: 1px solid var(--border-color);
-            transition: background 0.2s;
+            transition: all 0.2s ease;
         }
 
         .match-row:hover {
-            background: #1e293b;
+            background-color: var(--light-green);
+            transform: translateX(4px);
         }
 
         .match-row:last-child {
             border-bottom: none;
         }
 
-        .time { color: var(--text-muted); font-size: 15px; font-weight: bold; }
-        .team { font-size: 16px; font-weight: 600; }
+        .time { color: var(--text-muted); font-size: 15px; font-weight: 600; }
+        .team { font-size: 16px; font-weight: 700; color: var(--text-main); }
         .team.home { text-align: right; padding-right: 15px; }
         .team.away { text-align: left; padding-left: 15px; }
         
         .score {
             text-align: center;
-            font-size: 18px;
+            font-size: 14px;
             font-weight: bold;
-            color: var(--neon-blue);
-            background: rgba(56, 189, 248, 0.1);
-            padding: 5px 10px;
-            border-radius: 6px;
-            box-shadow: inset 0 0 5px rgba(0,0,0,0.5);
+            color: white;
+            background: var(--primary-green);
+            padding: 6px 0;
+            border-radius: 20px;
+            letter-spacing: 1px;
+            box-shadow: 0 2px 4px rgba(16, 185, 129, 0.3);
         }
 
         .match-status {
             text-align: right;
             font-size: 13px;
-            color: var(--neon-red);
-            font-weight: bold;
+            color: var(--primary-green);
+            font-weight: 600;
+            text-transform: uppercase;
         }
 
         /* Responsive cho Mobile */
         @media (max-width: 600px) {
+            .match-list-wrapper {
+                max-height: 450px; /* Hạ thấp chiều cao một chút trên điện thoại */
+            }
             .match-row {
                 grid-template-columns: 1fr;
                 text-align: center;
-                gap: 10px;
+                gap: 8px;
                 padding: 15px;
             }
-            .team.home, .team.away { text-align: center; padding: 0; }
-            .match-status { text-align: center; }
+            .team.home, .team.away { text-align: center; padding: 0; font-size: 18px; }
+            .score { width: 60px; margin: 5px auto; }
+            .match-status { text-align: center; font-size: 12px; color: var(--text-muted); }
         }
     </style>
 </head>
@@ -121,12 +157,14 @@
 
     <div class="dashboard">
         <header>
-            <h1>Lịch Thi Đấu Bóng Đá</h1>
+            <h1>Lịch Thi Đấu ⚽</h1>
             <div class="status-text" id="updateTime">Đang tải dữ liệu...</div>
         </header>
 
-        <div class="match-list" id="matchesList">
-            </div>
+        <div class="match-list-wrapper">
+            <div class="match-list" id="matchesList">
+                </div>
+        </div>
     </div>
 
     <script>
@@ -135,7 +173,7 @@
         fetch(dataUrl)
             .then(response => response.json())
             .then(data => {
-                document.getElementById('updateTime').innerHTML = `&#10227; Bot cập nhật lần cuối: ${data.last_updated}`;
+                document.getElementById('updateTime').innerHTML = `&#10227; Cập nhật lần cuối: ${data.last_updated}`;
                 
                 const container = document.getElementById('matchesList');
                 container.innerHTML = ''; 
@@ -153,11 +191,11 @@
                         `;
                     });
                 } else {
-                    container.innerHTML = '<div style="padding: 30px; text-align: center; color: #94a3b8;">Hôm nay không còn trận đấu nào sắp diễn ra.</div>';
+                    container.innerHTML = '<div style="padding: 40px; text-align: center; color: #718096; font-size: 16px;">⚽ Hôm nay không còn trận đấu nào sắp diễn ra.</div>';
                 }
             })
             .catch(error => {
-                document.getElementById('updateTime').innerHTML = '<span style="color: #f87171;">&#9888; Lỗi tải dữ liệu. Hãy đảm bảo bot đã chạy ít nhất 1 lần.</span>';
+                document.getElementById('updateTime').innerHTML = 'Lỗi tải dữ liệu. Hãy đảm bảo bot đã chạy!';
                 console.error("Fetch Error:", error);
             });
     </script>
