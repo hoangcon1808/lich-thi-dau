@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-05-29 19:24:39 (UTC)",
+    "last_updated": "2026-05-29 19:27:25 (UTC)",
     "live_leagues": [
         {
             "name": "Romania - Super Liga, Europe Playoffs",
@@ -10,7 +10,7 @@
                     "home": "FC Dinamo București",
                     "away": "FCSB",
                     "score": "1 - 1",
-                    "status": "Hiệp 2",
+                    "status": "Đang đá",
                     "is_live": true
                 }
             ]
@@ -37,7 +37,7 @@
                     "time": "02:00",
                     "home": "CD San Antonio",
                     "away": "Guabirá",
-                    "score": "1 - 0",
+                    "score": "0 - 0",
                     "status": "Hiệp 1",
                     "is_live": true
                 }
