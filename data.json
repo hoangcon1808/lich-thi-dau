@@ -1,20 +1,6 @@
 {
-    "last_updated": "2026-05-29 19:38:06 (UTC)",
+    "last_updated": "2026-05-29 20:13:38 (UTC)",
     "live_leagues": [
-        {
-            "name": "Romania - Super Liga, Europe Playoffs",
-            "priority": 2,
-            "matches": [
-                {
-                    "time": "00:30",
-                    "home": "FC Dinamo București",
-                    "away": "FCSB",
-                    "score": "1 - 1",
-                    "status": "Đang đá",
-                    "is_live": true
-                }
-            ]
-        },
         {
             "name": "France - Ligue 1, Relegation/Promotion Playoffs",
             "priority": 9,
@@ -23,8 +9,8 @@
                     "time": "01:45",
                     "home": "Nice",
                     "away": "Saint-Étienne",
-                    "score": "0 - 0",
-                    "status": "Nghỉ HT",
+                    "score": "1 - 0",
+                    "status": "Hiệp 2",
                     "is_live": true
                 }
             ]
@@ -37,6 +23,20 @@
                     "time": "02:00",
                     "home": "CD San Antonio",
                     "away": "Guabirá",
+                    "score": "0 - 1",
+                    "status": "Hiệp 2",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "Colombia - Torneo DIMAYOR, Apertura, Final",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "03:00",
+                    "home": "Envigado FC",
+                    "away": "Real Cartagena",
                     "score": "0 - 0",
                     "status": "Hiệp 1",
                     "is_live": true
@@ -52,7 +52,7 @@
                     "home": "OL Lyonnes",
                     "away": "Paris FC",
                     "score": "3 - 0",
-                    "status": "Hiệp 1",
+                    "status": "Hiệp 2",
                     "is_live": true
                 }
             ]
@@ -66,15 +66,15 @@
                     "home": "FH Hafnarfjörður",
                     "away": "ÍA Akranes",
                     "score": "0 - 0",
-                    "status": "Hiệp 1",
+                    "status": "Nghỉ HT",
                     "is_live": true
                 },
                 {
                     "time": "02:15",
                     "home": "Fram Reykjavík",
                     "away": "Breidablik Kópavogur",
-                    "score": "2 - 0",
-                    "status": "Hiệp 1",
+                    "score": "3 - 1",
+                    "status": "Nghỉ HT",
                     "is_live": true
                 }
             ]
@@ -87,8 +87,8 @@
                     "time": "01:45",
                     "home": "Bray Wanderers",
                     "away": "Wexford FC",
-                    "score": "0 - 0",
-                    "status": "Nghỉ HT",
+                    "score": "3 - 0",
+                    "status": "Hiệp 2",
                     "is_live": true
                 },
                 {
@@ -96,23 +96,23 @@
                     "home": "Cobh Ramblers FC",
                     "away": "Kerry FC",
                     "score": "2 - 0",
-                    "status": "Nghỉ HT",
+                    "status": "Hiệp 2",
                     "is_live": true
                 },
                 {
                     "time": "01:45",
                     "home": "Cork City",
                     "away": "Finn Harps",
-                    "score": "1 - 0",
-                    "status": "Nghỉ HT",
+                    "score": "3 - 0",
+                    "status": "Hiệp 2",
                     "is_live": true
                 },
                 {
                     "time": "01:45",
                     "home": "Longford Town",
                     "away": "Treaty United FC",
-                    "score": "1 - 0",
-                    "status": "Nghỉ HT",
+                    "score": "2 - 0",
+                    "status": "Hiệp 2",
                     "is_live": true
                 },
                 {
@@ -120,7 +120,7 @@
                     "home": "University College Dublin",
                     "away": "Athlone Town AFC",
                     "score": "1 - 0",
-                    "status": "Nghỉ HT",
+                    "status": "Hiệp 2",
                     "is_live": true
                 }
             ]
@@ -133,32 +133,32 @@
                     "time": "01:45",
                     "home": "Drogheda United",
                     "away": "Waterford FC",
-                    "score": "1 - 2",
-                    "status": "Nghỉ HT",
+                    "score": "3 - 2",
+                    "status": "Hiệp 2",
                     "is_live": true
                 },
                 {
                     "time": "01:45",
                     "home": "Dundalk FC",
                     "away": "Derry City",
-                    "score": "1 - 0",
-                    "status": "Nghỉ HT",
+                    "score": "2 - 1",
+                    "status": "Hiệp 2",
                     "is_live": true
                 },
                 {
                     "time": "01:45",
                     "home": "Shelbourne",
                     "away": "Galway United",
-                    "score": "0 - 0",
-                    "status": "Nghỉ HT",
+                    "score": "1 - 1",
+                    "status": "Hiệp 2",
                     "is_live": true
                 },
                 {
                     "time": "01:45",
                     "home": "Sligo Rovers",
                     "away": "Bohemian FC",
-                    "score": "0 - 1",
-                    "status": "Nghỉ HT",
+                    "score": "1 - 2",
+                    "status": "Hiệp 2",
                     "is_live": true
                 },
                 {
@@ -166,21 +166,21 @@
                     "home": "Shamrock Rovers",
                     "away": "St. Patrick's Athletic",
                     "score": "1 - 0",
-                    "status": "Hiệp 1",
+                    "status": "Hiệp 2",
                     "is_live": true
                 }
             ]
         },
         {
-            "name": "Italy - Serie B, Promotion Playoffs",
+            "name": "Peru - Liga 1, Apertura",
             "priority": 99,
             "matches": [
                 {
-                    "time": "01:00",
-                    "home": "Monza",
-                    "away": "Catanzaro",
-                    "score": "0 - 1",
-                    "status": "Hiệp 2",
+                    "time": "03:00",
+                    "home": "Club Atlético Grau",
+                    "away": "CD Moquegua",
+                    "score": "0 - 0",
+                    "status": "Hiệp 1",
                     "is_live": true
                 }
             ]
@@ -437,20 +437,6 @@
                     "time": "18:35",
                     "home": "Chengdu Rongcheng",
                     "away": "Shandong Taishan",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
-            "name": "Colombia - Torneo DIMAYOR, Apertura, Final",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "03:00",
-                    "home": "Envigado FC",
-                    "away": "Real Cartagena",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
@@ -735,20 +721,6 @@
                     "time": "18:00",
                     "home": "IL Bjarg",
                     "away": "Eik Tønsberg",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
-            "name": "Peru - Liga 1, Apertura",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "03:00",
-                    "home": "Club Atlético Grau",
-                    "away": "CD Moquegua",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
