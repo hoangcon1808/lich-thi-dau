@@ -1,6 +1,62 @@
 {
-    "last_updated": "2026-05-29 22:08:41 (UTC)",
+    "last_updated": "2026-05-29 23:42:06 (UTC)",
     "live_leagues": [
+        {
+            "name": "Canada - Canadian Premier League",
+            "priority": 5,
+            "matches": [
+                {
+                    "time": "06:00",
+                    "home": "FC Supra Du Quebec",
+                    "away": "Inter Toronto",
+                    "score": "0 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "Uruguay - Liga AUF Uruguaya, Intermedio, Serie A",
+            "priority": 7,
+            "matches": [
+                {
+                    "time": "05:30",
+                    "home": "Cerro Largo",
+                    "away": "CA Cerro",
+                    "score": "0 - 0",
+                    "status": "Hiệp 2",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "USA - MLS Next Pro",
+            "priority": 12,
+            "matches": [
+                {
+                    "time": "06:00",
+                    "home": "Toronto FC II",
+                    "away": "Philadelphia Union II",
+                    "score": "0 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "Brazil - Brasileirão Série D, Group A8",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "05:30",
+                    "home": "América-RN",
+                    "away": "Central SC",
+                    "score": "0 - 0",
+                    "status": "Hiệp 2",
+                    "is_live": true
+                }
+            ]
+        },
         {
             "name": "Chile - Liga de Primera",
             "priority": 99,
@@ -9,22 +65,30 @@
                     "time": "05:00",
                     "home": "Cobresal",
                     "away": "Ñublense",
-                    "score": "0 - 0",
-                    "status": "Hiệp 1",
+                    "score": "0 - 1",
+                    "status": "Hiệp 2",
                     "is_live": true
                 }
             ]
         },
         {
-            "name": "Peru - Liga 1, Apertura",
+            "name": "USA - USL, League One",
             "priority": 99,
             "matches": [
                 {
-                    "time": "03:00",
-                    "home": "Club Atlético Grau",
-                    "away": "CD Moquegua",
-                    "score": "1 - 0",
+                    "time": "05:30",
+                    "home": "One Knoxville SC",
+                    "away": "Greenville Triumph SC",
+                    "score": "0 - 0",
                     "status": "Hiệp 2",
+                    "is_live": true
+                },
+                {
+                    "time": "06:00",
+                    "home": "Forward Madison FC",
+                    "away": "Corpus Christi FC",
+                    "score": "2 - 0",
+                    "status": "Hiệp 1",
                     "is_live": true
                 }
             ]
@@ -70,45 +134,9 @@
             ]
         },
         {
-            "name": "Canada - Canadian Premier League",
-            "priority": 5,
-            "matches": [
-                {
-                    "time": "06:00",
-                    "home": "FC Supra Du Quebec",
-                    "away": "Inter Toronto",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
-            "name": "Uruguay - Liga AUF Uruguaya, Intermedio, Serie A",
-            "priority": 7,
-            "matches": [
-                {
-                    "time": "05:30",
-                    "home": "Cerro Largo",
-                    "away": "CA Cerro",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
             "name": "USA - MLS Next Pro",
             "priority": 12,
             "matches": [
-                {
-                    "time": "06:00",
-                    "home": "Toronto FC II",
-                    "away": "Philadelphia Union II",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
                 {
                     "time": "09:00",
                     "home": "Real Monarchs SLC",
@@ -155,20 +183,6 @@
                     "time": "07:00",
                     "home": "Juventude",
                     "away": "América Mineiro",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
-            "name": "Brazil - Brasileirão Série D, Group A8",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "05:30",
-                    "home": "América-RN",
-                    "away": "Central SC",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
@@ -672,39 +686,17 @@
             "priority": 99,
             "matches": [
                 {
-                    "time": "06:00",
-                    "home": "Orlando Pride",
-                    "away": "Bay FC",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
                     "time": "07:00",
                     "home": "Racing Louisville",
                     "away": "Denver Summit FC",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
-                }
-            ]
-        },
-        {
-            "name": "USA - USL, League One",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "05:30",
-                    "home": "One Knoxville SC",
-                    "away": "Greenville Triumph SC",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
                 },
                 {
-                    "time": "06:00",
-                    "home": "Forward Madison FC",
-                    "away": "Corpus Christi FC",
+                    "time": "07:13",
+                    "home": "Orlando Pride",
+                    "away": "Bay FC",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
