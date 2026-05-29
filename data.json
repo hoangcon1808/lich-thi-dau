@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-05-29 19:27:25 (UTC)",
+    "last_updated": "2026-05-29 19:38:06 (UTC)",
     "live_leagues": [
         {
             "name": "Romania - Super Liga, Europe Playoffs",
@@ -24,7 +24,7 @@
                     "home": "Nice",
                     "away": "Saint-Étienne",
                     "score": "0 - 0",
-                    "status": "Hiệp 1",
+                    "status": "Nghỉ HT",
                     "is_live": true
                 }
             ]
@@ -88,7 +88,7 @@
                     "home": "Bray Wanderers",
                     "away": "Wexford FC",
                     "score": "0 - 0",
-                    "status": "Hiệp 1",
+                    "status": "Nghỉ HT",
                     "is_live": true
                 },
                 {
@@ -96,7 +96,7 @@
                     "home": "Cobh Ramblers FC",
                     "away": "Kerry FC",
                     "score": "2 - 0",
-                    "status": "Hiệp 1",
+                    "status": "Nghỉ HT",
                     "is_live": true
                 },
                 {
@@ -104,7 +104,7 @@
                     "home": "Cork City",
                     "away": "Finn Harps",
                     "score": "1 - 0",
-                    "status": "Hiệp 1",
+                    "status": "Nghỉ HT",
                     "is_live": true
                 },
                 {
@@ -112,15 +112,15 @@
                     "home": "Longford Town",
                     "away": "Treaty United FC",
                     "score": "1 - 0",
-                    "status": "Hiệp 1",
+                    "status": "Nghỉ HT",
                     "is_live": true
                 },
                 {
                     "time": "01:45",
                     "home": "University College Dublin",
                     "away": "Athlone Town AFC",
-                    "score": "0 - 0",
-                    "status": "Hiệp 1",
+                    "score": "1 - 0",
+                    "status": "Nghỉ HT",
                     "is_live": true
                 }
             ]
@@ -134,7 +134,7 @@
                     "home": "Drogheda United",
                     "away": "Waterford FC",
                     "score": "1 - 2",
-                    "status": "Hiệp 1",
+                    "status": "Nghỉ HT",
                     "is_live": true
                 },
                 {
@@ -142,7 +142,7 @@
                     "home": "Dundalk FC",
                     "away": "Derry City",
                     "score": "1 - 0",
-                    "status": "Hiệp 1",
+                    "status": "Nghỉ HT",
                     "is_live": true
                 },
                 {
@@ -150,7 +150,7 @@
                     "home": "Shelbourne",
                     "away": "Galway United",
                     "score": "0 - 0",
-                    "status": "Hiệp 1",
+                    "status": "Nghỉ HT",
                     "is_live": true
                 },
                 {
@@ -158,7 +158,7 @@
                     "home": "Sligo Rovers",
                     "away": "Bohemian FC",
                     "score": "0 - 1",
-                    "status": "Hiệp 1",
+                    "status": "Nghỉ HT",
                     "is_live": true
                 },
                 {
@@ -194,7 +194,7 @@
                     "home": "Bosnia & Herzegovina",
                     "away": "North Macedonia",
                     "score": "0 - 0",
-                    "status": "Nghỉ HT",
+                    "status": "Hiệp 2",
                     "is_live": true
                 }
             ]
