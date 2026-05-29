@@ -1,7 +1,6 @@
-from curl_cffi import requests  # Thay thế requests thường bằng curl_cffi
+from curl_cffi import requests
 import json
 from datetime import datetime
-import time
 
 # 1. CẤU HÌNH PROXY
 PROXY_HOST = "14.250.212.38:36428"
@@ -14,14 +13,36 @@ PROXIES = {
     "https": PROXY_URL
 }
 
-# 2. HEADERS GIẢ LẬP
-# Với curl_cffi, ta không cần bộ Headers quá dài dòng vì nó đã tự động fake
 HEADERS = {
     "Accept": "*/*",
-    "Accept-Language": "en-US,en;q=0.9",
+    "Accept-Language": "vi-VN,vi;q=0.9,en-US;q=0.8,en;q=0.7",
     "Origin": "https://www.sofascore.com",
     "Referer": "https://www.sofascore.com/"
 }
+
+# BẢNG ƯU TIÊN GIẢI ĐẤU (Số càng nhỏ, xếp càng cao)
+# Mặc định các giải không có trong danh sách này sẽ có mức ưu tiên là 99 (xếp cuối)
+LEAGUE_PRIORITY = {
+    "World Cup": 1,
+    "EURO": 2,
+    "UEFA Champions League": 3,
+    "UEFA Europa League": 4,
+    "Premier League": 5,      # Ngoại Hạng Anh
+    "LaLiga": 6,              # Tây Ban Nha
+    "Serie A": 7,             # Ý
+    "Bundesliga": 8,          # Đức
+    "Ligue 1": 9,             # Pháp
+    "V-League": 10,           # Việt Nam
+    "Saudi Professional League": 11,
+    "MLS": 12
+}
+
+def get_priority(league_name):
+    # Kiểm tra xem tên giải đấu có chứa các từ khóa ưu tiên ở trên không
+    for key, priority in LEAGUE_PRIORITY.items():
+        if key.lower() in league_name.lower():
+            return priority
+    return 99 # Nhóm các giải cỏ, giải phụ xuống cuối
 
 def fetch_sofascore_api():
     current_date = datetime.now().strftime("%Y-%m-%d")
@@ -30,30 +51,28 @@ def fetch_sofascore_api():
     try:
         print(f"[{datetime.now()}] Đang kết nối API Sofascore ({current_date})...")
         
-        # SỬ DỤNG curl_cffi VỚI THUỘC TÍNH impersonate
         response = requests.get(
             api_url, 
             headers=HEADERS, 
             proxies=PROXIES, 
-            impersonate="chrome120", # Chìa khóa vượt qua Cloudflare
+            impersonate="chrome120", 
             timeout=30
         )
         
-        # Nếu vẫn dính lỗi 403, in ra để debug
         if response.status_code != 200:
-            print(f"Lỗi HTTP {response.status_code}: Bị chặn. Nội dung: {response.text[:100]}")
+            print(f"Lỗi HTTP {response.status_code}: Bị chặn.")
             return
             
         raw_data = response.json()
         events = raw_data.get('events', [])
         
-        matches_list = []
+        # Dùng Dictionary để nhóm các trận đấu theo giải
+        leagues_dict = {}
+        total_matches = 0
         
-        # BÓC TÁCH VÀ LỌC DỮ LIỆU
         for event in events:
             status_type = event.get('status', {}).get('type')
             
-            # ĐIỀU KIỆN LỌC: Chỉ lấy trận "Chưa bắt đầu" (notstarted)
             if status_type != "notstarted":
                 continue
                 
@@ -63,19 +82,40 @@ def fetch_sofascore_api():
             home_team = event['homeTeam']['name']
             away_team = event['awayTeam']['name']
             
-            matches_list.append({
+            # LẤY THÔNG TIN GIẢI ĐẤU
+            tournament_info = event.get('tournament', {})
+            league_name = tournament_info.get('name', 'Giải đấu khác')
+            category_name = tournament_info.get('category', {}).get('name', '') # Lấy tên quốc gia (Vd: England)
+            
+            # Gộp tên quốc gia và tên giải (Ví dụ: England - Premier League)
+            full_league_name = f"{category_name} - {league_name}" if category_name else league_name
+            
+            # Nếu giải này chưa có trong dict, tạo mới
+            if full_league_name not in leagues_dict:
+                leagues_dict[full_league_name] = {
+                    "name": full_league_name,
+                    "priority": get_priority(league_name),
+                    "matches": []
+                }
+                
+            # Thêm trận đấu vào đúng giải của nó
+            leagues_dict[full_league_name]["matches"].append({
                 "time": time_str,
                 "home": home_team,
                 "away": away_team,
                 "score": "vs",
                 "status": "Sắp diễn ra"
             })
+            total_matches += 1
 
-        print(f"Lọc thành công: Còn lại {len(matches_list)} trận sắp diễn ra!")
+        # SẮP XẾP: Các giải có priority nhỏ xếp trước, nếu bằng nhau thì xếp theo tên chữ cái
+        sorted_leagues = sorted(leagues_dict.values(), key=lambda x: (x['priority'], x['name']))
+
+        print(f"Lọc thành công: {total_matches} trận sắp diễn ra từ {len(sorted_leagues)} giải đấu!")
 
         final_data = {
-            "last_updated": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-            "matches": matches_list
+            "last_updated": datetime.now().strftime("%Y-%m-%d %H:%M:%S") + " (UTC)",
+            "leagues": sorted_leagues # Cấu trúc JSON mới: Danh sách các giải đấu
         }
         
         with open("data.json", "w", encoding="utf-8") as f:
