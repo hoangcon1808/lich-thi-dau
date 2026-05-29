@@ -51,13 +51,13 @@ def fetch_sofascore_api():
         raw_data = response.json()
         events = raw_data.get('events', [])
         
-        leagues_dict = {}
-        total_matches = 0
+        # TẠO 2 TẬP DỮ LIỆU RIÊNG BIỆT
+        live_leagues_dict = {}
+        upcoming_leagues_dict = {}
         
         for event in events:
             status_type = event.get('status', {}).get('type')
             
-            # ĐIỀU KIỆN LỌC: Lấy trận "Sắp diễn ra" VÀ "Đang diễn ra"
             if status_type not in ["notstarted", "inprogress"]:
                 continue
                 
@@ -67,14 +67,13 @@ def fetch_sofascore_api():
             home_team = event['homeTeam']['name']
             away_team = event['awayTeam']['name']
             
-            # PHÂN LOẠI TRẠNG THÁI: Đang đá vs Chưa đá
-            if status_type == "inprogress":
-                # Lấy tỷ số hiện tại
+            is_live = (status_type == "inprogress")
+            
+            if is_live:
                 home_score = event.get('homeScore', {}).get('current', 0)
                 away_score = event.get('awayScore', {}).get('current', 0)
                 score_str = f"{home_score} - {away_score}"
                 
-                # Dịch chi tiết trạng thái
                 status_desc = event.get('status', {}).get('description', 'Đang đá')
                 if status_desc == "1st half": status_vn = "Hiệp 1"
                 elif status_desc == "2nd half": status_vn = "Hiệp 2"
@@ -82,12 +81,9 @@ def fetch_sofascore_api():
                 elif status_desc == "Extra time": status_vn = "Hiệp phụ"
                 elif status_desc == "Penalties": status_vn = "Luân lưu"
                 else: status_vn = "Đang đá"
-                
-                is_live = True # Cờ đánh dấu trận đang đá
             else:
                 score_str = "vs"
                 status_vn = "Sắp diễn ra"
-                is_live = False
             
             # Lấy thông tin giải đấu
             tournament_info = event.get('tournament', {})
@@ -95,29 +91,42 @@ def fetch_sofascore_api():
             category_name = tournament_info.get('category', {}).get('name', '')
             full_league_name = f"{category_name} - {league_name}" if category_name else league_name
             
-            if full_league_name not in leagues_dict:
-                leagues_dict[full_league_name] = {
+            # CHỌN ĐÚNG DICTIONARY ĐỂ THÊM VÀO
+            target_dict = live_leagues_dict if is_live else upcoming_leagues_dict
+            
+            if full_league_name not in target_dict:
+                target_dict[full_league_name] = {
                     "name": full_league_name,
                     "priority": get_priority(league_name),
                     "matches": []
                 }
                 
-            leagues_dict[full_league_name]["matches"].append({
+            target_dict[full_league_name]["matches"].append({
                 "time": time_str,
                 "home": home_team,
                 "away": away_team,
                 "score": score_str,
                 "status": status_vn,
-                "is_live": is_live # Truyền cờ này ra file JSON
+                "is_live": is_live
             })
-            total_matches += 1
 
-        sorted_leagues = sorted(leagues_dict.values(), key=lambda x: (x['priority'], x['name']))
-        print(f"Lọc thành công: Có {total_matches} trận (Sắp đá & Đang đá)!")
+        # Hàm trợ giúp để sắp xếp trận đấu theo giờ bên trong từng giải
+        def sort_matches(leagues_dict):
+            for league in leagues_dict.values():
+                league["matches"] = sorted(league["matches"], key=lambda x: x["time"])
+            return sorted(leagues_dict.values(), key=lambda x: (x['priority'], x['name']))
 
+        # SẮP XẾP ĐỘC LẬP CHO CẢ 2 NHÓM THEO THỨ TỰ ƯU TIÊN GIẢI ĐẤU
+        sorted_live = sort_matches(live_leagues_dict)
+        sorted_upcoming = sort_matches(upcoming_leagues_dict)
+
+        print(f"Thành công: {len(sorted_live)} giải đang đá | {len(sorted_upcoming)} giải sắp đá")
+
+        # CẤU TRÚC JSON MỚI
         final_data = {
             "last_updated": datetime.now().strftime("%Y-%m-%d %H:%M:%S") + " (UTC)",
-            "leagues": sorted_leagues
+            "live_leagues": sorted_live,
+            "upcoming_leagues": sorted_upcoming
         }
         
         with open("data.json", "w", encoding="utf-8") as f:
