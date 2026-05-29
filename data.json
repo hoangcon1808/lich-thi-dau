@@ -1,26 +1,586 @@
 {
-    "last_updated": "2026-05-29 17:58:30",
+    "last_updated": "2026-05-29 18:13:34",
     "matches": [
         {
-            "time": "02:00",
-            "home": "Real Madrid",
-            "away": "Dortmund",
-            "score": "2 - 1",
-            "status": "FT"
-        },
-        {
-            "time": "22:00",
-            "home": "Man Utd",
-            "away": "Man City",
+            "time": "01:45",
+            "home": "Nice",
+            "away": "Saint-Étienne",
             "score": "vs",
             "status": "Sắp diễn ra"
         },
         {
-            "time": "23:30",
-            "home": "Arsenal",
-            "away": "Liverpool",
-            "score": "1 - 0",
-            "status": "HT"
+            "time": "07:00",
+            "home": "Juventude",
+            "away": "América Mineiro",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "17:00",
+            "home": "Qingdao West Coast",
+            "away": "Shanghai Shenhua",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "18:00",
+            "home": "Henan FC",
+            "away": "Zhejiang",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "18:35",
+            "home": "Chengdu Rongcheng",
+            "away": "Shandong Taishan",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "05:00",
+            "home": "Cobresal",
+            "away": "Ñublense",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "07:30",
+            "home": "Universidad de Concepción",
+            "away": "Unión La Calera",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "18:00",
+            "home": "FC Silon Táborsko",
+            "away": "Baník Ostrava",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "02:00",
+            "home": "CD San Antonio",
+            "away": "Guabirá",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "01:45",
+            "home": "Drogheda United",
+            "away": "Waterford FC",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "01:45",
+            "home": "Dundalk FC",
+            "away": "Derry City",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "01:45",
+            "home": "Shelbourne",
+            "away": "Galway United",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "01:45",
+            "home": "Sligo Rovers",
+            "away": "Bohemian FC",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "02:00",
+            "home": "Shamrock Rovers",
+            "away": "St. Patrick's Athletic",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "03:00",
+            "home": "Club Atlético Grau",
+            "away": "CD Moquegua",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "06:00",
+            "home": "FC Supra Du Quebec",
+            "away": "Inter Toronto",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "06:00",
+            "home": "Toronto FC II",
+            "away": "Philadelphia Union II",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "09:00",
+            "home": "Real Monarchs SLC",
+            "away": "Sporting Kansas City II",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "05:30",
+            "home": "One Knoxville SC",
+            "away": "Greenville Triumph SC",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "06:00",
+            "home": "Forward Madison FC",
+            "away": "Corpus Christi FC",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "01:30",
+            "home": "Bosnia & Herzegovina",
+            "away": "North Macedonia",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "06:00",
+            "home": "Orlando Pride",
+            "away": "Bay FC",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "07:00",
+            "home": "Racing Louisville",
+            "away": "Denver Summit FC",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "14:30",
+            "home": "Busan I Park",
+            "away": "Paju Frontier FC",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "14:30",
+            "home": "Chungnam Asan FC",
+            "away": "Suwon Samsung Bluewings",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "14:30",
+            "home": "Yongin City FC",
+            "away": "Daegu FC",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "17:00",
+            "home": "Gimhae City FC",
+            "away": "Gimpo FC",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "17:00",
+            "home": "Suwon FC",
+            "away": "Seongnam FC",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "07:00",
+            "home": "Racing de Córdoba",
+            "away": "Club Ferro Carril Oeste",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "14:00",
+            "home": "Ipswich FC",
+            "away": "Robina City",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "15:00",
+            "home": "Caboolture FC",
+            "away": "Capalaba Bulldogs",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "15:00",
+            "home": "Redlands United",
+            "away": "Sunshine Coast Wanderers",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "15:30",
+            "home": "Logan Lightning",
+            "away": "Holland Park Hawks",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "18:00",
+            "home": "Arsenal Dzerzhinsk",
+            "away": "Dinamo Minsk",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "05:30",
+            "home": "América-RN",
+            "away": "Central SC",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "14:00",
+            "home": "Yanbian Longding",
+            "away": "Changchun Yatai",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "18:00",
+            "home": "Dalian Kuncheng City",
+            "away": "Shijiazhuang Gongfu",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "18:00",
+            "home": "Suzhou Dongwu",
+            "away": "Wuxi Wugou",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "18:30",
+            "home": "Guangxi Hengchen FC",
+            "away": "Foshan Nanshi",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "18:30",
+            "home": "Meizhou Hakka",
+            "away": "Jiangxi Dingnan United",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "03:00",
+            "home": "Envigado FC",
+            "away": "Real Cartagena",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "18:00",
+            "home": "FC Helsingør",
+            "away": "Brabrand",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "18:00",
+            "home": "Ishøj IF",
+            "away": "VSK Aarhus",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "18:30",
+            "home": "Harju Jalgpallikool",
+            "away": "Narva Trans",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "18:30",
+            "home": "Pärnu JK Vaprus",
+            "away": "Nõmme Kalju",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "02:00",
+            "home": "OL Lyonnes",
+            "away": "Paris FC",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "17:00",
+            "home": "Meshakhte Tkibuli",
+            "away": "Dinamo Tbilisi",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "02:15",
+            "home": "FH Hafnarfjörður",
+            "away": "ÍA Akranes",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "02:15",
+            "home": "Fram Reykjavík",
+            "away": "Breidablik Kópavogur",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "01:45",
+            "home": "Bray Wanderers",
+            "away": "Wexford FC",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "01:45",
+            "home": "Cobh Ramblers FC",
+            "away": "Kerry FC",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "01:45",
+            "home": "Cork City",
+            "away": "Finn Harps",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "01:45",
+            "home": "Longford Town",
+            "away": "Treaty United FC",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "01:45",
+            "home": "University College Dublin",
+            "away": "Athlone Town AFC",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "12:00",
+            "home": "Vissel Kobe",
+            "away": "Kashima Antlers",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "12:00",
+            "home": "Nagoya Grampus",
+            "away": "Machida Zelvia",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "12:00",
+            "home": "Sanfrecce Hiroshima",
+            "away": "Kawasaki Frontale",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "13:00",
+            "home": "Cerezo Osaka",
+            "away": "FC Tokyo",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "14:00",
+            "home": "Avispa Fukuoka",
+            "away": "JEF United Chiba",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "14:00",
+            "home": "Gamba Osaka",
+            "away": "Tokyo Verdy",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "15:00",
+            "home": "V-Varen Nagasaki",
+            "away": "Mito Hollyhock",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "17:00",
+            "home": "Kyoto Sanga FC",
+            "away": "Kashiwa Reysol",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "12:00",
+            "home": "Albirex Niigata",
+            "away": "Kagoshima United",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "12:00",
+            "home": "FC Osaka",
+            "away": "Reilac Shiga FC",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "12:00",
+            "home": "Kochi United SC",
+            "away": "Renofa Yamaguchi FC",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "12:00",
+            "home": "Nara Club",
+            "away": "Oita Trinita",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "12:00",
+            "home": "SC Sagamihara",
+            "away": "Fujieda MYFC",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "12:00",
+            "home": "Shonan Bellmare",
+            "away": "Iwaki FC",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "12:00",
+            "home": "Tochigi City FC",
+            "away": "Jubilo Iwata",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "12:00",
+            "home": "Tokushima Vortis",
+            "away": "Sagan Tosu",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "12:00",
+            "home": "Yokohama FC",
+            "away": "RB Omiya Ardija",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "14:00",
+            "home": "Ehime FC",
+            "away": "Roasso Kumamoto",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "12:00",
+            "home": "Vegalta Sendai",
+            "away": "Ventforet Kofu",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "16:00",
+            "home": "Kataller Toyama",
+            "away": "Tegevajaro Miyazaki",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "18:15",
+            "home": "Džiugas Telšiai",
+            "away": "FK Panevėžys",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "18:00",
+            "home": "IL Bjarg",
+            "away": "Eik Tønsberg",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "14:30",
+            "home": "Stallion Laguna",
+            "away": "Aguilas-UMak FC",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "17:15",
+            "home": "DH Cebu FC",
+            "away": "Kaya-Iloilo",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "17:00",
+            "home": "Clube de Albergaria",
+            "away": "Marítimo",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "18:00",
+            "home": "Landskrona BoIS",
+            "away": "IK Brage",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "18:00",
+            "home": "Ljungskile SK",
+            "away": "Varbergs BoIS",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "18:00",
+            "home": "Eskilsminne IF",
+            "away": "Trelleborgs FF",
+            "score": "vs",
+            "status": "Sắp diễn ra"
+        },
+        {
+            "time": "05:30",
+            "home": "Cerro Largo",
+            "away": "CA Cerro",
+            "score": "vs",
+            "status": "Sắp diễn ra"
         }
     ]
 }
