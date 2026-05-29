@@ -17,13 +17,12 @@
             --league-bg: #f8fafc;
         }
 
-        /* RESET & AUTO HEIGHT */
         body {
             font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
             background-color: var(--bg-color);
             color: var(--text-main);
             margin: 0;
-            padding: 2vh 15px; /* Tự động thụt lề theo % chiều cao màn hình */
+            padding: 2vh 15px;
             height: 100vh;
             box-sizing: border-box;
             display: flex;
@@ -31,7 +30,6 @@
             align-items: flex-start;
         }
 
-        /* KHUNG DASHBOARD AUTO CO GIÃN */
         .dashboard {
             width: 100%;
             max-width: 800px;
@@ -40,13 +38,11 @@
             box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
             overflow: hidden;
             border: 1px solid var(--border-color);
-            /* BÍ QUYẾT CO GIÃN: Dashboard cao tối đa bằng 96% màn hình PC */
             max-height: 96vh; 
             display: flex;
-            flex-direction: column; /* Sắp xếp Header và Khung cuộn theo chiều dọc */
+            flex-direction: column; 
         }
 
-        /* HEADER CỐ ĐỊNH */
         header {
             background: linear-gradient(135deg, var(--dark-green) 0%, var(--primary-green) 100%);
             padding: 20px;
@@ -55,15 +51,29 @@
             position: relative;
             z-index: 20;
             box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-            flex-shrink: 0; /* Header không bao giờ bị bóp nhỏ */
+            flex-shrink: 0; 
         }
 
         h1 { margin: 0; font-size: 24px; font-weight: 800; text-transform: uppercase; }
-        .status-text { margin-top: 5px; font-size: 12px; color: rgba(255, 255, 255, 0.85); }
+        
+        /* CSS CHO ĐỒNG HỒ THỜI GIAN THỰC */
+        .live-clock {
+            margin-top: 12px;
+            font-size: 14px;
+            font-weight: 600;
+            color: #ffffff;
+            background: rgba(0, 0, 0, 0.15); /* Nền mờ đục nhìn rất sang */
+            display: inline-block;
+            padding: 6px 16px;
+            border-radius: 20px;
+            letter-spacing: 0.5px;
+            box-shadow: inset 0 0 5px rgba(0,0,0,0.1);
+        }
 
-        /* KHUNG CUỘN KẾT QUẢ TỰ LẤY PHẦN TRỐNG CÒN LẠI */
+        .status-text { margin-top: 10px; font-size: 12px; color: rgba(255, 255, 255, 0.85); }
+
         .match-list-wrapper {
-            flex-grow: 1; /* Tự động kéo giãn lấp đầy phần chiều cao còn lại của Dashboard */
+            flex-grow: 1; 
             overflow-y: auto;
             background: var(--container-bg);
             position: relative;
@@ -76,7 +86,6 @@
 
         .match-list { margin: 0; padding: 0; }
 
-        /* THANH TIÊU ĐỀ GIẢI ĐẤU */
         .league-header {
             background-color: var(--league-bg);
             color: var(--dark-green);
@@ -94,7 +103,6 @@
         }
         .league-header::before { content: "🏆"; margin-right: 8px; font-size: 15px; }
 
-        /* LƯỚI TRẬN ĐẤU - GIAO DIỆN PC */
         .match-row {
             display: grid;
             grid-template-columns: 80px 1fr 70px 1fr 100px;
@@ -118,29 +126,21 @@
 
         .match-status { text-align: right; font-size: 12px; color: var(--primary-green); font-weight: 600; }
 
-        /* ==================================================== */
-        /* RESPONSIVE: TỰ ĐỘNG NHẬN DIỆN MÀN HÌNH ĐIỆN THOẠI      */
-        /* ==================================================== */
         @media (max-width: 600px) {
-            /* Biến website thành một App thực thụ (Full màn hình, không viền) */
             body { padding: 0; align-items: stretch; }
             .dashboard { 
                 max-width: 100%; 
-                height: 100vh; /* Cao đúng 100% màn hình điện thoại */
+                height: 100vh; 
                 max-height: 100vh;
                 border-radius: 0; 
                 border: none;
             }
-            
-            /* Tái cấu trúc lại lưới thành dạng Thẻ (Card) giống App Sofascore */
             .match-row { 
-                grid-template-columns: 1fr 60px 1fr; /* Cột: Đội nhà - Tỷ số - Đội khách */
+                grid-template-columns: 1fr 60px 1fr; 
                 grid-template-rows: auto auto auto; 
                 row-gap: 8px; 
                 padding: 12px 10px; 
             }
-            
-            /* Đưa giờ thi đấu lên trên cùng, vắt ngang qua 3 cột */
             .time { 
                 grid-column: 1 / span 3; 
                 text-align: center; 
@@ -148,17 +148,9 @@
                 border-bottom: 1px dashed var(--border-color); 
                 font-size: 13px;
             }
-            
             .team.home { text-align: right; padding-right: 10px; }
             .team.away { text-align: left; padding-left: 10px; }
-            
-            .score { 
-                width: 100%; 
-                margin: 0; 
-                padding: 4px 0;
-            }
-            
-            /* Đưa trạng thái xuống dưới cùng */
+            .score { width: 100%; margin: 0; padding: 4px 0; }
             .match-status { 
                 grid-column: 1 / span 3; 
                 text-align: center; 
@@ -172,7 +164,8 @@
     <div class="dashboard">
         <header>
             <h1>Lịch Thi Đấu ⚽</h1>
-            <div class="status-text" id="updateTime">Đang tải dữ liệu...</div>
+            <div class="live-clock" id="realTimeClock">Đang tải ngày giờ...</div>
+            <div class="status-text" id="updateTime">Bot đang tải dữ liệu...</div>
         </header>
 
         <div class="match-list-wrapper">
@@ -182,12 +175,37 @@
     </div>
 
     <script>
+        // 1. CHỨC NĂNG ĐỒNG HỒ THỜI GIAN THỰC
+        function startRealTimeClock() {
+            function updateClock() {
+                const now = new Date();
+                const days = ['Chủ Nhật', 'Thứ 2', 'Thứ 3', 'Thứ 4', 'Thứ 5', 'Thứ 6', 'Thứ 7'];
+                const dayName = days[now.getDay()];
+                const d = String(now.getDate()).padStart(2, '0');
+                const m = String(now.getMonth() + 1).padStart(2, '0');
+                const y = now.getFullYear();
+                
+                const hr = String(now.getHours()).padStart(2, '0');
+                const min = String(now.getMinutes()).padStart(2, '0');
+                const sec = String(now.getSeconds()).padStart(2, '0');
+                
+                document.getElementById('realTimeClock').innerHTML = `🕒 Hôm nay: ${dayName}, ${d}/${m}/${y} | ${hr}:${min}:${sec}`;
+            }
+            
+            setInterval(updateClock, 1000); // Cập nhật mỗi 1 giây
+            updateClock(); // Chạy ngay lập tức khi load trang
+        }
+        
+        // Kích hoạt đồng hồ
+        startRealTimeClock();
+
+        // 2. CHỨC NĂNG LẤY DỮ LIỆU TỪ BOT GITHUB ACTIONS
         const dataUrl = 'data.json?t=' + new Date().getTime();
 
         fetch(dataUrl)
             .then(response => response.json())
             .then(data => {
-                document.getElementById('updateTime').innerHTML = `&#10227; Cập nhật lần cuối: ${data.last_updated}`;
+                document.getElementById('updateTime').innerHTML = `&#10227; Bot cập nhật cuối lúc: ${data.last_updated}`;
                 
                 const container = document.getElementById('matchesList');
                 container.innerHTML = ''; 
