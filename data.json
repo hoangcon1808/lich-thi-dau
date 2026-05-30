@@ -1,6 +1,20 @@
 {
-    "last_updated": "2026-05-30 21:45:47 (UTC)",
+    "last_updated": "2026-05-30 22:40:22 (UTC)",
     "live_leagues": [
+        {
+            "name": "Canada - Canadian Premier League",
+            "priority": 5,
+            "matches": [
+                {
+                    "time": "05:00",
+                    "home": "Pacific FC",
+                    "away": "Atlético Ottawa",
+                    "score": "1 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                }
+            ]
+        },
         {
             "name": "USA - MLS Next Pro",
             "priority": 12,
@@ -9,7 +23,15 @@
                     "time": "04:00",
                     "home": "Saint Louis City SC 2",
                     "away": "North Texas SC",
-                    "score": "0 - 0",
+                    "score": "2 - 0",
+                    "status": "Hiệp 2",
+                    "is_live": true
+                },
+                {
+                    "time": "05:00",
+                    "home": "Carolina Core FC",
+                    "away": "New York Red Bulls II",
+                    "score": "1 - 1",
                     "status": "Hiệp 1",
                     "is_live": true
                 }
@@ -23,28 +45,6 @@
                     "time": "04:00",
                     "home": "Instituto De Córdoba",
                     "away": "CA Lanús",
-                    "score": "1 - 0",
-                    "status": "Hiệp 1",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "Brazil - Brasileirão Betano",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "03:30",
-                    "home": "Bahia",
-                    "away": "Botafogo",
-                    "score": "0 - 1",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                },
-                {
-                    "time": "03:30",
-                    "home": "Grêmio",
-                    "away": "Corinthians",
                     "score": "1 - 1",
                     "status": "Hiệp 2",
                     "is_live": true
@@ -59,8 +59,8 @@
                     "time": "04:00",
                     "home": "Athletic Club",
                     "away": "Fortaleza",
-                    "score": "0 - 0",
-                    "status": "Hiệp 1",
+                    "score": "1 - 0",
+                    "status": "Hiệp 2",
                     "is_live": true
                 }
             ]
@@ -70,85 +70,19 @@
             "priority": 99,
             "matches": [
                 {
-                    "time": "03:00",
-                    "home": "AO Itabaiana",
-                    "away": "Volta Redonda",
-                    "score": "0 - 1",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                },
-                {
-                    "time": "03:00",
-                    "home": "Floresta",
-                    "away": "Confiança",
-                    "score": "1 - 0",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                },
-                {
                     "time": "04:00",
                     "home": "Botafogo-PB",
                     "away": "Maringá FC",
-                    "score": "1 - 0",
+                    "score": "2 - 0",
+                    "status": "Hiệp 2",
+                    "is_live": true
+                },
+                {
+                    "time": "05:30",
+                    "home": "Caxias",
+                    "away": "Ituano",
+                    "score": "0 - 0",
                     "status": "Hiệp 1",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "Brazil - Brasileirão Série D, Group A4",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "03:00",
-                    "home": "Ceilândia",
-                    "away": "Goiatuba EC",
-                    "score": "0 - 1",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                },
-                {
-                    "time": "03:00",
-                    "home": "Operário-MT",
-                    "away": "Capital CF",
-                    "score": "1 - 5",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                },
-                {
-                    "time": "03:00",
-                    "home": "União Rondonópolis",
-                    "away": "Mixto",
-                    "score": "2 - 1",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "Brazil - Brasileirão Série D, Group A5",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "03:00",
-                    "home": "Águia de Marabá FC",
-                    "away": "Tocantinópolis",
-                    "score": "3 - 1",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "Brazil - Brasileirão Série D, Group A6",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "03:00",
-                    "home": "Moto Club",
-                    "away": "Maracanã",
-                    "score": "0 - 2",
-                    "status": "Hiệp 2",
                     "is_live": true
                 }
             ]
@@ -161,8 +95,8 @@
                     "time": "04:30",
                     "home": "Universidad de Chile",
                     "away": "Deportes Concepción",
-                    "score": "0 - 0",
-                    "status": "Hiệp 1",
+                    "score": "1 - 0",
+                    "status": "Hiệp 2",
                     "is_live": true
                 }
             ]
@@ -172,11 +106,11 @@
             "priority": 99,
             "matches": [
                 {
-                    "time": "03:00",
-                    "home": "Deportivo Garcilaso",
-                    "away": "ADC Juan Pablo II",
-                    "score": "4 - 1",
-                    "status": "Hiệp 2",
+                    "time": "05:30",
+                    "home": "Sport Boys",
+                    "away": "Comerciantes Unidos",
+                    "score": "0 - 0",
+                    "status": "Hiệp 1",
                     "is_live": true
                 }
             ]
@@ -186,25 +120,39 @@
             "priority": 99,
             "matches": [
                 {
-                    "time": "03:00",
-                    "home": "Portland Thorns FC",
-                    "away": "Utah Royals FC",
-                    "score": "1 - 2",
-                    "status": "Hiệp 2",
+                    "time": "05:30",
+                    "home": "Washington Spirit",
+                    "away": "Seattle Reign FC",
+                    "score": "0 - 0",
+                    "status": "Hiệp 1",
                     "is_live": true
                 }
             ]
         },
         {
-            "name": "Venezuela - Primera Division, Apertura, Main Round, Group A",
+            "name": "USA - USL Championship",
             "priority": 99,
             "matches": [
                 {
-                    "time": "03:00",
-                    "home": "Universidad Central",
-                    "away": "Portuguesa FC",
-                    "score": "1 - 3",
-                    "status": "Hiệp 2",
+                    "time": "05:00",
+                    "home": "Charleston Battery",
+                    "away": "Detroit City FC",
+                    "score": "2 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "USA - USL, League One",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "05:30",
+                    "home": "Portland Hearts of Pine",
+                    "away": "Spokane Velocity FC",
+                    "score": "0 - 0",
+                    "status": "Hiệp 1",
                     "is_live": true
                 }
             ]
@@ -227,20 +175,6 @@
                     "time": "18:30",
                     "home": "Spain U17",
                     "away": "Croatia U17",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
-            "name": "Canada - Canadian Premier League",
-            "priority": 5,
-            "matches": [
-                {
-                    "time": "05:00",
-                    "home": "Pacific FC",
-                    "away": "Atlético Ottawa",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
@@ -328,14 +262,6 @@
             "priority": 12,
             "matches": [
                 {
-                    "time": "05:00",
-                    "home": "Carolina Core FC",
-                    "away": "New York Red Bulls II",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
                     "time": "06:00",
                     "home": "New York City FC II",
                     "away": "Columbus Crew 2",
@@ -419,20 +345,6 @@
                     "time": "06:30",
                     "home": "Sport Recife",
                     "away": "Náutico",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
-            "name": "Brazil - Brasileirão Série C",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "05:30",
-                    "home": "Caxias",
-                    "away": "Ituano",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
@@ -698,14 +610,6 @@
             "priority": 99,
             "matches": [
                 {
-                    "time": "05:30",
-                    "home": "Sport Boys",
-                    "away": "Comerciantes Unidos",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
                     "time": "08:00",
                     "home": "Universitario de Deportes",
                     "away": "Sport Huancayo",
@@ -812,31 +716,9 @@
             ]
         },
         {
-            "name": "USA - NWSL",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "05:30",
-                    "home": "Washington Spirit",
-                    "away": "Seattle Reign FC",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
             "name": "USA - USL Championship",
             "priority": 99,
             "matches": [
-                {
-                    "time": "05:00",
-                    "home": "Charleston Battery",
-                    "away": "Detroit City FC",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
                 {
                     "time": "06:00",
                     "home": "Hartford Athletic",
@@ -929,14 +811,6 @@
             "name": "USA - USL, League One",
             "priority": 99,
             "matches": [
-                {
-                    "time": "05:30",
-                    "home": "Portland Hearts of Pine",
-                    "away": "Spokane Velocity FC",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
                 {
                     "time": "06:00",
                     "home": "Chattanooga Red Wolves SC",
