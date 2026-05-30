@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-05-30 17:43:49 (UTC)",
+    "last_updated": "2026-05-30 18:47:28 (UTC)",
     "live_leagues": [
         {
             "name": "Europe - UEFA Champions League, Knockout stage",
@@ -10,65 +10,67 @@
                     "home": "Paris Saint-Germain",
                     "away": "Arsenal",
                     "score": "1 - 1",
-                    "status": "Hiệp 2",
+                    "status": "Đang đá",
                     "is_live": true
                 }
             ]
         },
         {
-            "name": "Bahrain - Premier League, Rel/Prom Playoffs",
-            "priority": 5,
-            "matches": [
-                {
-                    "time": "23:00",
-                    "home": "Al Ettihad",
-                    "away": "Budaiya",
-                    "score": "0 - 1",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                },
-                {
-                    "time": "23:00",
-                    "home": "Al Najma",
-                    "away": "Manama",
-                    "score": "3 - 1",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "Chile - Liga de Ascenso",
+            "name": "Argentina - Copa Argentina",
             "priority": 99,
             "matches": [
                 {
-                    "time": "23:30",
-                    "home": "Deportes Recoleta",
-                    "away": "San Luis de Quillota",
+                    "time": "01:30",
+                    "home": "Gimnasia Jujuy",
+                    "away": "Club Atlético Belgrano",
                     "score": "0 - 0",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                },
-                {
-                    "time": "23:30",
-                    "home": "Santiago Wanderers",
-                    "away": "Unión Española",
-                    "score": "1 - 2",
-                    "status": "Hiệp 2",
+                    "status": "Hiệp 1",
                     "is_live": true
                 }
             ]
         },
         {
-            "name": "Peru - Liga 1, Apertura",
+            "name": "Argentina - Primera B Nacional",
             "priority": 99,
             "matches": [
                 {
-                    "time": "23:00",
-                    "home": "Asociación Deportiva Tarma",
-                    "away": "Cusco FC",
-                    "score": "1 - 2",
-                    "status": "Hiệp 2",
+                    "time": "01:00",
+                    "home": "Colegiales",
+                    "away": "Agropecuario Argentino",
+                    "score": "0 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                },
+                {
+                    "time": "01:00",
+                    "home": "Estudiantes de Buenos Aires",
+                    "away": "Godoy Cruz",
+                    "score": "0 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                },
+                {
+                    "time": "01:30",
+                    "home": "All Boys",
+                    "away": "Los Andes",
+                    "score": "0 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                },
+                {
+                    "time": "01:30",
+                    "home": "Almirante Brown",
+                    "away": "Club Atletico Colón",
+                    "score": "1 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                },
+                {
+                    "time": "01:30",
+                    "home": "Defensores de Belgrano",
+                    "away": "San Telmo",
+                    "score": "0 - 0",
+                    "status": "Hiệp 1",
                     "is_live": true
                 }
             ]
@@ -82,7 +84,21 @@
                     "home": "Kansas City Current",
                     "away": "Boston Legacy FC",
                     "score": "0 - 0",
-                    "status": "Hiệp 1",
+                    "status": "Hiệp 2",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "Uruguay - Liga AUF Uruguaya, Intermedio, Serie B",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "01:00",
+                    "home": "Danubio",
+                    "away": "Progreso",
+                    "score": "1 - 0",
+                    "status": "Nghỉ HT",
                     "is_live": true
                 }
             ]
@@ -282,63 +298,9 @@
             "priority": 99,
             "matches": [
                 {
-                    "time": "01:30",
-                    "home": "Gimnasia Jujuy",
-                    "away": "Club Atlético Belgrano",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
                     "time": "04:00",
                     "home": "Instituto De Córdoba",
                     "away": "CA Lanús",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
-            "name": "Argentina - Primera B Nacional",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "01:00",
-                    "home": "Colegiales",
-                    "away": "Agropecuario Argentino",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "01:00",
-                    "home": "Estudiantes de Buenos Aires",
-                    "away": "Godoy Cruz",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "01:30",
-                    "home": "All Boys",
-                    "away": "Los Andes",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "01:30",
-                    "home": "Almirante Brown",
-                    "away": "Club Atletico Colón",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "01:30",
-                    "home": "Defensores de Belgrano",
-                    "away": "San Telmo",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
@@ -1185,20 +1147,6 @@
                     "time": "07:00",
                     "home": "Union Omaha SC",
                     "away": "FC Naples",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
-            "name": "Uruguay - Liga AUF Uruguaya, Intermedio, Serie B",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "01:00",
-                    "home": "Danubio",
-                    "away": "Progreso",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
