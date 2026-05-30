@@ -3,7 +3,7 @@ name: Auto Scraper
 on:
   schedule:
     # Tự động chạy mỗi 20 phút
-    - cron: '*/20 * * * *'
+    - cron: '*/1 * * * *'
   # Cho phép bấm nút "Run workflow" thủ công trên GitHub
   workflow_dispatch:
 
