@@ -1,24 +1,38 @@
 {
-    "last_updated": "2026-05-30 15:40:05 (UTC)",
+    "last_updated": "2026-05-30 16:40:04 (UTC)",
     "live_leagues": [
         {
-            "name": "Spain - LaLiga 2",
-            "priority": 6,
+            "name": "Europe - UEFA Champions League, Knockout stage",
+            "priority": 3,
             "matches": [
                 {
-                    "time": "21:15",
-                    "home": "AD Ceuta",
-                    "away": "Albacete Balompié",
-                    "score": "1 - 0",
-                    "status": "Hiệp 2",
+                    "time": "23:00",
+                    "home": "Paris Saint-Germain",
+                    "away": "Arsenal",
+                    "score": "0 - 1",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "Bahrain - Premier League, Rel/Prom Playoffs",
+            "priority": 5,
+            "matches": [
+                {
+                    "time": "23:00",
+                    "home": "Al Ettihad",
+                    "away": "Budaiya",
+                    "score": "0 - 1",
+                    "status": "Hiệp 1",
                     "is_live": true
                 },
                 {
-                    "time": "21:15",
-                    "home": "Real Sociedad B U21",
-                    "away": "Cultural Leonesa",
-                    "score": "1 - 1",
-                    "status": "Hiệp 2",
+                    "time": "23:00",
+                    "home": "Al Najma",
+                    "away": "Manama",
+                    "score": "0 - 1",
+                    "status": "Hiệp 1",
                     "is_live": true
                 }
             ]
@@ -31,96 +45,30 @@
                     "time": "22:00",
                     "home": "MB Rouissat",
                     "away": "USM Alger",
+                    "score": "1 - 0",
+                    "status": "Hiệp 2",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "Chile - Liga de Ascenso",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "23:30",
+                    "home": "Deportes Recoleta",
+                    "away": "San Luis de Quillota",
                     "score": "0 - 0",
                     "status": "Hiệp 1",
                     "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "Estonia - Premium Liiga",
-            "priority": 99,
-            "matches": [
+                },
                 {
-                    "time": "21:00",
-                    "home": "Tartu JK Tammeka",
-                    "away": "FCI Levadia Tallinn",
+                    "time": "23:30",
+                    "home": "Santiago Wanderers",
+                    "away": "Unión Española",
                     "score": "0 - 0",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "Finland - Veikkausliiga",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "21:00",
-                    "home": "FC Lahti",
-                    "away": "Ilves",
-                    "score": "5 - 0",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                },
-                {
-                    "time": "21:00",
-                    "home": "IF Gnistan",
-                    "away": "SJK",
-                    "score": "3 - 2",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                },
-                {
-                    "time": "21:00",
-                    "home": "Kuopion Palloseura",
-                    "away": "Inter Turku",
-                    "score": "1 - 1",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                },
-                {
-                    "time": "21:00",
-                    "home": "Turun Palloseura",
-                    "away": "VPS",
-                    "score": "0 - 0",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "Latvia - Virsliga",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "21:00",
-                    "home": "FK Auda",
-                    "away": "Ogre United",
-                    "score": "2 - 0",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "Norway - 1st Division",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "21:00",
-                    "home": "Moss FK",
-                    "away": "Stabæk Fotball",
-                    "score": "2 - 2",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                },
-                {
-                    "time": "21:00",
-                    "home": "Odds BK",
-                    "away": "Lyn FK",
-                    "score": "3 - 0",
-                    "status": "Hiệp 2",
+                    "status": "Hiệp 1",
                     "is_live": true
                 }
             ]
@@ -133,21 +81,7 @@
                     "time": "22:00",
                     "home": "FK Vidar",
                     "away": "Træff",
-                    "score": "1 - 0",
-                    "status": "Hiệp 1",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "Norway - Eliteserien",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "21:00",
-                    "home": "Molde FK",
-                    "away": "Sandefjord Fotball",
-                    "score": "2 - 0",
+                    "score": "1 - 1",
                     "status": "Hiệp 2",
                     "is_live": true
                 }
@@ -162,81 +96,21 @@
                     "home": "Rosenborg Kvinner",
                     "away": "LSK Kvinner FK",
                     "score": "0 - 0",
-                    "status": "Hiệp 1",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "Philippines - Philippines Football League, Championship Round",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "20:30",
-                    "home": "Manila Digger FC",
-                    "away": "Taguig FC",
-                    "score": "1 - 1",
                     "status": "Hiệp 2",
                     "is_live": true
                 }
             ]
         },
         {
-            "name": "Sweden - Ettan, Norra",
+            "name": "Peru - Liga 1, Apertura",
             "priority": 99,
             "matches": [
                 {
-                    "time": "21:00",
-                    "home": "Hammarby Talang FF",
-                    "away": "AFC Eskilstuna",
+                    "time": "23:00",
+                    "home": "Asociación Deportiva Tarma",
+                    "away": "Cusco FC",
                     "score": "1 - 2",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                },
-                {
-                    "time": "21:00",
-                    "home": "IF Karlstad Fotboll",
-                    "away": "Sollentuna FF",
-                    "score": "0 - 0",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "Sweden - Ettan, Sodra",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "21:00",
-                    "home": "AFC Malmo",
-                    "away": "Laholms FK",
-                    "score": "3 - 2",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                },
-                {
-                    "time": "21:00",
-                    "home": "FC Trollhättan",
-                    "away": "Åtvidabergs FF",
-                    "score": "2 - 2",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                },
-                {
-                    "time": "21:00",
-                    "home": "Tvååkers IF",
-                    "away": "Kristianstad FC",
-                    "score": "0 - 1",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                },
-                {
-                    "time": "21:30",
-                    "home": "Hässleholms IF",
-                    "away": "Utsiktens BK",
-                    "score": "1 - 0",
-                    "status": "Hiệp 2",
+                    "status": "Hiệp 1",
                     "is_live": true
                 }
             ]
@@ -249,8 +123,8 @@
                     "time": "22:00",
                     "home": "Östers IF",
                     "away": "Norrby IF",
-                    "score": "2 - 0",
-                    "status": "Hiệp 1",
+                    "score": "2 - 1",
+                    "status": "Hiệp 2",
                     "is_live": true
                 }
             ]
@@ -273,42 +147,6 @@
                     "time": "18:30",
                     "home": "Spain U17",
                     "away": "Croatia U17",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
-            "name": "Europe - UEFA Champions League, Knockout stage",
-            "priority": 3,
-            "matches": [
-                {
-                    "time": "23:00",
-                    "home": "Paris Saint-Germain",
-                    "away": "Arsenal",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
-            "name": "Bahrain - Premier League, Rel/Prom Playoffs",
-            "priority": 5,
-            "matches": [
-                {
-                    "time": "23:00",
-                    "home": "Al Ettihad",
-                    "away": "Budaiya",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "23:00",
-                    "home": "Al Najma",
-                    "away": "Manama",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
@@ -850,22 +688,6 @@
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
-                },
-                {
-                    "time": "23:30",
-                    "home": "Deportes Recoleta",
-                    "away": "San Luis de Quillota",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "23:30",
-                    "home": "Santiago Wanderers",
-                    "away": "Unión Española",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
                 }
             ]
         },
@@ -1119,14 +941,6 @@
                     "time": "08:00",
                     "home": "Universitario de Deportes",
                     "away": "Sport Huancayo",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "23:00",
-                    "home": "Asociación Deportiva Tarma",
-                    "away": "Cusco FC",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
