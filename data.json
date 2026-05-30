@@ -1,20 +1,6 @@
 {
-    "last_updated": "2026-05-30 14:19:33 (UTC)",
+    "last_updated": "2026-05-30 15:40:05 (UTC)",
     "live_leagues": [
-        {
-            "name": "South Africa - Premier League, Relegation/Promotion Playoffs",
-            "priority": 5,
-            "matches": [
-                {
-                    "time": "20:00",
-                    "home": "Magesi FC",
-                    "away": "Cape Town City FC",
-                    "score": "1 - 0",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                }
-            ]
-        },
         {
             "name": "Spain - LaLiga 2",
             "priority": 6,
@@ -23,82 +9,30 @@
                     "time": "21:15",
                     "home": "AD Ceuta",
                     "away": "Albacete Balompié",
-                    "score": "0 - 0",
-                    "status": "Hiệp 1",
+                    "score": "1 - 0",
+                    "status": "Hiệp 2",
                     "is_live": true
                 },
                 {
                     "time": "21:15",
                     "home": "Real Sociedad B U21",
                     "away": "Cultural Leonesa",
+                    "score": "1 - 1",
+                    "status": "Hiệp 2",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "Algeria - Ligue 1",
+            "priority": 9,
+            "matches": [
+                {
+                    "time": "22:00",
+                    "home": "MB Rouissat",
+                    "away": "USM Alger",
                     "score": "0 - 0",
                     "status": "Hiệp 1",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "Uruguay - Liga AUF Uruguaya, Intermedio, Serie A",
-            "priority": 7,
-            "matches": [
-                {
-                    "time": "20:00",
-                    "home": "Racing de Montevideo",
-                    "away": "Defensor Sporting",
-                    "score": "0 - 0",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "Belarus - Vysshaya League",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "20:00",
-                    "home": "Gomel",
-                    "away": "Dynamo Brest",
-                    "score": "1 - 0",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                },
-                {
-                    "time": "20:00",
-                    "home": "Neman Grodno",
-                    "away": "ML Vitebsk",
-                    "score": "1 - 0",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "Denmark - Betinia Liga, Relegation Round",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "20:00",
-                    "home": "AaB",
-                    "away": "HB Køge",
-                    "score": "1 - 0",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                },
-                {
-                    "time": "20:00",
-                    "home": "Boldklubben af 1893",
-                    "away": "Aarhus Fremad",
-                    "score": "1 - 2",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                },
-                {
-                    "time": "20:00",
-                    "home": "Hobro",
-                    "away": "Middelfart",
-                    "score": "3 - 0",
-                    "status": "Hiệp 2",
                     "is_live": true
                 }
             ]
@@ -112,7 +46,7 @@
                     "home": "Tartu JK Tammeka",
                     "away": "FCI Levadia Tallinn",
                     "score": "0 - 0",
-                    "status": "Hiệp 1",
+                    "status": "Hiệp 2",
                     "is_live": true
                 }
             ]
@@ -125,24 +59,24 @@
                     "time": "21:00",
                     "home": "FC Lahti",
                     "away": "Ilves",
-                    "score": "3 - 0",
-                    "status": "Hiệp 1",
+                    "score": "5 - 0",
+                    "status": "Hiệp 2",
                     "is_live": true
                 },
                 {
                     "time": "21:00",
                     "home": "IF Gnistan",
                     "away": "SJK",
-                    "score": "1 - 0",
-                    "status": "Hiệp 1",
+                    "score": "3 - 2",
+                    "status": "Hiệp 2",
                     "is_live": true
                 },
                 {
                     "time": "21:00",
                     "home": "Kuopion Palloseura",
                     "away": "Inter Turku",
-                    "score": "0 - 0",
-                    "status": "Hiệp 1",
+                    "score": "1 - 1",
+                    "status": "Hiệp 2",
                     "is_live": true
                 },
                 {
@@ -150,7 +84,7 @@
                     "home": "Turun Palloseura",
                     "away": "VPS",
                     "score": "0 - 0",
-                    "status": "Hiệp 1",
+                    "status": "Hiệp 2",
                     "is_live": true
                 }
             ]
@@ -163,21 +97,7 @@
                     "time": "21:00",
                     "home": "FK Auda",
                     "away": "Ogre United",
-                    "score": "1 - 0",
-                    "status": "Hiệp 1",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "Lithuania - TOPLYGA",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "19:30",
-                    "home": "FK Banga Gargždai",
-                    "away": "Šiauliai FA",
-                    "score": "1 - 1",
+                    "score": "2 - 0",
                     "status": "Hiệp 2",
                     "is_live": true
                 }
@@ -191,14 +111,28 @@
                     "time": "21:00",
                     "home": "Moss FK",
                     "away": "Stabæk Fotball",
-                    "score": "1 - 0",
-                    "status": "Hiệp 1",
+                    "score": "2 - 2",
+                    "status": "Hiệp 2",
                     "is_live": true
                 },
                 {
                     "time": "21:00",
                     "home": "Odds BK",
                     "away": "Lyn FK",
+                    "score": "3 - 0",
+                    "status": "Hiệp 2",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "Norway - 2nd Division, Group 1",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "22:00",
+                    "home": "FK Vidar",
+                    "away": "Træff",
                     "score": "1 - 0",
                     "status": "Hiệp 1",
                     "is_live": true
@@ -213,7 +147,21 @@
                     "time": "21:00",
                     "home": "Molde FK",
                     "away": "Sandefjord Fotball",
-                    "score": "1 - 0",
+                    "score": "2 - 0",
+                    "status": "Hiệp 2",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "Norway - Toppserien, Women",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "22:00",
+                    "home": "Rosenborg Kvinner",
+                    "away": "LSK Kvinner FK",
+                    "score": "0 - 0",
                     "status": "Hiệp 1",
                     "is_live": true
                 }
@@ -224,70 +172,10 @@
             "priority": 99,
             "matches": [
                 {
-                    "time": "20:00",
+                    "time": "20:30",
                     "home": "Manila Digger FC",
                     "away": "Taguig FC",
                     "score": "1 - 1",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "Sweden - Allsvenskan",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "20:00",
-                    "home": "AIK",
-                    "away": "IK Sirius",
-                    "score": "0 - 2",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                },
-                {
-                    "time": "20:00",
-                    "home": "GAIS",
-                    "away": "Kalmar FF",
-                    "score": "1 - 0",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                },
-                {
-                    "time": "20:00",
-                    "home": "Malmö FF",
-                    "away": "Halmstads BK",
-                    "score": "4 - 2",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "Sweden - Damallsvenskan",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "20:00",
-                    "home": "Djurgårdens IF DFF",
-                    "away": "Eskilstuna Utd DFF",
-                    "score": "0 - 0",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                },
-                {
-                    "time": "20:00",
-                    "home": "IK Uppsala",
-                    "away": "AIK",
-                    "score": "2 - 2",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                },
-                {
-                    "time": "20:00",
-                    "home": "Norrköping DFK",
-                    "away": "Piteå IF",
-                    "score": "0 - 2",
                     "status": "Hiệp 2",
                     "is_live": true
                 }
@@ -301,8 +189,8 @@
                     "time": "21:00",
                     "home": "Hammarby Talang FF",
                     "away": "AFC Eskilstuna",
-                    "score": "0 - 0",
-                    "status": "Hiệp 1",
+                    "score": "1 - 2",
+                    "status": "Hiệp 2",
                     "is_live": true
                 },
                 {
@@ -310,7 +198,7 @@
                     "home": "IF Karlstad Fotboll",
                     "away": "Sollentuna FF",
                     "score": "0 - 0",
-                    "status": "Hiệp 1",
+                    "status": "Hiệp 2",
                     "is_live": true
                 }
             ]
@@ -323,24 +211,32 @@
                     "time": "21:00",
                     "home": "AFC Malmo",
                     "away": "Laholms FK",
-                    "score": "0 - 1",
-                    "status": "Hiệp 1",
+                    "score": "3 - 2",
+                    "status": "Hiệp 2",
                     "is_live": true
                 },
                 {
                     "time": "21:00",
                     "home": "FC Trollhättan",
                     "away": "Åtvidabergs FF",
-                    "score": "0 - 0",
-                    "status": "Hiệp 1",
+                    "score": "2 - 2",
+                    "status": "Hiệp 2",
                     "is_live": true
                 },
                 {
                     "time": "21:00",
                     "home": "Tvååkers IF",
                     "away": "Kristianstad FC",
-                    "score": "0 - 0",
-                    "status": "Hiệp 1",
+                    "score": "0 - 1",
+                    "status": "Hiệp 2",
+                    "is_live": true
+                },
+                {
+                    "time": "21:30",
+                    "home": "Hässleholms IF",
+                    "away": "Utsiktens BK",
+                    "score": "1 - 0",
+                    "status": "Hiệp 2",
                     "is_live": true
                 }
             ]
@@ -350,33 +246,11 @@
             "priority": 99,
             "matches": [
                 {
-                    "time": "20:00",
-                    "home": "Falkenbergs FF",
-                    "away": "IK Oddevold",
+                    "time": "22:00",
+                    "home": "Östers IF",
+                    "away": "Norrby IF",
                     "score": "2 - 0",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                },
-                {
-                    "time": "20:00",
-                    "home": "GIF Sundsvall",
-                    "away": "Sandvikens IF",
-                    "score": "0 - 2",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "World - U21 Friendly Games",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "20:00",
-                    "home": "Croatia U21",
-                    "away": "Greece U21",
-                    "score": "1 - 1",
-                    "status": "Hiệp 2",
+                    "status": "Hiệp 1",
                     "is_live": true
                 }
             ]
@@ -493,20 +367,6 @@
                     "time": "07:00",
                     "home": "Deportivo Cuenca",
                     "away": "Delfín",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
-            "name": "Algeria - Ligue 1",
-            "priority": 9,
-            "matches": [
-                {
-                    "time": "22:00",
-                    "home": "MB Rouissat",
-                    "away": "USM Alger",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
@@ -1218,14 +1078,6 @@
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
-                },
-                {
-                    "time": "22:00",
-                    "home": "FK Vidar",
-                    "away": "Træff",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
                 }
             ]
         },
@@ -1237,20 +1089,6 @@
                     "time": "18:00",
                     "home": "Grorud",
                     "away": "SK Trygg/Lade",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
-            "name": "Norway - Toppserien, Women",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "22:00",
-                    "home": "Rosenborg Kvinner",
-                    "away": "LSK Kvinner FK",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
@@ -1399,34 +1237,6 @@
                     "time": "18:00",
                     "home": "Rosengård",
                     "away": "IF Brommapojkarna",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
-            "name": "Sweden - Ettan, Sodra",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "21:30",
-                    "home": "Hässleholms IF",
-                    "away": "Utsiktens BK",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
-            "name": "Sweden - Superettan",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "22:00",
-                    "home": "Östers IF",
-                    "away": "Norrby IF",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
