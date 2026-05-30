@@ -1,44 +1,42 @@
 {
-    "last_updated": "2026-05-30 07:59:49 (UTC)",
+    "last_updated": "2026-05-30 10:02:47 (UTC)",
     "live_leagues": [
         {
-            "name": "China - Chinese League 1",
+            "name": "China - Chinese Super League",
             "priority": 99,
             "matches": [
                 {
-                    "time": "14:00",
-                    "home": "Yanbian Longding",
-                    "away": "Changchun Yatai",
-                    "score": "1 - 1",
-                    "status": "Nghỉ HT",
+                    "time": "17:00",
+                    "home": "Qingdao West Coast",
+                    "away": "Shanghai Shenhua",
+                    "score": "0 - 1",
+                    "status": "Hiệp 1",
                     "is_live": true
                 }
             ]
         },
         {
-            "name": "Japan - J1 League, Placement Matches",
+            "name": "Georgia - Erovnuli Liga",
             "priority": 99,
             "matches": [
                 {
-                    "time": "13:00",
-                    "home": "Cerezo Osaka",
-                    "away": "FC Tokyo",
-                    "score": "2 - 2",
-                    "status": "Hiệp 2",
+                    "time": "17:00",
+                    "home": "Meshakhte Tkibuli",
+                    "away": "Dinamo Tbilisi",
+                    "score": "0 - 0",
+                    "status": "Hiệp 1",
                     "is_live": true
-                },
+                }
+            ]
+        },
+        {
+            "name": "Japan - J2/J3 League, Playoffs",
+            "priority": 99,
+            "matches": [
                 {
-                    "time": "14:00",
-                    "home": "Avispa Fukuoka",
-                    "away": "JEF United Chiba",
-                    "score": "0 - 1",
-                    "status": "Nghỉ HT",
-                    "is_live": true
-                },
-                {
-                    "time": "14:00",
-                    "home": "Gamba Osaka",
-                    "away": "Tokyo Verdy",
+                    "time": "16:00",
+                    "home": "Kataller Toyama",
+                    "away": "Tegevajaro Miyazaki",
                     "score": "1 - 0",
                     "status": "Nghỉ HT",
                     "is_live": true
@@ -46,28 +44,14 @@
             ]
         },
         {
-            "name": "Japan - J2/J3 League, Placement Matches",
+            "name": "Portugal - Campeonato Nacional, Women, Relegation Playoffs",
             "priority": 99,
             "matches": [
                 {
-                    "time": "14:00",
-                    "home": "Ehime FC",
-                    "away": "Roasso Kumamoto",
+                    "time": "17:00",
+                    "home": "Clube de Albergaria",
+                    "away": "Marítimo",
                     "score": "0 - 0",
-                    "status": "Nghỉ HT",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "Philippines - Philippines Football League, Championship Round",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "14:30",
-                    "home": "Stallion Laguna",
-                    "away": "Aguilas-UMak FC",
-                    "score": "1 - 1",
                     "status": "Hiệp 1",
                     "is_live": true
                 }
@@ -78,25 +62,17 @@
             "priority": 99,
             "matches": [
                 {
-                    "time": "14:30",
-                    "home": "Busan I Park",
-                    "away": "Paju Frontier FC",
+                    "time": "17:00",
+                    "home": "Gimhae City FC",
+                    "away": "Gimpo FC",
                     "score": "0 - 0",
                     "status": "Hiệp 1",
                     "is_live": true
                 },
                 {
-                    "time": "14:30",
-                    "home": "Chungnam Asan FC",
-                    "away": "Suwon Samsung Bluewings",
-                    "score": "0 - 0",
-                    "status": "Hiệp 1",
-                    "is_live": true
-                },
-                {
-                    "time": "14:30",
-                    "home": "Yongin City FC",
-                    "away": "Daegu FC",
+                    "time": "17:00",
+                    "home": "Suwon FC",
+                    "away": "Seongnam FC",
                     "score": "0 - 0",
                     "status": "Hiệp 1",
                     "is_live": true
@@ -147,24 +123,8 @@
             "matches": [
                 {
                     "time": "15:00",
-                    "home": "Caboolture FC",
-                    "away": "Capalaba Bulldogs",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "15:00",
                     "home": "Redlands United",
                     "away": "Sunshine Coast Wanderers",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "15:30",
-                    "home": "Logan Lightning",
-                    "away": "Holland Park Hawks",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
@@ -894,14 +854,6 @@
             "priority": 99,
             "matches": [
                 {
-                    "time": "17:00",
-                    "home": "Qingdao West Coast",
-                    "away": "Shanghai Shenhua",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
                     "time": "18:00",
                     "home": "Henan FC",
                     "away": "Zhejiang",
@@ -1116,20 +1068,6 @@
             ]
         },
         {
-            "name": "Georgia - Erovnuli Liga",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "17:00",
-                    "home": "Meshakhte Tkibuli",
-                    "away": "Dinamo Tbilisi",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
             "name": "Japan - J1 League, Placement Matches",
             "priority": 99,
             "matches": [
@@ -1145,14 +1083,6 @@
                     "time": "12:00",
                     "home": "Shimizu S-Pulse",
                     "away": "Yokohama F. Marinos",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "15:00",
-                    "home": "V-Varen Nagasaki",
-                    "away": "Mito Hollyhock",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
@@ -1223,20 +1153,6 @@
                     "time": "12:00",
                     "home": "Zweigen Kanazawa",
                     "away": "Gainare Tottori",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
-            "name": "Japan - J2/J3 League, Playoffs",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "16:00",
-                    "home": "Kataller Toyama",
-                    "away": "Tegevajaro Miyazaki",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
@@ -1529,14 +1445,6 @@
             "matches": [
                 {
                     "time": "17:00",
-                    "home": "Clube de Albergaria",
-                    "away": "Marítimo",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "17:00",
                     "home": "Gil Vicente FC",
                     "away": "Rio Ave FC",
                     "score": "vs",
@@ -1575,22 +1483,6 @@
                     "time": "14:30",
                     "home": "Jeonnam Dragons",
                     "away": "Seoul E-Land FC",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "17:00",
-                    "home": "Gimhae City FC",
-                    "away": "Gimpo FC",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "17:00",
-                    "home": "Suwon FC",
-                    "away": "Seongnam FC",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
