@@ -1,6 +1,58 @@
 {
-    "last_updated": "2026-05-30 10:02:47 (UTC)",
+    "last_updated": "2026-05-30 11:38:29 (UTC)",
     "live_leagues": [
+        {
+            "name": "Belarus - Vysshaya League",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "18:00",
+                    "home": "Arsenal Dzerzhinsk",
+                    "away": "Dinamo Minsk",
+                    "score": "0 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "China - Chinese League 1",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "18:00",
+                    "home": "Dalian Kuncheng City",
+                    "away": "Shijiazhuang Gongfu",
+                    "score": "0 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                },
+                {
+                    "time": "18:00",
+                    "home": "Suzhou Dongwu",
+                    "away": "Wuxi Wugou",
+                    "score": "1 - 1",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                },
+                {
+                    "time": "18:30",
+                    "home": "Guangxi Hengchen FC",
+                    "away": "Foshan Nanshi",
+                    "score": "0 - 1",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                },
+                {
+                    "time": "18:30",
+                    "home": "Meizhou Hakka",
+                    "away": "Jiangxi Dingnan United",
+                    "score": "0 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                }
+            ]
+        },
         {
             "name": "China - Chinese Super League",
             "priority": 99,
@@ -9,7 +61,81 @@
                     "time": "17:00",
                     "home": "Qingdao West Coast",
                     "away": "Shanghai Shenhua",
+                    "score": "2 - 2",
+                    "status": "Hiệp 2",
+                    "is_live": true
+                },
+                {
+                    "time": "18:00",
+                    "home": "Henan FC",
+                    "away": "Zhejiang",
                     "score": "0 - 1",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                },
+                {
+                    "time": "18:35",
+                    "home": "Chengdu Rongcheng",
+                    "away": "Shandong Taishan",
+                    "score": "0 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "Czech Republic - Czech First League, Relegation/Promotion",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "18:00",
+                    "home": "FC Silon Táborsko",
+                    "away": "Baník Ostrava",
+                    "score": "0 - 1",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "Denmark - CampoBet 2 Division, Relegation",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "18:00",
+                    "home": "FC Helsingør",
+                    "away": "Brabrand",
+                    "score": "0 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                },
+                {
+                    "time": "18:00",
+                    "home": "Ishøj IF",
+                    "away": "VSK Aarhus",
+                    "score": "0 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "Estonia - Premium Liiga",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "18:30",
+                    "home": "Harju Jalgpallikool",
+                    "away": "Narva Trans",
+                    "score": "0 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                },
+                {
+                    "time": "18:30",
+                    "home": "Pärnu JK Vaprus",
+                    "away": "Nõmme Kalju",
+                    "score": "1 - 0",
                     "status": "Hiệp 1",
                     "is_live": true
                 }
@@ -23,6 +149,48 @@
                     "time": "17:00",
                     "home": "Meshakhte Tkibuli",
                     "away": "Dinamo Tbilisi",
+                    "score": "1 - 4",
+                    "status": "Hiệp 2",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "Japan - J1 League, Placement Matches",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "17:00",
+                    "home": "Kyoto Sanga FC",
+                    "away": "Kashiwa Reysol",
+                    "score": "2 - 3",
+                    "status": "Hiệp 2",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "Lithuania - TOPLYGA",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "18:15",
+                    "home": "Džiugas Telšiai",
+                    "away": "FK Panevėžys",
+                    "score": "1 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "Norway - 2nd Division, Group 1",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "18:00",
+                    "home": "IL Bjarg",
+                    "away": "Eik Tønsberg",
                     "score": "0 - 0",
                     "status": "Hiệp 1",
                     "is_live": true
@@ -30,15 +198,15 @@
             ]
         },
         {
-            "name": "Japan - J2/J3 League, Playoffs",
+            "name": "Philippines - Philippines Football League, Championship Round",
             "priority": 99,
             "matches": [
                 {
-                    "time": "16:00",
-                    "home": "Kataller Toyama",
-                    "away": "Tegevajaro Miyazaki",
+                    "time": "17:15",
+                    "home": "DH Cebu FC",
+                    "away": "Kaya-Iloilo",
                     "score": "1 - 0",
-                    "status": "Nghỉ HT",
+                    "status": "Hiệp 2",
                     "is_live": true
                 }
             ]
@@ -52,7 +220,7 @@
                     "home": "Clube de Albergaria",
                     "away": "Marítimo",
                     "score": "0 - 0",
-                    "status": "Hiệp 1",
+                    "status": "Hiệp 2",
                     "is_live": true
                 }
             ]
@@ -65,8 +233,8 @@
                     "time": "17:00",
                     "home": "Gimhae City FC",
                     "away": "Gimpo FC",
-                    "score": "0 - 0",
-                    "status": "Hiệp 1",
+                    "score": "1 - 2",
+                    "status": "Hiệp 2",
                     "is_live": true
                 },
                 {
@@ -74,6 +242,42 @@
                     "home": "Suwon FC",
                     "away": "Seongnam FC",
                     "score": "0 - 0",
+                    "status": "Hiệp 2",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "Sweden - Ettan, Sodra",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "18:00",
+                    "home": "Eskilsminne IF",
+                    "away": "Trelleborgs FF",
+                    "score": "1 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "Sweden - Superettan",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "18:00",
+                    "home": "Landskrona BoIS",
+                    "away": "IK Brage",
+                    "score": "1 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                },
+                {
+                    "time": "18:00",
+                    "home": "Ljungskile SK",
+                    "away": "Varbergs BoIS",
+                    "score": "0 - 2",
                     "status": "Hiệp 1",
                     "is_live": true
                 }
@@ -451,14 +655,6 @@
             "matches": [
                 {
                     "time": "18:00",
-                    "home": "Arsenal Dzerzhinsk",
-                    "away": "Dinamo Minsk",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "18:00",
                     "home": "Vitebsk",
                     "away": "FK Baranovichi",
                     "score": "vs",
@@ -812,67 +1008,13 @@
             ]
         },
         {
-            "name": "China - Chinese League 1",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "18:00",
-                    "home": "Dalian Kuncheng City",
-                    "away": "Shijiazhuang Gongfu",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "18:00",
-                    "home": "Suzhou Dongwu",
-                    "away": "Wuxi Wugou",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "18:30",
-                    "home": "Guangxi Hengchen FC",
-                    "away": "Foshan Nanshi",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "18:30",
-                    "home": "Meizhou Hakka",
-                    "away": "Jiangxi Dingnan United",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
             "name": "China - Chinese Super League",
             "priority": 99,
             "matches": [
                 {
                     "time": "18:00",
-                    "home": "Henan FC",
-                    "away": "Zhejiang",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "18:00",
                     "home": "Tianjin Jinmen Tiger",
                     "away": "Dalian Yingbo FC",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "18:35",
-                    "home": "Chengdu Rongcheng",
-                    "away": "Shandong Taishan",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
@@ -907,14 +1049,6 @@
             "name": "Czech Republic - Czech First League, Relegation/Promotion",
             "priority": 99,
             "matches": [
-                {
-                    "time": "18:00",
-                    "home": "FC Silon Táborsko",
-                    "away": "Baník Ostrava",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
                 {
                     "time": "18:00",
                     "home": "1. FC Slovácko",
@@ -970,47 +1104,9 @@
             ]
         },
         {
-            "name": "Denmark - CampoBet 2 Division, Relegation",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "18:00",
-                    "home": "FC Helsingør",
-                    "away": "Brabrand",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "18:00",
-                    "home": "Ishøj IF",
-                    "away": "VSK Aarhus",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
             "name": "Estonia - Premium Liiga",
             "priority": 99,
             "matches": [
-                {
-                    "time": "18:30",
-                    "home": "Harju Jalgpallikool",
-                    "away": "Narva Trans",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "18:30",
-                    "home": "Pärnu JK Vaprus",
-                    "away": "Nõmme Kalju",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
                 {
                     "time": "21:00",
                     "home": "Tartu JK Tammeka",
@@ -1083,14 +1179,6 @@
                     "time": "12:00",
                     "home": "Shimizu S-Pulse",
                     "away": "Yokohama F. Marinos",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "17:00",
-                    "home": "Kyoto Sanga FC",
-                    "away": "Kashiwa Reysol",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
@@ -1187,14 +1275,6 @@
             "matches": [
                 {
                     "time": "18:15",
-                    "home": "Džiugas Telšiai",
-                    "away": "FK Panevėžys",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "18:15",
                     "home": "FK Kauno Žalgiris",
                     "away": "FK Žalgiris",
                     "score": "vs",
@@ -1279,14 +1359,6 @@
             "name": "Norway - 2nd Division, Group 1",
             "priority": 99,
             "matches": [
-                {
-                    "time": "18:00",
-                    "home": "IL Bjarg",
-                    "away": "Eik Tønsberg",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
                 {
                     "time": "18:00",
                     "home": "Sandviken",
@@ -1421,14 +1493,6 @@
             "name": "Philippines - Philippines Football League, Championship Round",
             "priority": 99,
             "matches": [
-                {
-                    "time": "17:15",
-                    "home": "DH Cebu FC",
-                    "away": "Kaya-Iloilo",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
                 {
                     "time": "20:00",
                     "home": "Manila Digger FC",
@@ -1630,14 +1694,6 @@
             "priority": 99,
             "matches": [
                 {
-                    "time": "18:00",
-                    "home": "Eskilsminne IF",
-                    "away": "Trelleborgs FF",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
                     "time": "21:00",
                     "home": "AFC Malmo",
                     "away": "Laholms FK",
@@ -1675,22 +1731,6 @@
             "name": "Sweden - Superettan",
             "priority": 99,
             "matches": [
-                {
-                    "time": "18:00",
-                    "home": "Landskrona BoIS",
-                    "away": "IK Brage",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "18:00",
-                    "home": "Ljungskile SK",
-                    "away": "Varbergs BoIS",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
                 {
                     "time": "20:00",
                     "home": "Falkenbergs FF",
