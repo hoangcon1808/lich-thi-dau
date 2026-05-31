@@ -1,86 +1,24 @@
 {
-    "last_updated": "2026-05-31 06:04:13 (UTC)",
+    "last_updated": "2026-05-31 09:18:19 (UTC)",
     "live_leagues": [
         {
-            "name": "Japan - J1 League, Placement Matches",
+            "name": "South Korea - K-League 2",
             "priority": 99,
             "matches": [
                 {
-                    "time": "12:00",
-                    "home": "Fagiano Okayama",
-                    "away": "Urawa Red Diamonds",
-                    "score": "0 - 0",
-                    "status": "Nghỉ HT",
-                    "is_live": true
-                },
-                {
-                    "time": "12:00",
-                    "home": "Shimizu S-Pulse",
-                    "away": "Yokohama F. Marinos",
-                    "score": "0 - 0",
-                    "status": "Nghỉ HT",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "Japan - J2/J3 League, Placement Matches",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "12:00",
-                    "home": "Blaublitz Akita",
-                    "away": "Hokkaido Consadole Sapporo",
-                    "score": "0 - 0",
-                    "status": "Nghỉ HT",
-                    "is_live": true
-                },
-                {
-                    "time": "12:00",
-                    "home": "FC Imabari",
-                    "away": "FC Ryukyu",
-                    "score": "1 - 0",
-                    "status": "Nghỉ HT",
-                    "is_live": true
-                },
-                {
-                    "time": "12:00",
-                    "home": "Kamatamare Sanuki",
-                    "away": "Giravanz Kitakyushu",
+                    "time": "14:30",
+                    "home": "Hwaseong FC",
+                    "away": "Gyeongnam FC",
                     "score": "2 - 0",
-                    "status": "Nghỉ HT",
+                    "status": "Hiệp 2",
                     "is_live": true
                 },
                 {
-                    "time": "12:00",
-                    "home": "Montedio Yamagata",
-                    "away": "Matsumoto Yamaga FC",
-                    "score": "0 - 0",
-                    "status": "Nghỉ HT",
-                    "is_live": true
-                },
-                {
-                    "time": "12:00",
-                    "home": "Thespa Gunma",
-                    "away": "FC Gifu",
+                    "time": "14:30",
+                    "home": "Jeonnam Dragons",
+                    "away": "Seoul E-Land FC",
                     "score": "0 - 1",
-                    "status": "Nghỉ HT",
-                    "is_live": true
-                },
-                {
-                    "time": "12:00",
-                    "home": "Tochigi SC",
-                    "away": "AC Nagano Parceiro",
-                    "score": "0 - 0",
-                    "status": "Nghỉ HT",
-                    "is_live": true
-                },
-                {
-                    "time": "12:00",
-                    "home": "Zweigen Kanazawa",
-                    "away": "Gainare Tottori",
-                    "score": "0 - 1",
-                    "status": "Nghỉ HT",
+                    "status": "Hiệp 2",
                     "is_live": true
                 }
             ]
@@ -1389,22 +1327,6 @@
             "name": "South Korea - K-League 2",
             "priority": 99,
             "matches": [
-                {
-                    "time": "14:30",
-                    "home": "Hwaseong FC",
-                    "away": "Gyeongnam FC",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "14:30",
-                    "home": "Jeonnam Dragons",
-                    "away": "Seoul E-Land FC",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
                 {
                     "time": "17:00",
                     "home": "Ansan Greeners FC",
