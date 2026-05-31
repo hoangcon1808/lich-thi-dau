@@ -1,6 +1,88 @@
 {
-    "last_updated": "2026-05-31 15:40:00 (UTC)",
+    "last_updated": "2026-05-31 16:44:42 (UTC)",
     "live_leagues": [
+        {
+            "name": "Belgium - Pro League, Europa Playoffs",
+            "priority": 2,
+            "matches": [
+                {
+                    "time": "23:30",
+                    "home": "KAA Gent",
+                    "away": "KRC Genk",
+                    "score": "0 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "Spain - LaLiga 2",
+            "priority": 6,
+            "matches": [
+                {
+                    "time": "23:30",
+                    "home": "Almería",
+                    "away": "Real Valladolid",
+                    "score": "0 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                },
+                {
+                    "time": "23:30",
+                    "home": "Burgos Club de Fútbol",
+                    "away": "FC Andorra",
+                    "score": "0 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                },
+                {
+                    "time": "23:30",
+                    "home": "CD Castellón",
+                    "away": "Eibar",
+                    "score": "0 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                },
+                {
+                    "time": "23:30",
+                    "home": "Deportivo de La Coruña",
+                    "away": "Las Palmas",
+                    "score": "0 - 1",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                },
+                {
+                    "time": "23:30",
+                    "home": "Real Racing Club",
+                    "away": "Cádiz",
+                    "score": "1 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                },
+                {
+                    "time": "23:30",
+                    "home": "Real Zaragoza",
+                    "away": "Málaga CF",
+                    "score": "0 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "Argentina - Primera B Nacional",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "23:30",
+                    "home": "Atlanta",
+                    "away": "Gimnasia y Tiro de Salta",
+                    "score": "0 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                }
+            ]
+        },
         {
             "name": "Belarus - Vysshaya League",
             "priority": 99,
@@ -9,6 +91,20 @@
                     "time": "22:00",
                     "home": "BATE Borisov",
                     "away": "Dnepr Mogilev",
+                    "score": "1 - 1",
+                    "status": "Hiệp 2",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "Chile - Liga de Ascenso",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "23:30",
+                    "home": "Deportes Magallanes",
+                    "away": "Deportes Iquique",
                     "score": "0 - 0",
                     "status": "Hiệp 1",
                     "is_live": true
@@ -16,51 +112,15 @@
             ]
         },
         {
-            "name": "Brazil - Brasileirão Betano",
+            "name": "Chile - Liga de Primera",
             "priority": 99,
             "matches": [
                 {
-                    "time": "21:00",
-                    "home": "Red Bull Bragantino",
-                    "away": "Internacional",
-                    "score": "3 - 0",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "Brazil - Brasileirão Série B",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "21:00",
-                    "home": "Londrina",
-                    "away": "Vila Nova FC",
-                    "score": "0 - 1",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                },
-                {
-                    "time": "21:00",
-                    "home": "São Bernardo",
-                    "away": "Grêmio Novorizontino",
-                    "score": "1 - 1",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "Estonia - Premium Liiga",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "21:00",
-                    "home": "Paide Linnameeskond",
-                    "away": "FC Kuressaare",
-                    "score": "1 - 1",
-                    "status": "Hiệp 2",
+                    "time": "23:30",
+                    "home": "Deportes Limache",
+                    "away": "Coquimbo Unido",
+                    "score": "1 - 0",
+                    "status": "Hiệp 1",
                     "is_live": true
                 }
             ]
@@ -73,16 +133,16 @@
                     "time": "22:00",
                     "home": "PK-35",
                     "away": "HJK Klubi 04",
-                    "score": "0 - 0",
-                    "status": "Hiệp 1",
+                    "score": "0 - 1",
+                    "status": "Hiệp 2",
                     "is_live": true
                 },
                 {
                     "time": "22:30",
                     "home": "MP",
                     "away": "EIF",
-                    "score": "0 - 0",
-                    "status": "Hiệp 1",
+                    "score": "1 - 0",
+                    "status": "Hiệp 2",
                     "is_live": true
                 }
             ]
@@ -93,18 +153,10 @@
             "matches": [
                 {
                     "time": "21:30",
-                    "home": "AP Brera Strumica",
-                    "away": "FK Skopje",
-                    "score": "0 - 0",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                },
-                {
-                    "time": "21:30",
                     "home": "FK Pelister Bitola",
                     "away": "KF Shkendija Haracine",
-                    "score": "0 - 0",
-                    "status": "Hiệp 2",
+                    "score": "2 - 2",
+                    "status": "Luân lưu",
                     "is_live": true
                 }
             ]
@@ -117,48 +169,48 @@
                     "time": "22:00",
                     "home": "Bryne FK",
                     "away": "Hødd IL",
-                    "score": "0 - 0",
-                    "status": "Hiệp 1",
+                    "score": "1 - 0",
+                    "status": "Hiệp 2",
                     "is_live": true
                 },
                 {
                     "time": "22:00",
                     "home": "Egersund",
                     "away": "Strømsgodset",
-                    "score": "0 - 2",
-                    "status": "Hiệp 1",
+                    "score": "0 - 4",
+                    "status": "Hiệp 2",
                     "is_live": true
                 },
                 {
                     "time": "22:00",
                     "home": "Kongsvinger",
                     "away": "Åsane",
-                    "score": "0 - 1",
-                    "status": "Hiệp 1",
+                    "score": "1 - 1",
+                    "status": "Hiệp 2",
                     "is_live": true
                 },
                 {
                     "time": "22:00",
                     "home": "Ranheim IL",
                     "away": "Sandnes Ulf",
-                    "score": "3 - 0",
-                    "status": "Hiệp 1",
+                    "score": "4 - 1",
+                    "status": "Hiệp 2",
                     "is_live": true
                 },
                 {
                     "time": "22:00",
                     "home": "Raufoss",
                     "away": "Haugesund",
-                    "score": "0 - 3",
-                    "status": "Hiệp 1",
+                    "score": "2 - 4",
+                    "status": "Hiệp 2",
                     "is_live": true
                 },
                 {
                     "time": "22:00",
                     "home": "Strømmen IF",
                     "away": "Sogndal IL",
-                    "score": "0 - 1",
-                    "status": "Hiệp 1",
+                    "score": "2 - 3",
+                    "status": "Hiệp 2",
                     "is_live": true
                 }
             ]
@@ -168,57 +220,25 @@
             "priority": 99,
             "matches": [
                 {
-                    "time": "21:00",
-                    "home": "Arendal",
-                    "away": "Sotra",
-                    "score": "1 - 1",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                },
-                {
-                    "time": "21:00",
-                    "home": "Kvik Halden",
-                    "away": "Lysekloster IL",
-                    "score": "3 - 0",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                },
-                {
-                    "time": "21:00",
-                    "home": "Notodden FK",
-                    "away": "FK Jerv",
+                    "time": "23:00",
+                    "home": "Pors Grenland",
+                    "away": "Mjøndalen IF",
                     "score": "0 - 0",
-                    "status": "Hiệp 2",
+                    "status": "Hiệp 1",
                     "is_live": true
                 }
             ]
         },
         {
-            "name": "Norway - 2nd Division, Group 2",
+            "name": "Peru - Liga 1, Apertura",
             "priority": 99,
             "matches": [
                 {
-                    "time": "21:00",
-                    "home": "Levanger FK",
-                    "away": "Junkeren IK",
-                    "score": "3 - 0",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                },
-                {
-                    "time": "21:30",
-                    "home": "Rana FK",
-                    "away": "Stjørdals/Blink",
-                    "score": "1 - 0",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                },
-                {
-                    "time": "21:30",
-                    "home": "Tromsdalen UIL",
-                    "away": "Skeid",
-                    "score": "1 - 0",
-                    "status": "Hiệp 2",
+                    "time": "23:00",
+                    "home": "Melgar",
+                    "away": "Alianza Atlético de Sullana",
+                    "score": "0 - 1",
+                    "status": "Hiệp 1",
                     "is_live": true
                 }
             ]
@@ -232,58 +252,6 @@
                     "home": "NK Nafta Lendava 1903",
                     "away": "ND Primorje",
                     "score": "0 - 0",
-                    "status": "Hiệp 1",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "Spain - Liga F Moeve",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "21:00",
-                    "home": "Athletic Club",
-                    "away": "Alhama Club de Fútbol",
-                    "score": "4 - 0",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                },
-                {
-                    "time": "21:00",
-                    "home": "Levante UD",
-                    "away": "FC Badalona",
-                    "score": "0 - 1",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                },
-                {
-                    "time": "21:00",
-                    "home": "Madrid CFF",
-                    "away": "Fútbol Club Barcelona",
-                    "score": "0 - 3",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                },
-                {
-                    "time": "21:00",
-                    "home": "RCD Espanyol de Barcelona",
-                    "away": "Sevilla FC",
-                    "score": "0 - 0",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "Sweden - Ettan, Norra",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "21:00",
-                    "home": "Karlbergs BK",
-                    "away": "FBK Karlstad",
-                    "score": "1 - 1",
                     "status": "Hiệp 2",
                     "is_live": true
                 }
@@ -297,16 +265,16 @@
                     "time": "22:00",
                     "home": "Helsingborgs IF",
                     "away": "IFK Norrköping",
-                    "score": "0 - 0",
-                    "status": "Hiệp 1",
+                    "score": "0 - 2",
+                    "status": "Hiệp 2",
                     "is_live": true
                 },
                 {
                     "time": "22:00",
                     "home": "Östersunds FK",
                     "away": "Örebro SK",
-                    "score": "1 - 1",
-                    "status": "Hiệp 1",
+                    "score": "3 - 2",
+                    "status": "Hiệp 2",
                     "is_live": true
                 }
             ]
@@ -316,25 +284,31 @@
             "priority": 99,
             "matches": [
                 {
-                    "time": "21:00",
-                    "home": "Czechia",
-                    "away": "Kosovo",
-                    "score": "2 - 1",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                },
-                {
                     "time": "22:00",
                     "home": "Cabo Verde",
                     "away": "Serbia",
-                    "score": "1 - 0",
-                    "status": "Hiệp 1",
+                    "score": "3 - 0",
+                    "status": "Hiệp 2",
                     "is_live": true
                 },
                 {
                     "time": "22:30",
                     "home": "Poland",
                     "away": "Ukraine",
+                    "score": "0 - 2",
+                    "status": "Nghỉ HT",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "World - Tournoi Maurice Revello, Group A",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "23:30",
+                    "home": "DR Congo U20",
+                    "away": "Tunisia U20",
                     "score": "0 - 0",
                     "status": "Hiệp 1",
                     "is_live": true
@@ -343,20 +317,6 @@
         }
     ],
     "upcoming_leagues": [
-        {
-            "name": "Belgium - Pro League, Europa Playoffs",
-            "priority": 2,
-            "matches": [
-                {
-                    "time": "23:30",
-                    "home": "KAA Gent",
-                    "away": "KRC Genk",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
         {
             "name": "Europe - U17 European Championship, Group B",
             "priority": 2,
@@ -409,54 +369,6 @@
                     "time": "02:00",
                     "home": "Leganés",
                     "away": "Mirandés",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "23:30",
-                    "home": "Almería",
-                    "away": "Real Valladolid",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "23:30",
-                    "home": "Burgos Club de Fútbol",
-                    "away": "FC Andorra",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "23:30",
-                    "home": "CD Castellón",
-                    "away": "Eibar",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "23:30",
-                    "home": "Deportivo de La Coruña",
-                    "away": "Las Palmas",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "23:30",
-                    "home": "Real Racing Club",
-                    "away": "Cádiz",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "23:30",
-                    "home": "Real Zaragoza",
-                    "away": "Málaga CF",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
@@ -617,14 +529,6 @@
                     "time": "03:00",
                     "home": "Quilmes Atlético Club",
                     "away": "Atlético de Rafaela",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "23:30",
-                    "home": "Atlanta",
-                    "away": "Gimnasia y Tiro de Salta",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
@@ -900,14 +804,6 @@
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
-                },
-                {
-                    "time": "23:30",
-                    "home": "Deportes Magallanes",
-                    "away": "Deportes Iquique",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
                 }
             ]
         },
@@ -935,14 +831,6 @@
                     "time": "07:00",
                     "home": "Palestino",
                     "away": "Audax Italiano",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "23:30",
-                    "home": "Deportes Limache",
-                    "away": "Coquimbo Unido",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
@@ -1002,20 +890,6 @@
             ]
         },
         {
-            "name": "Norway - 2nd Division, Group 1",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "23:00",
-                    "home": "Pors Grenland",
-                    "away": "Mjøndalen IF",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
             "name": "Peru - Liga 1, Apertura",
             "priority": 99,
             "matches": [
@@ -1039,14 +913,6 @@
                     "time": "05:00",
                     "home": "Cienciano",
                     "away": "Club Sporting Cristal",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "23:00",
-                    "home": "Melgar",
-                    "away": "Alianza Atlético de Sullana",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
@@ -1193,20 +1059,6 @@
                     "time": "04:30",
                     "home": "Brazil",
                     "away": "Panama",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
-            "name": "World - Tournoi Maurice Revello, Group A",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "23:30",
-                    "home": "DR Congo U20",
-                    "away": "Tunisia U20",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
