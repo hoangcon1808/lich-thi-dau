@@ -1,16 +1,24 @@
 {
-    "last_updated": "2026-05-31 18:52:26 (UTC)",
+    "last_updated": "2026-05-31 19:58:41 (UTC)",
     "live_leagues": [
         {
-            "name": "Belgium - Pro League, Europa Playoffs",
-            "priority": 2,
+            "name": "Spain - LaLiga 2",
+            "priority": 6,
             "matches": [
                 {
-                    "time": "23:30",
-                    "home": "KAA Gent",
-                    "away": "KRC Genk",
-                    "score": "0 - 1",
-                    "status": "Đang đá",
+                    "time": "02:00",
+                    "home": "Córdoba",
+                    "away": "Huesca",
+                    "score": "0 - 0",
+                    "status": "Nghỉ HT",
+                    "is_live": true
+                },
+                {
+                    "time": "02:00",
+                    "home": "Leganés",
+                    "away": "Mirandés",
+                    "score": "0 - 0",
+                    "status": "Nghỉ HT",
                     "is_live": true
                 }
             ]
@@ -24,7 +32,7 @@
                     "home": "Mushuc Runa SC",
                     "away": "Aucas",
                     "score": "0 - 0",
-                    "status": "Nghỉ HT",
+                    "status": "Hiệp 2",
                     "is_live": true
                 }
             ]
@@ -37,8 +45,8 @@
                     "time": "01:30",
                     "home": "Estudiantes de La Plata",
                     "away": "Rosario Central",
-                    "score": "1 - 0",
-                    "status": "Hiệp 1",
+                    "score": "2 - 0",
+                    "status": "Hiệp 2",
                     "is_live": true
                 }
             ]
@@ -52,15 +60,143 @@
                     "home": "Deportivo Madryn",
                     "away": "Acassuso",
                     "score": "0 - 0",
-                    "status": "Nghỉ HT",
+                    "status": "Hiệp 2",
                     "is_live": true
                 },
                 {
                     "time": "01:30",
                     "home": "Almagro",
                     "away": "Güemes",
-                    "score": "0 - 0",
+                    "score": "1 - 0",
+                    "status": "Hiệp 2",
+                    "is_live": true
+                },
+                {
+                    "time": "02:00",
+                    "home": "CA Mitre",
+                    "away": "Deportivo Morón",
+                    "score": "0 - 2",
+                    "status": "Nghỉ HT",
+                    "is_live": true
+                },
+                {
+                    "time": "02:00",
+                    "home": "Ciudad de Bolivar",
+                    "away": "San Miguel",
+                    "score": "1 - 1",
+                    "status": "Nghỉ HT",
+                    "is_live": true
+                },
+                {
+                    "time": "02:00",
+                    "home": "Ferrocarril Midland",
+                    "away": "San Martín de Tucumán",
+                    "score": "1 - 0",
+                    "status": "Nghỉ HT",
+                    "is_live": true
+                },
+                {
+                    "time": "02:00",
+                    "home": "Patronato",
+                    "away": "Tristán Suárez",
+                    "score": "1 - 1",
+                    "status": "Nghỉ HT",
+                    "is_live": true
+                },
+                {
+                    "time": "02:00",
+                    "home": "Temperley",
+                    "away": "San Martín de San Juan",
+                    "score": "2 - 0",
+                    "status": "Nghỉ HT",
+                    "is_live": true
+                },
+                {
+                    "time": "02:30",
+                    "home": "Central Norte de Salta",
+                    "away": "Chaco For Ever",
+                    "score": "1 - 0",
                     "status": "Hiệp 1",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "Brazil - Brasileirão Betano",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "02:00",
+                    "home": "Palmeiras",
+                    "away": "Chapecoense",
+                    "score": "0 - 0",
+                    "status": "Nghỉ HT",
+                    "is_live": true
+                },
+                {
+                    "time": "02:00",
+                    "home": "Vasco da Gama",
+                    "away": "Atlético Mineiro",
+                    "score": "0 - 1",
+                    "status": "Nghỉ HT",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "Brazil - Brasileirão Série B",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "02:00",
+                    "home": "Ceará",
+                    "away": "Operário-PR",
+                    "score": "1 - 0",
+                    "status": "Nghỉ HT",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "Brazil - Brasileirão Série C",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "02:00",
+                    "home": "Guarani",
+                    "away": "Amazonas FC",
+                    "score": "3 - 0",
+                    "status": "Nghỉ HT",
+                    "is_live": true
+                },
+                {
+                    "time": "02:00",
+                    "home": "Inter de Limeira",
+                    "away": "Ypiranga FC",
+                    "score": "0 - 1",
+                    "status": "Nghỉ HT",
+                    "is_live": true
+                },
+                {
+                    "time": "02:00",
+                    "home": "Santa Cruz",
+                    "away": "Ferroviária",
+                    "score": "0 - 1",
+                    "status": "Nghỉ HT",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "Brazil - Brasileirão Série D, Group A3",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "02:00",
+                    "home": "Brasiliense",
+                    "away": "Luverdense",
+                    "score": "0 - 0",
+                    "status": "Nghỉ HT",
                     "is_live": true
                 }
             ]
@@ -74,7 +210,15 @@
                     "home": "Oratório RC",
                     "away": "Imperatriz",
                     "score": "0 - 0",
-                    "status": "Hiệp 1",
+                    "status": "Hiệp 2",
+                    "is_live": true
+                },
+                {
+                    "time": "02:00",
+                    "home": "Tuna Luso",
+                    "away": "Trem",
+                    "score": "0 - 0",
+                    "status": "Nghỉ HT",
                     "is_live": true
                 }
             ]
@@ -87,8 +231,50 @@
                     "time": "01:30",
                     "home": "IAPE",
                     "away": "Sampaio Corrêa",
+                    "score": "1 - 2",
+                    "status": "Hiệp 2",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "Brazil - Brasileirão Série D, Group A7",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "02:00",
+                    "home": "Fluminense-PI",
+                    "away": "AA Altos",
+                    "score": "0 - 1",
+                    "status": "Nghỉ HT",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "Brazil - Brasileirão Série D, Group A8",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "02:00",
+                    "home": "Club Laguna",
+                    "away": "ABC",
+                    "score": "0 - 1",
+                    "status": "Nghỉ HT",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "Chile - Liga de Primera",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "02:00",
+                    "home": "Huachipato",
+                    "away": "Universidad Católica",
                     "score": "0 - 0",
-                    "status": "Hiệp 1",
+                    "status": "Nghỉ HT",
                     "is_live": true
                 }
             ]
@@ -98,11 +284,11 @@
             "priority": 99,
             "matches": [
                 {
-                    "time": "00:00",
-                    "home": "Þór Akureyri",
-                    "away": "Stjarnan Garðabær",
-                    "score": "1 - 2",
-                    "status": "Hiệp 2",
+                    "time": "02:15",
+                    "home": "Valur Reykjavík",
+                    "away": "Víkingur Reykjavík",
+                    "score": "0 - 3",
+                    "status": "Hiệp 1",
                     "is_live": true
                 }
             ]
@@ -115,8 +301,8 @@
                     "time": "01:15",
                     "home": "FC Cajamarca",
                     "away": "Alianza Lima",
-                    "score": "1 - 0",
-                    "status": "Hiệp 1",
+                    "score": "1 - 1",
+                    "status": "Hiệp 2",
                     "is_live": true
                 }
             ]
@@ -129,8 +315,8 @@
                     "time": "01:45",
                     "home": "Wieczysta Kraków",
                     "away": "Chrobry Głogów",
-                    "score": "0 - 0",
-                    "status": "Hiệp 1",
+                    "score": "1 - 1",
+                    "status": "Hiệp 2",
                     "is_live": true
                 }
             ]
@@ -144,7 +330,7 @@
                     "home": "FC Farul Constanța",
                     "away": "Chindia Târgoviște",
                     "score": "1 - 1",
-                    "status": "Hiệp 2",
+                    "status": "Đang đá",
                     "is_live": true
                 }
             ]
@@ -154,38 +340,10 @@
             "priority": 99,
             "matches": [
                 {
-                    "time": "00:00",
-                    "home": "Chicago Stars FC",
-                    "away": "San Diego Wave FC",
-                    "score": "0 - 1",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "USA - USL Championship",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "01:00",
-                    "home": "SC Jacksonville",
-                    "away": "Brooklyn FC",
-                    "score": "1 - 2",
-                    "status": "Hiệp 1",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "Uruguay - Liga AUF Uruguaya, Intermedio, Serie B",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "01:00",
-                    "home": "Juventud de Las Piedras",
-                    "away": "Montevideo Wanderers",
-                    "score": "1 - 1",
+                    "time": "02:00",
+                    "home": "NJ/NY Gotham FC",
+                    "away": "Houston Dash",
+                    "score": "1 - 0",
                     "status": "Nghỉ HT",
                     "is_live": true
                 }
@@ -199,7 +357,15 @@
                     "time": "01:45",
                     "home": "Germany",
                     "away": "Finland",
-                    "score": "0 - 0",
+                    "score": "2 - 0",
+                    "status": "Hiệp 2",
+                    "is_live": true
+                },
+                {
+                    "time": "02:30",
+                    "home": "USA",
+                    "away": "Senegal",
+                    "score": "2 - 0",
                     "status": "Hiệp 1",
                     "is_live": true
                 }
@@ -237,28 +403,6 @@
                     "time": "03:00",
                     "home": "Forge FC",
                     "away": "Cavalry FC",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
-            "name": "Spain - LaLiga 2",
-            "priority": 6,
-            "matches": [
-                {
-                    "time": "02:00",
-                    "home": "Córdoba",
-                    "away": "Huesca",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "02:00",
-                    "home": "Leganés",
-                    "away": "Mirandés",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
@@ -322,54 +466,6 @@
             "priority": 99,
             "matches": [
                 {
-                    "time": "02:00",
-                    "home": "CA Mitre",
-                    "away": "Deportivo Morón",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "02:00",
-                    "home": "Ciudad de Bolivar",
-                    "away": "San Miguel",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "02:00",
-                    "home": "Ferrocarril Midland",
-                    "away": "San Martín de Tucumán",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "02:00",
-                    "home": "Patronato",
-                    "away": "Tristán Suárez",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "02:00",
-                    "home": "Temperley",
-                    "away": "San Martín de San Juan",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "02:30",
-                    "home": "Central Norte de Salta",
-                    "away": "Chaco For Ever",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
                     "time": "03:00",
                     "home": "Deportivo Maipú",
                     "away": "Club Atlético Chacarita Juniors",
@@ -414,22 +510,6 @@
             "priority": 99,
             "matches": [
                 {
-                    "time": "02:00",
-                    "home": "Palmeiras",
-                    "away": "Chapecoense",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "02:00",
-                    "home": "Vasco da Gama",
-                    "away": "Atlético Mineiro",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
                     "time": "06:30",
                     "home": "Cruzeiro",
                     "away": "Fluminense",
@@ -452,14 +532,6 @@
             "priority": 99,
             "matches": [
                 {
-                    "time": "02:00",
-                    "home": "Ceará",
-                    "away": "Operário-PR",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
                     "time": "06:30",
                     "home": "Cuiabá",
                     "away": "CRB",
@@ -473,30 +545,6 @@
             "name": "Brazil - Brasileirão Série C",
             "priority": 99,
             "matches": [
-                {
-                    "time": "02:00",
-                    "home": "Guarani",
-                    "away": "Amazonas FC",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "02:00",
-                    "home": "Inter de Limeira",
-                    "away": "Ypiranga FC",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "02:00",
-                    "home": "Santa Cruz",
-                    "away": "Ferroviária",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
                 {
                     "time": "04:30",
                     "home": "Anápolis",
@@ -556,31 +604,9 @@
             "priority": 99,
             "matches": [
                 {
-                    "time": "02:00",
-                    "home": "Brasiliense",
-                    "away": "Luverdense",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
                     "time": "03:00",
                     "home": "Inhumas",
                     "away": "Gama",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
-            "name": "Brazil - Brasileirão Série D, Group A5",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "02:00",
-                    "home": "Tuna Luso",
-                    "away": "Trem",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
@@ -595,34 +621,6 @@
                     "time": "02:00",
                     "home": "AD Iguatu",
                     "away": "Parnahyba SC",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
-            "name": "Brazil - Brasileirão Série D, Group A7",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "02:00",
-                    "home": "Fluminense-PI",
-                    "away": "AA Altos",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
-            "name": "Brazil - Brasileirão Série D, Group A8",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "02:00",
-                    "home": "Club Laguna",
-                    "away": "ABC",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
@@ -648,14 +646,6 @@
             "priority": 99,
             "matches": [
                 {
-                    "time": "02:00",
-                    "home": "Huachipato",
-                    "away": "Universidad Católica",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
                     "time": "04:30",
                     "home": "O'Higgins",
                     "away": "Everton de Viña del Mar",
@@ -667,20 +657,6 @@
                     "time": "07:00",
                     "home": "Palestino",
                     "away": "Audax Italiano",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
-            "name": "Iceland - Efsta deild",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "02:15",
-                    "home": "Valur Reykjavík",
-                    "away": "Víkingur Reykjavík",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
@@ -727,14 +703,6 @@
             "name": "USA - NWSL",
             "priority": 99,
             "matches": [
-                {
-                    "time": "02:00",
-                    "home": "NJ/NY Gotham FC",
-                    "away": "Houston Dash",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
                 {
                     "time": "06:00",
                     "home": "Angel City FC",
@@ -785,14 +753,6 @@
             "name": "World - Int. Friendly Games",
             "priority": 99,
             "matches": [
-                {
-                    "time": "02:30",
-                    "home": "USA",
-                    "away": "Senegal",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
                 {
                     "time": "04:30",
                     "home": "Brazil",
