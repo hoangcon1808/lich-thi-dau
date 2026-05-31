@@ -1,172 +1,86 @@
 {
-    "last_updated": "2026-05-31 01:50:56 (UTC)",
+    "last_updated": "2026-05-31 06:04:13 (UTC)",
     "live_leagues": [
         {
-            "name": "Ecuador - LigaPro Serie A, Primera Etapa",
-            "priority": 7,
-            "matches": [
-                {
-                    "time": "07:00",
-                    "home": "Deportivo Cuenca",
-                    "away": "Delfín",
-                    "score": "1 - 0",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "USA - MLS Next Pro",
-            "priority": 12,
-            "matches": [
-                {
-                    "time": "07:00",
-                    "home": "Huntsville City FC",
-                    "away": "Connecticut United",
-                    "score": "2 - 2",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "Chile - Liga de Ascenso",
+            "name": "Japan - J1 League, Placement Matches",
             "priority": 99,
             "matches": [
                 {
-                    "time": "07:00",
-                    "home": "San Marcos de Arica",
-                    "away": "Deportes Temuco",
-                    "score": "0 - 1",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "Mexico - Campeon de Campeones Liga Expansion MX",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "08:00",
-                    "home": "CDS Tampico Madero",
-                    "away": "Tepatitlán FC",
-                    "score": "1 - 0",
-                    "status": "Hiệp 1",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "North & Central America - CONCACAF Champions Cup",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "07:00",
-                    "home": "CD Toluca",
-                    "away": "Tigres UANL",
+                    "time": "12:00",
+                    "home": "Fagiano Okayama",
+                    "away": "Urawa Red Diamonds",
                     "score": "0 - 0",
-                    "status": "Hiệp 2",
+                    "status": "Nghỉ HT",
                     "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "Peru - Liga 1, Apertura",
-            "priority": 99,
-            "matches": [
+                },
                 {
-                    "time": "08:00",
-                    "home": "Universitario de Deportes",
-                    "away": "Sport Huancayo",
-                    "score": "1 - 0",
+                    "time": "12:00",
+                    "home": "Shimizu S-Pulse",
+                    "away": "Yokohama F. Marinos",
+                    "score": "0 - 0",
                     "status": "Nghỉ HT",
                     "is_live": true
                 }
             ]
         },
         {
-            "name": "USA - USL Championship",
+            "name": "Japan - J2/J3 League, Placement Matches",
             "priority": 99,
             "matches": [
                 {
-                    "time": "07:00",
-                    "home": "Oakland Roots SC",
-                    "away": "Colorado Springs Switchbacks FC",
+                    "time": "12:00",
+                    "home": "Blaublitz Akita",
+                    "away": "Hokkaido Consadole Sapporo",
+                    "score": "0 - 0",
+                    "status": "Nghỉ HT",
+                    "is_live": true
+                },
+                {
+                    "time": "12:00",
+                    "home": "FC Imabari",
+                    "away": "FC Ryukyu",
+                    "score": "1 - 0",
+                    "status": "Nghỉ HT",
+                    "is_live": true
+                },
+                {
+                    "time": "12:00",
+                    "home": "Kamatamare Sanuki",
+                    "away": "Giravanz Kitakyushu",
+                    "score": "2 - 0",
+                    "status": "Nghỉ HT",
+                    "is_live": true
+                },
+                {
+                    "time": "12:00",
+                    "home": "Montedio Yamagata",
+                    "away": "Matsumoto Yamaga FC",
+                    "score": "0 - 0",
+                    "status": "Nghỉ HT",
+                    "is_live": true
+                },
+                {
+                    "time": "12:00",
+                    "home": "Thespa Gunma",
+                    "away": "FC Gifu",
                     "score": "0 - 1",
-                    "status": "Hiệp 2",
+                    "status": "Nghỉ HT",
                     "is_live": true
                 },
                 {
-                    "time": "08:00",
-                    "home": "El Paso Locomotive FC",
-                    "away": "Lexington SC",
-                    "score": "0 - 2",
-                    "status": "Hiệp 1",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "USA - USL Super League, Women, Playoffs",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "06:00",
-                    "home": "Lexington SC",
-                    "away": "Carolina Ascent",
-                    "score": "3 - 1",
-                    "status": "Đang đá",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "USA - USL, League One",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "07:00",
-                    "home": "Union Omaha SC",
-                    "away": "FC Naples",
-                    "score": "2 - 1",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "Venezuela - Primera Division, Apertura, Main Round, Group A",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "07:00",
-                    "home": "Deportivo La Guaira",
-                    "away": "Academia Puerto Cabello",
-                    "score": "0 - 2",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "World - Int. Friendly Games",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "07:00",
-                    "home": "Ecuador",
-                    "away": "Saudi Arabia",
-                    "score": "2 - 0",
-                    "status": "Hiệp 2",
+                    "time": "12:00",
+                    "home": "Tochigi SC",
+                    "away": "AC Nagano Parceiro",
+                    "score": "0 - 0",
+                    "status": "Nghỉ HT",
                     "is_live": true
                 },
                 {
-                    "time": "08:00",
-                    "home": "South Korea",
-                    "away": "Trinidad and Tobago",
-                    "score": "2 - 0",
-                    "status": "Hiệp 1",
+                    "time": "12:00",
+                    "home": "Zweigen Kanazawa",
+                    "away": "Gainare Tottori",
+                    "score": "0 - 1",
+                    "status": "Nghỉ HT",
                     "is_live": true
                 }
             ]
@@ -225,6 +139,20 @@
                     "time": "18:30",
                     "home": "France U17",
                     "away": "Montenegro U17",
+                    "score": "vs",
+                    "status": "Sắp diễn ra",
+                    "is_live": false
+                }
+            ]
+        },
+        {
+            "name": "Australia - Queensland Premier League 1",
+            "priority": 5,
+            "matches": [
+                {
+                    "time": "14:00",
+                    "home": "Broadbeach United",
+                    "away": "St. George Willawong FC",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
@@ -428,9 +356,9 @@
                     "is_live": false
                 },
                 {
-                    "time": "09:00",
-                    "home": "Ventura County FC",
-                    "away": "Vancouver Whitecaps FC II",
+                    "time": "07:00",
+                    "home": "Minnesota United FC 2",
+                    "away": "Los Angeles FC 2",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
@@ -580,6 +508,14 @@
             "priority": 99,
             "matches": [
                 {
+                    "time": "02:00",
+                    "home": "Real Potosí",
+                    "away": "Nacional Potosí",
+                    "score": "vs",
+                    "status": "Sắp diễn ra",
+                    "is_live": false
+                },
+                {
                     "time": "03:00",
                     "home": "Oriente Petrolero",
                     "away": "Blooming",
@@ -591,6 +527,14 @@
                     "time": "04:15",
                     "home": "CDT Real Oruro",
                     "away": "GV San José",
+                    "score": "vs",
+                    "status": "Sắp diễn ra",
+                    "is_live": false
+                },
+                {
+                    "time": "04:15",
+                    "home": "The Strongest",
+                    "away": "Bolívar",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
@@ -1080,87 +1024,9 @@
             ]
         },
         {
-            "name": "Japan - J1 League, Placement Matches",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "12:00",
-                    "home": "Fagiano Okayama",
-                    "away": "Urawa Red Diamonds",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "12:00",
-                    "home": "Shimizu S-Pulse",
-                    "away": "Yokohama F. Marinos",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
             "name": "Japan - J2/J3 League, Placement Matches",
             "priority": 99,
             "matches": [
-                {
-                    "time": "12:00",
-                    "home": "Blaublitz Akita",
-                    "away": "Hokkaido Consadole Sapporo",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "12:00",
-                    "home": "FC Imabari",
-                    "away": "FC Ryukyu",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "12:00",
-                    "home": "Kamatamare Sanuki",
-                    "away": "Giravanz Kitakyushu",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "12:00",
-                    "home": "Montedio Yamagata",
-                    "away": "Matsumoto Yamaga FC",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "12:00",
-                    "home": "Thespa Gunma",
-                    "away": "FC Gifu",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "12:00",
-                    "home": "Tochigi SC",
-                    "away": "AC Nagano Parceiro",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "12:00",
-                    "home": "Zweigen Kanazawa",
-                    "away": "Gainare Tottori",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
                 {
                     "time": "17:00",
                     "home": "Vanraure Hachinohe",
@@ -1375,14 +1241,6 @@
                     "time": "19:30",
                     "home": "Lyn",
                     "away": "Vålerenga",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "23:00",
-                    "home": "Røa",
-                    "away": "Lyn",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
@@ -1796,30 +1654,6 @@
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
-                },
-                {
-                    "time": "09:00",
-                    "home": "Monterey Bay FC",
-                    "away": "Loudoun United FC",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "09:30",
-                    "home": "Las Vegas Lights",
-                    "away": "FC Tulsa",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "09:30",
-                    "home": "Phoenix Rising FC",
-                    "away": "Sacramento Republic FC",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
                 }
             ]
         },
@@ -1904,17 +1738,17 @@
                     "is_live": false
                 },
                 {
-                    "time": "09:00",
-                    "home": "Mexico",
-                    "away": "Australia",
+                    "time": "17:25",
+                    "home": "Japan",
+                    "away": "Iceland",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
                 },
                 {
-                    "time": "17:25",
-                    "home": "Japan",
-                    "away": "Iceland",
+                    "time": "18:00",
+                    "home": "Pakistan",
+                    "away": "Bangladesh",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
@@ -1969,6 +1803,14 @@
                     "time": "20:00",
                     "home": "China U22",
                     "away": "Saudi Arabia U23",
+                    "score": "vs",
+                    "status": "Sắp diễn ra",
+                    "is_live": false
+                },
+                {
+                    "time": "23:30",
+                    "home": "DR Congo U20",
+                    "away": "Tunisia U20",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
