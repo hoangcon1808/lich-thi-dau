@@ -1,15 +1,37 @@
 {
-    "last_updated": "2026-06-01 16:23:48 (UTC)",
+    "last_updated": "2026-06-01 20:39:47 (UTC)",
     "live_leagues": [
+        {
+            "name": "Brazil - Brasileirão Série D, Group A7",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "02:00",
+                    "home": "Atlético Cearense",
+                    "away": "Piauí EC",
+                    "score": "0 - 1",
+                    "status": "Hiệp 2",
+                    "is_live": true
+                },
+                {
+                    "time": "02:00",
+                    "home": "Tirol/CEFAT",
+                    "away": "Ferroviário",
+                    "score": "0 - 0",
+                    "status": "Hiệp 2",
+                    "is_live": true
+                }
+            ]
+        },
         {
             "name": "Morocco - Botola Pro",
             "priority": 99,
             "matches": [
                 {
-                    "time": "23:00",
-                    "home": "Union Touarga Sport",
-                    "away": "Kawkab Athletic Club Marrakech",
-                    "score": "0 - 0",
+                    "time": "03:00",
+                    "home": "CODM Meknès",
+                    "away": "Olympique Dcheira",
+                    "score": "2 - 0",
                     "status": "Hiệp 1",
                     "is_live": true
                 }
@@ -20,27 +42,11 @@
             "priority": 99,
             "matches": [
                 {
-                    "time": "23:00",
-                    "home": "Bulgaria",
-                    "away": "Montenegro",
-                    "score": "0 - 0",
-                    "status": "Hiệp 1",
-                    "is_live": true
-                },
-                {
-                    "time": "23:00",
-                    "home": "Maldives",
-                    "away": "Afghanistan",
-                    "score": "0 - 0",
-                    "status": "Hiệp 1",
-                    "is_live": true
-                },
-                {
-                    "time": "23:00",
-                    "home": "Slovakia",
-                    "away": "Malta",
+                    "time": "01:45",
+                    "home": "Austria",
+                    "away": "Tunisia",
                     "score": "1 - 0",
-                    "status": "Hiệp 1",
+                    "status": "Hiệp 2",
                     "is_live": true
                 }
             ]
@@ -87,14 +93,6 @@
             "name": "Uruguay - Liga AUF Uruguaya, Intermedio, Serie A",
             "priority": 7,
             "matches": [
-                {
-                    "time": "01:00",
-                    "home": "Boston River",
-                    "away": "Liverpool UY",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
                 {
                     "time": "06:00",
                     "home": "Peñarol",
@@ -148,28 +146,6 @@
             ]
         },
         {
-            "name": "Brazil - Brasileirão Série D, Group A7",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "02:00",
-                    "home": "Atlético Cearense",
-                    "away": "Piauí EC",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "02:00",
-                    "home": "Tirol/CEFAT",
-                    "away": "Ferroviário",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
             "name": "Brazil - Brasileirão Série D, Group A8",
             "priority": 99,
             "matches": [
@@ -206,111 +182,9 @@
             ]
         },
         {
-            "name": "Germany Amateur - Regionalliga, Promotion Playoffs",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "23:30",
-                    "home": "FC Würzburger Kickers",
-                    "away": "1. FC Lokomotive Leipzig",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
-            "name": "Morocco - Botola Pro",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "01:00",
-                    "home": "Olympic Safi",
-                    "away": "MAS de Fès",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "03:00",
-                    "home": "CODM Meknès",
-                    "away": "Olympique Dcheira",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
-            "name": "Romania - SuperLiga, Relegation/Promotion Playoffs",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "00:30",
-                    "home": "FC Voluntari",
-                    "away": "FC Hermannstadt",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
-            "name": "Sweden - Ettan, Norra",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "00:30",
-                    "home": "FC Arlanda",
-                    "away": "Gefle IF",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
-            "name": "Sweden - Ettan, Sodra",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "00:00",
-                    "home": "Skövde AIK",
-                    "away": "Jönköpings Södra",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
             "name": "World - Int. Friendly Games",
             "priority": 99,
             "matches": [
-                {
-                    "time": "00:00",
-                    "home": "Norway",
-                    "away": "Sweden",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "00:30",
-                    "home": "Türkiye",
-                    "away": "North Macedonia",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "01:45",
-                    "home": "Austria",
-                    "away": "Tunisia",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
                 {
                     "time": "06:00",
                     "home": "Colombia",
@@ -323,20 +197,6 @@
                     "time": "08:00",
                     "home": "Canada",
                     "away": "Uzbekistan",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
-            "name": "World - Tournoi Maurice Revello, Group B",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "23:30",
-                    "home": "Venezuela U23",
-                    "away": "Canada U20",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
