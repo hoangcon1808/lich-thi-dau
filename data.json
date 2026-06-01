@@ -1,6 +1,21 @@
 {
-    "last_updated": "2026-06-01 05:16:34 (UTC)",
-    "live_leagues": [],
+    "last_updated": "2026-06-01 10:32:04 (UTC)",
+    "live_leagues": [
+        {
+            "name": "Japan - J2/J3 League, Placement Matches",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "17:00",
+                    "home": "Vanraure Hachinohe",
+                    "away": "Fukushima United FC",
+                    "score": "0 - 1",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                }
+            ]
+        }
+    ],
     "upcoming_leagues": [
         {
             "name": "Europe - U17 European Championship, Group B",
@@ -197,20 +212,6 @@
             ]
         },
         {
-            "name": "Japan - J2/J3 League, Placement Matches",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "17:00",
-                    "home": "Vanraure Hachinohe",
-                    "away": "Fukushima United FC",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
             "name": "Morocco - Botola Pro",
             "priority": 99,
             "matches": [
@@ -354,6 +355,20 @@
                     "time": "23:00",
                     "home": "Slovakia",
                     "away": "Malta",
+                    "score": "vs",
+                    "status": "Sắp diễn ra",
+                    "is_live": false
+                }
+            ]
+        },
+        {
+            "name": "World - International Friendly Games, Women",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "17:30",
+                    "home": "Myanmar",
+                    "away": "Uzbekistan",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
