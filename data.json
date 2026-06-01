@@ -1,6 +1,20 @@
 {
-    "last_updated": "2026-05-31 23:07:52 (UTC)",
+    "last_updated": "2026-06-01 00:14:26 (UTC)",
     "live_leagues": [
+        {
+            "name": "Ecuador - LigaPro Serie A, Primera Etapa",
+            "priority": 7,
+            "matches": [
+                {
+                    "time": "06:10",
+                    "home": "Emelec",
+                    "away": "Universidad Católica del Ecuador",
+                    "score": "0 - 0",
+                    "status": "Nghỉ HT",
+                    "is_live": true
+                }
+            ]
+        },
         {
             "name": "USA - MLS Next Pro",
             "priority": 12,
@@ -9,7 +23,43 @@
                     "time": "06:00",
                     "home": "Orlando City B",
                     "away": "Chattanooga FC",
+                    "score": "3 - 2",
+                    "status": "Hiệp 2",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "Brazil - Brasileirão Betano",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "06:30",
+                    "home": "Cruzeiro",
+                    "away": "Fluminense",
+                    "score": "0 - 1",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                },
+                {
+                    "time": "06:30",
+                    "home": "Remo",
+                    "away": "São Paulo",
                     "score": "0 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "Brazil - Brasileirão Série B",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "06:30",
+                    "home": "Cuiabá",
+                    "away": "CRB",
+                    "score": "2 - 0",
                     "status": "Hiệp 1",
                     "is_live": true
                 }
@@ -20,25 +70,11 @@
             "priority": 99,
             "matches": [
                 {
-                    "time": "04:30",
-                    "home": "Anápolis",
-                    "away": "Maranhão AC",
-                    "score": "0 - 0",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "Chile - Liga de Ascenso",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "04:30",
-                    "home": "Cobreloa",
-                    "away": "Rangers de Talca",
-                    "score": "2 - 0",
-                    "status": "Hiệp 2",
+                    "time": "06:30",
+                    "home": "Figueirense",
+                    "away": "Paysandu SC",
+                    "score": "1 - 1",
+                    "status": "Hiệp 1",
                     "is_live": true
                 }
             ]
@@ -48,53 +84,25 @@
             "priority": 99,
             "matches": [
                 {
-                    "time": "04:30",
-                    "home": "O'Higgins",
-                    "away": "Everton de Viña del Mar",
-                    "score": "1 - 2",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "Peru - Liga 1, Apertura",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "05:00",
-                    "home": "Cienciano",
-                    "away": "Club Sporting Cristal",
-                    "score": "1 - 2",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "Uruguay - Liga AUF Uruguaya, Intermedio, Serie B",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "04:30",
-                    "home": "Deportivo Maldonado",
-                    "away": "Nacional",
+                    "time": "07:00",
+                    "home": "Palestino",
+                    "away": "Audax Italiano",
                     "score": "0 - 0",
-                    "status": "Hiệp 2",
+                    "status": "Hiệp 1",
                     "is_live": true
                 }
             ]
         },
         {
-            "name": "World - Int. Friendly Games",
+            "name": "USA - NWSL",
             "priority": 99,
             "matches": [
                 {
-                    "time": "04:30",
-                    "home": "Brazil",
-                    "away": "Panama",
-                    "score": "5 - 1",
-                    "status": "Hiệp 2",
+                    "time": "06:00",
+                    "home": "Angel City FC",
+                    "away": "North Carolina Courage",
+                    "score": "0 - 0",
+                    "status": "Nghỉ HT",
                     "is_live": true
                 }
             ]
@@ -124,13 +132,57 @@
             ]
         },
         {
+            "name": "Australia - Queensland Premier League 1",
+            "priority": 5,
+            "matches": [
+                {
+                    "time": "17:15",
+                    "home": "North Star FC",
+                    "away": "Brisbane Strikers",
+                    "score": "vs",
+                    "status": "Sắp diễn ra",
+                    "is_live": false
+                }
+            ]
+        },
+        {
             "name": "Ecuador - LigaPro Serie A, Primera Etapa",
             "priority": 7,
             "matches": [
                 {
-                    "time": "06:10",
-                    "home": "Emelec",
-                    "away": "Universidad Católica del Ecuador",
+                    "time": "05:00",
+                    "home": "Leones del Norte",
+                    "away": "Macará",
+                    "score": "vs",
+                    "status": "Sắp diễn ra",
+                    "is_live": false
+                },
+                {
+                    "time": "07:30",
+                    "home": "Técnico Universitario",
+                    "away": "Barcelona SC Guayaquil",
+                    "score": "vs",
+                    "status": "Sắp diễn ra",
+                    "is_live": false
+                }
+            ]
+        },
+        {
+            "name": "Uruguay - Liga AUF Uruguaya, Intermedio, Serie A",
+            "priority": 7,
+            "matches": [
+                {
+                    "time": "01:00",
+                    "home": "Boston River",
+                    "away": "Liverpool UY",
+                    "score": "vs",
+                    "status": "Sắp diễn ra",
+                    "is_live": false
+                },
+                {
+                    "time": "06:00",
+                    "home": "Peñarol",
+                    "away": "Central Español",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
@@ -152,21 +204,13 @@
             ]
         },
         {
-            "name": "Brazil - Brasileirão Betano",
+            "name": "Bolivia - División Profesional",
             "priority": 99,
             "matches": [
                 {
-                    "time": "06:30",
-                    "home": "Cruzeiro",
-                    "away": "Fluminense",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "06:30",
-                    "home": "Remo",
-                    "away": "São Paulo",
+                    "time": "07:00",
+                    "home": "Club FC Universitario",
+                    "away": "Club Aurora",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
@@ -178,9 +222,9 @@
             "priority": 99,
             "matches": [
                 {
-                    "time": "06:30",
-                    "home": "Cuiabá",
-                    "away": "CRB",
+                    "time": "05:00",
+                    "home": "Ponte Preta",
+                    "away": "Botafogo-SP",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
@@ -192,9 +236,9 @@
             "priority": 99,
             "matches": [
                 {
-                    "time": "06:30",
-                    "home": "Figueirense",
-                    "away": "Paysandu SC",
+                    "time": "06:00",
+                    "home": "Barra FC",
+                    "away": "Brusque",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
@@ -202,13 +246,71 @@
             ]
         },
         {
-            "name": "Chile - Liga de Primera",
+            "name": "Brazil - Brasileirão Série D, Group A7",
             "priority": 99,
             "matches": [
                 {
-                    "time": "07:00",
-                    "home": "Palestino",
-                    "away": "Audax Italiano",
+                    "time": "02:00",
+                    "home": "Atlético Cearense",
+                    "away": "Piauí EC",
+                    "score": "vs",
+                    "status": "Sắp diễn ra",
+                    "is_live": false
+                },
+                {
+                    "time": "02:00",
+                    "home": "Tirol/CEFAT",
+                    "away": "Ferroviário",
+                    "score": "vs",
+                    "status": "Sắp diễn ra",
+                    "is_live": false
+                }
+            ]
+        },
+        {
+            "name": "Brazil - Brasileirão Série D, Group A8",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "06:00",
+                    "home": "Maguary",
+                    "away": "Sousa EC",
+                    "score": "vs",
+                    "status": "Sắp diễn ra",
+                    "is_live": false
+                }
+            ]
+        },
+        {
+            "name": "Chile - Liga de Ascenso",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "06:00",
+                    "home": "Curicó Unido",
+                    "away": "Club Deportes Antofagasta",
+                    "score": "vs",
+                    "status": "Sắp diễn ra",
+                    "is_live": false
+                },
+                {
+                    "time": "06:00",
+                    "home": "Deportes Santa Cruz",
+                    "away": "Deportes Copiapó",
+                    "score": "vs",
+                    "status": "Sắp diễn ra",
+                    "is_live": false
+                }
+            ]
+        },
+        {
+            "name": "Germany Amateur - Regionalliga, Promotion Playoffs",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "23:30",
+                    "home": "FC Würzburger Kickers",
+                    "away": "1. FC Lokomotive Leipzig",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
@@ -230,13 +332,163 @@
             ]
         },
         {
-            "name": "USA - NWSL",
+            "name": "Morocco - Botola Pro",
             "priority": 99,
             "matches": [
                 {
+                    "time": "01:00",
+                    "home": "Olympic Safi",
+                    "away": "MAS de Fès",
+                    "score": "vs",
+                    "status": "Sắp diễn ra",
+                    "is_live": false
+                },
+                {
+                    "time": "03:00",
+                    "home": "CODM Meknès",
+                    "away": "Olympique Dcheira",
+                    "score": "vs",
+                    "status": "Sắp diễn ra",
+                    "is_live": false
+                },
+                {
+                    "time": "23:00",
+                    "home": "Union Touarga Sport",
+                    "away": "Kawkab Athletic Club Marrakech",
+                    "score": "vs",
+                    "status": "Sắp diễn ra",
+                    "is_live": false
+                }
+            ]
+        },
+        {
+            "name": "Romania - SuperLiga, Relegation/Promotion Playoffs",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "00:30",
+                    "home": "FC Voluntari",
+                    "away": "FC Hermannstadt",
+                    "score": "vs",
+                    "status": "Sắp diễn ra",
+                    "is_live": false
+                }
+            ]
+        },
+        {
+            "name": "Sweden - Ettan, Norra",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "00:30",
+                    "home": "FC Arlanda",
+                    "away": "Gefle IF",
+                    "score": "vs",
+                    "status": "Sắp diễn ra",
+                    "is_live": false
+                }
+            ]
+        },
+        {
+            "name": "Sweden - Ettan, Sodra",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "00:00",
+                    "home": "Skövde AIK",
+                    "away": "Jönköpings Södra",
+                    "score": "vs",
+                    "status": "Sắp diễn ra",
+                    "is_live": false
+                }
+            ]
+        },
+        {
+            "name": "World - Int. Friendly Games",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "00:00",
+                    "home": "Norway",
+                    "away": "Sweden",
+                    "score": "vs",
+                    "status": "Sắp diễn ra",
+                    "is_live": false
+                },
+                {
+                    "time": "00:30",
+                    "home": "Türkiye",
+                    "away": "North Macedonia",
+                    "score": "vs",
+                    "status": "Sắp diễn ra",
+                    "is_live": false
+                },
+                {
+                    "time": "01:45",
+                    "home": "Austria",
+                    "away": "Tunisia",
+                    "score": "vs",
+                    "status": "Sắp diễn ra",
+                    "is_live": false
+                },
+                {
                     "time": "06:00",
-                    "home": "Angel City FC",
-                    "away": "North Carolina Courage",
+                    "home": "Colombia",
+                    "away": "Costa Rica",
+                    "score": "vs",
+                    "status": "Sắp diễn ra",
+                    "is_live": false
+                },
+                {
+                    "time": "08:00",
+                    "home": "Canada",
+                    "away": "Uzbekistan",
+                    "score": "vs",
+                    "status": "Sắp diễn ra",
+                    "is_live": false
+                },
+                {
+                    "time": "23:00",
+                    "home": "Bulgaria",
+                    "away": "Montenegro",
+                    "score": "vs",
+                    "status": "Sắp diễn ra",
+                    "is_live": false
+                },
+                {
+                    "time": "23:00",
+                    "home": "Maldives",
+                    "away": "Afghanistan",
+                    "score": "vs",
+                    "status": "Sắp diễn ra",
+                    "is_live": false
+                },
+                {
+                    "time": "23:00",
+                    "home": "Slovakia",
+                    "away": "Malta",
+                    "score": "vs",
+                    "status": "Sắp diễn ra",
+                    "is_live": false
+                }
+            ]
+        },
+        {
+            "name": "World - Tournoi Maurice Revello, Group B",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "20:00",
+                    "home": "Japan U19",
+                    "away": "Côte d'Ivoire U23",
+                    "score": "vs",
+                    "status": "Sắp diễn ra",
+                    "is_live": false
+                },
+                {
+                    "time": "23:30",
+                    "home": "Venezuela U23",
+                    "away": "Canada U20",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
