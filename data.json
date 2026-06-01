@@ -1,113 +1,6 @@
 {
-    "last_updated": "2026-06-01 00:14:26 (UTC)",
-    "live_leagues": [
-        {
-            "name": "Ecuador - LigaPro Serie A, Primera Etapa",
-            "priority": 7,
-            "matches": [
-                {
-                    "time": "06:10",
-                    "home": "Emelec",
-                    "away": "Universidad Católica del Ecuador",
-                    "score": "0 - 0",
-                    "status": "Nghỉ HT",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "USA - MLS Next Pro",
-            "priority": 12,
-            "matches": [
-                {
-                    "time": "06:00",
-                    "home": "Orlando City B",
-                    "away": "Chattanooga FC",
-                    "score": "3 - 2",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "Brazil - Brasileirão Betano",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "06:30",
-                    "home": "Cruzeiro",
-                    "away": "Fluminense",
-                    "score": "0 - 1",
-                    "status": "Hiệp 1",
-                    "is_live": true
-                },
-                {
-                    "time": "06:30",
-                    "home": "Remo",
-                    "away": "São Paulo",
-                    "score": "0 - 0",
-                    "status": "Hiệp 1",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "Brazil - Brasileirão Série B",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "06:30",
-                    "home": "Cuiabá",
-                    "away": "CRB",
-                    "score": "2 - 0",
-                    "status": "Hiệp 1",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "Brazil - Brasileirão Série C",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "06:30",
-                    "home": "Figueirense",
-                    "away": "Paysandu SC",
-                    "score": "1 - 1",
-                    "status": "Hiệp 1",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "Chile - Liga de Primera",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "07:00",
-                    "home": "Palestino",
-                    "away": "Audax Italiano",
-                    "score": "0 - 0",
-                    "status": "Hiệp 1",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "USA - NWSL",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "06:00",
-                    "home": "Angel City FC",
-                    "away": "North Carolina Courage",
-                    "score": "0 - 0",
-                    "status": "Nghỉ HT",
-                    "is_live": true
-                }
-            ]
-        }
-    ],
+    "last_updated": "2026-06-01 05:16:34 (UTC)",
+    "live_leagues": [],
     "upcoming_leagues": [
         {
             "name": "Europe - U17 European Championship, Group B",
@@ -183,20 +76,6 @@
                     "time": "06:00",
                     "home": "Peñarol",
                     "away": "Central Español",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
-            "name": "USA - MLS Next Pro",
-            "priority": 12,
-            "matches": [
-                {
-                    "time": "07:00",
-                    "home": "Minnesota United FC 2",
-                    "away": "Los Angeles FC 2",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
@@ -443,6 +322,14 @@
                     "time": "08:00",
                     "home": "Canada",
                     "away": "Uzbekistan",
+                    "score": "vs",
+                    "status": "Sắp diễn ra",
+                    "is_live": false
+                },
+                {
+                    "time": "18:00",
+                    "home": "Pakistan",
+                    "away": "Bangladesh U23",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
