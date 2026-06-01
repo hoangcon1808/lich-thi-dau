@@ -1,52 +1,30 @@
 {
-    "last_updated": "2026-06-01 20:39:47 (UTC)",
+    "last_updated": "2026-06-01 22:49:44 (UTC)",
     "live_leagues": [
         {
-            "name": "Brazil - Brasileirão Série D, Group A7",
-            "priority": 99,
+            "name": "Ecuador - LigaPro Serie A, Primera Etapa",
+            "priority": 7,
             "matches": [
                 {
-                    "time": "02:00",
-                    "home": "Atlético Cearense",
-                    "away": "Piauí EC",
-                    "score": "0 - 1",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                },
-                {
-                    "time": "02:00",
-                    "home": "Tirol/CEFAT",
-                    "away": "Ferroviário",
+                    "time": "05:00",
+                    "home": "Leones del Norte",
+                    "away": "Macará",
                     "score": "0 - 0",
-                    "status": "Hiệp 2",
+                    "status": "Nghỉ HT",
                     "is_live": true
                 }
             ]
         },
         {
-            "name": "Morocco - Botola Pro",
+            "name": "Brazil - Brasileirão Série B",
             "priority": 99,
             "matches": [
                 {
-                    "time": "03:00",
-                    "home": "CODM Meknès",
-                    "away": "Olympique Dcheira",
-                    "score": "2 - 0",
+                    "time": "05:00",
+                    "home": "Ponte Preta",
+                    "away": "Botafogo-SP",
+                    "score": "0 - 0",
                     "status": "Hiệp 1",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "World - Int. Friendly Games",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "01:45",
-                    "home": "Austria",
-                    "away": "Tunisia",
-                    "score": "1 - 0",
-                    "status": "Hiệp 2",
                     "is_live": true
                 }
             ]
@@ -71,14 +49,6 @@
             "name": "Ecuador - LigaPro Serie A, Primera Etapa",
             "priority": 7,
             "matches": [
-                {
-                    "time": "05:00",
-                    "home": "Leones del Norte",
-                    "away": "Macará",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
                 {
                     "time": "07:30",
                     "home": "Técnico Universitario",
@@ -111,20 +81,6 @@
                     "time": "07:00",
                     "home": "Club FC Universitario",
                     "away": "Club Aurora",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
-            "name": "Brazil - Brasileirão Série B",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "05:00",
-                    "home": "Ponte Preta",
-                    "away": "Botafogo-SP",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
