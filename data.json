@@ -1,15 +1,45 @@
 {
-    "last_updated": "2026-06-01 10:32:04 (UTC)",
+    "last_updated": "2026-06-01 16:23:48 (UTC)",
     "live_leagues": [
         {
-            "name": "Japan - J2/J3 League, Placement Matches",
+            "name": "Morocco - Botola Pro",
             "priority": 99,
             "matches": [
                 {
-                    "time": "17:00",
-                    "home": "Vanraure Hachinohe",
-                    "away": "Fukushima United FC",
-                    "score": "0 - 1",
+                    "time": "23:00",
+                    "home": "Union Touarga Sport",
+                    "away": "Kawkab Athletic Club Marrakech",
+                    "score": "0 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "World - Int. Friendly Games",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "23:00",
+                    "home": "Bulgaria",
+                    "away": "Montenegro",
+                    "score": "0 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                },
+                {
+                    "time": "23:00",
+                    "home": "Maldives",
+                    "away": "Afghanistan",
+                    "score": "0 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                },
+                {
+                    "time": "23:00",
+                    "home": "Slovakia",
+                    "away": "Malta",
+                    "score": "1 - 0",
                     "status": "Hiệp 1",
                     "is_live": true
                 }
@@ -17,28 +47,6 @@
         }
     ],
     "upcoming_leagues": [
-        {
-            "name": "Europe - U17 European Championship, Group B",
-            "priority": 2,
-            "matches": [
-                {
-                    "time": "18:30",
-                    "home": "Denmark U17",
-                    "away": "Italy U17",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "18:30",
-                    "home": "France U17",
-                    "away": "Montenegro U17",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
         {
             "name": "Australia - Queensland Premier League 1",
             "priority": 5,
@@ -230,14 +238,6 @@
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
-                },
-                {
-                    "time": "23:00",
-                    "home": "Union Touarga Sport",
-                    "away": "Kawkab Athletic Club Marrakech",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
                 }
             ]
         },
@@ -326,52 +326,6 @@
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
-                },
-                {
-                    "time": "18:00",
-                    "home": "Pakistan",
-                    "away": "Bangladesh U23",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "23:00",
-                    "home": "Bulgaria",
-                    "away": "Montenegro",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "23:00",
-                    "home": "Maldives",
-                    "away": "Afghanistan",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "23:00",
-                    "home": "Slovakia",
-                    "away": "Malta",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
-            "name": "World - International Friendly Games, Women",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "17:30",
-                    "home": "Myanmar",
-                    "away": "Uzbekistan",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
                 }
             ]
         },
@@ -379,14 +333,6 @@
             "name": "World - Tournoi Maurice Revello, Group B",
             "priority": 99,
             "matches": [
-                {
-                    "time": "20:00",
-                    "home": "Japan U19",
-                    "away": "Côte d'Ivoire U23",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
                 {
                     "time": "23:30",
                     "home": "Venezuela U23",
