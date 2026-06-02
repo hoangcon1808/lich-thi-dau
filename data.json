@@ -1,6 +1,21 @@
 {
-    "last_updated": "2026-06-02 08:51:51 (UTC)",
-    "live_leagues": [],
+    "last_updated": "2026-06-02 12:31:24 (UTC)",
+    "live_leagues": [
+        {
+            "name": "Asia - ASEAN Championship, Qualification Round",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "19:15",
+                    "home": "Brunei Darussalam",
+                    "away": "East Timor",
+                    "score": "0 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                }
+            ]
+        }
+    ],
     "upcoming_leagues": [
         {
             "name": "Australia - Queensland Premier League 1",
@@ -10,22 +25,6 @@
                     "time": "16:30",
                     "home": "Sunshine Coast Wanderers",
                     "away": "St. George Willawong FC",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "17:15",
-                    "home": "North Star FC",
-                    "away": "Brisbane Strikers",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "17:30",
-                    "home": "Logan Lightning",
-                    "away": "Redlands United",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
@@ -54,20 +53,6 @@
                     "time": "07:10",
                     "home": "Barracas Central",
                     "away": "Huracán",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
-            "name": "Asia - ASEAN Championship, Qualification Round",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "19:15",
-                    "home": "Brunei Darussalam",
-                    "away": "East Timor",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
