@@ -1,85 +1,6 @@
 {
-    "last_updated": "2026-06-02 00:00:44 (UTC)",
-    "live_leagues": [
-        {
-            "name": "Uruguay - Liga AUF Uruguaya, Intermedio, Serie A",
-            "priority": 7,
-            "matches": [
-                {
-                    "time": "06:00",
-                    "home": "Peñarol",
-                    "away": "Central Español",
-                    "score": "0 - 0",
-                    "status": "Nghỉ HT",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "Brazil - Brasileirão Série C",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "06:00",
-                    "home": "Barra FC",
-                    "away": "Brusque",
-                    "score": "1 - 0",
-                    "status": "Nghỉ HT",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "Brazil - Brasileirão Série D, Group A8",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "06:00",
-                    "home": "Maguary",
-                    "away": "Sousa EC",
-                    "score": "1 - 0",
-                    "status": "Nghỉ HT",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "Chile - Liga de Ascenso",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "06:00",
-                    "home": "Curicó Unido",
-                    "away": "Club Deportes Antofagasta",
-                    "score": "0 - 0",
-                    "status": "Nghỉ HT",
-                    "is_live": true
-                },
-                {
-                    "time": "06:00",
-                    "home": "Deportes Santa Cruz",
-                    "away": "Deportes Copiapó",
-                    "score": "1 - 0",
-                    "status": "Nghỉ HT",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "World - Int. Friendly Games",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "06:00",
-                    "home": "Colombia",
-                    "away": "Costa Rica",
-                    "score": "2 - 1",
-                    "status": "Nghỉ HT",
-                    "is_live": true
-                }
-            ]
-        }
-    ],
+    "last_updated": "2026-06-02 04:25:11 (UTC)",
+    "live_leagues": [],
     "upcoming_leagues": [
         {
             "name": "Australia - Queensland Premier League 1",
@@ -97,20 +18,6 @@
                     "time": "17:15",
                     "home": "North Star FC",
                     "away": "Brisbane Strikers",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
-            "name": "Ecuador - LigaPro Serie A, Primera Etapa",
-            "priority": 7,
-            "matches": [
-                {
-                    "time": "07:30",
-                    "home": "Técnico Universitario",
-                    "away": "Barcelona SC Guayaquil",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
@@ -153,20 +60,6 @@
                     "time": "19:15",
                     "home": "Brunei Darussalam",
                     "away": "East Timor",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
-            "name": "Bolivia - División Profesional",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "07:00",
-                    "home": "Club FC Universitario",
-                    "away": "Club Aurora",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
@@ -289,14 +182,6 @@
                     "time": "07:00",
                     "home": "Haiti",
                     "away": "New Zealand",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "08:00",
-                    "home": "Canada",
-                    "away": "Uzbekistan",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
