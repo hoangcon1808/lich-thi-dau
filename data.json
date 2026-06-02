@@ -1,30 +1,30 @@
 {
-    "last_updated": "2026-06-02 17:05:03 (UTC)",
+    "last_updated": "2026-06-02 20:13:22 (UTC)",
     "live_leagues": [
         {
-            "name": "Germany Amateur - Regionalliga Bayern, Relegation/Promotion Playoffs",
-            "priority": 99,
+            "name": "Algeria - Ligue 1",
+            "priority": 9,
             "matches": [
                 {
-                    "time": "23:30",
-                    "home": "SpVgg Greuther Fürth II",
-                    "away": "ASV Cham",
-                    "score": "0 - 0",
-                    "status": "Hiệp 1",
+                    "time": "02:00",
+                    "home": "USM Alger",
+                    "away": "CR Belouizdad",
+                    "score": "1 - 1",
+                    "status": "Hiệp 2",
                     "is_live": true
                 }
             ]
         },
         {
-            "name": "Sweden - Ettan, Sodra",
+            "name": "Italy - Serie C, Playoffs, Promotion Playoffs",
             "priority": 99,
             "matches": [
                 {
-                    "time": "00:00",
-                    "home": "FC Rosengård",
-                    "away": "Ängelholms FF",
-                    "score": "0 - 0",
-                    "status": "Hiệp 1",
+                    "time": "02:15",
+                    "home": "Union Brescia",
+                    "away": "Ascoli",
+                    "score": "1 - 1",
+                    "status": "Nghỉ HT",
                     "is_live": true
                 }
             ]
@@ -34,33 +34,11 @@
             "priority": 99,
             "matches": [
                 {
-                    "time": "00:00",
-                    "home": "Georgia",
-                    "away": "Romania",
+                    "time": "01:45",
+                    "home": "Wales",
+                    "away": "Ghana",
                     "score": "0 - 0",
-                    "status": "Hiệp 1",
-                    "is_live": true
-                },
-                {
-                    "time": "23:00",
-                    "home": "Croatia",
-                    "away": "Belgium",
-                    "score": "0 - 1",
-                    "status": "Nghỉ HT",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "World - Tournoi Maurice Revello, Group A",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "23:30",
-                    "home": "Saudi Arabia U23",
-                    "away": "Colombia U19",
-                    "score": "3 - 1",
-                    "status": "Hiệp 1",
+                    "status": "Hiệp 2",
                     "is_live": true
                 }
             ]
@@ -75,20 +53,6 @@
                     "time": "16:30",
                     "home": "Sunshine Coast Wanderers",
                     "away": "St. George Willawong FC",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
-            "name": "Algeria - Ligue 1",
-            "priority": 9,
-            "matches": [
-                {
-                    "time": "02:00",
-                    "home": "USM Alger",
-                    "away": "CR Belouizdad",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
@@ -138,53 +102,9 @@
             ]
         },
         {
-            "name": "Italy - Serie C, Playoffs, Promotion Playoffs",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "02:15",
-                    "home": "Union Brescia",
-                    "away": "Ascoli",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
-            "name": "Sweden - Ettan, Norra",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "00:30",
-                    "home": "Assyriska FF",
-                    "away": "Enköpings SK",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
             "name": "World - Int. Friendly Games",
             "priority": 99,
             "matches": [
-                {
-                    "time": "00:00",
-                    "home": "Morocco",
-                    "away": "Madagascar",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "01:45",
-                    "home": "Wales",
-                    "away": "Ghana",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
                 {
                     "time": "07:00",
                     "home": "Haiti",
