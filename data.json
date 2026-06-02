@@ -1,15 +1,65 @@
 {
-    "last_updated": "2026-06-02 12:31:24 (UTC)",
+    "last_updated": "2026-06-02 17:05:03 (UTC)",
     "live_leagues": [
         {
-            "name": "Asia - ASEAN Championship, Qualification Round",
+            "name": "Germany Amateur - Regionalliga Bayern, Relegation/Promotion Playoffs",
             "priority": 99,
             "matches": [
                 {
-                    "time": "19:15",
-                    "home": "Brunei Darussalam",
-                    "away": "East Timor",
+                    "time": "23:30",
+                    "home": "SpVgg Greuther Fürth II",
+                    "away": "ASV Cham",
                     "score": "0 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "Sweden - Ettan, Sodra",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "00:00",
+                    "home": "FC Rosengård",
+                    "away": "Ängelholms FF",
+                    "score": "0 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "World - Int. Friendly Games",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "00:00",
+                    "home": "Georgia",
+                    "away": "Romania",
+                    "score": "0 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                },
+                {
+                    "time": "23:00",
+                    "home": "Croatia",
+                    "away": "Belgium",
+                    "score": "0 - 1",
+                    "status": "Nghỉ HT",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "World - Tournoi Maurice Revello, Group A",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "23:30",
+                    "home": "Saudi Arabia U23",
+                    "away": "Colombia U19",
+                    "score": "3 - 1",
                     "status": "Hiệp 1",
                     "is_live": true
                 }
@@ -88,20 +138,6 @@
             ]
         },
         {
-            "name": "Germany Amateur - Regionalliga Bayern, Relegation/Promotion Playoffs",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "23:30",
-                    "home": "SpVgg Greuther Fürth II",
-                    "away": "ASV Cham",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
             "name": "Italy - Serie C, Playoffs, Promotion Playoffs",
             "priority": 99,
             "matches": [
@@ -130,31 +166,9 @@
             ]
         },
         {
-            "name": "Sweden - Ettan, Sodra",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "00:00",
-                    "home": "FC Rosengård",
-                    "away": "Ängelholms FF",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
             "name": "World - Int. Friendly Games",
             "priority": 99,
             "matches": [
-                {
-                    "time": "00:00",
-                    "home": "Georgia",
-                    "away": "Romania",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
                 {
                     "time": "00:00",
                     "home": "Morocco",
@@ -186,14 +200,6 @@
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
-                },
-                {
-                    "time": "23:00",
-                    "home": "Croatia",
-                    "away": "Belgium",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
                 }
             ]
         },
@@ -213,28 +219,6 @@
                     "time": "18:35",
                     "home": "China",
                     "away": "Russia",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
-            "name": "World - Tournoi Maurice Revello, Group A",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "20:00",
-                    "home": "China U22",
-                    "away": "DR Congo U20",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "23:30",
-                    "home": "Saudi Arabia U23",
-                    "away": "Colombia U19",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
