@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-06-02 04:25:11 (UTC)",
+    "last_updated": "2026-06-02 08:51:51 (UTC)",
     "live_leagues": [],
     "upcoming_leagues": [
         {
@@ -18,6 +18,14 @@
                     "time": "17:15",
                     "home": "North Star FC",
                     "away": "Brisbane Strikers",
+                    "score": "vs",
+                    "status": "Sắp diễn ra",
+                    "is_live": false
+                },
+                {
+                    "time": "17:30",
+                    "home": "Logan Lightning",
+                    "away": "Redlands United",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
