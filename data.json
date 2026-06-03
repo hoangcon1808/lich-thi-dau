@@ -1,16 +1,96 @@
 {
-    "last_updated": "2026-06-03 14:56:40 (UTC)",
+    "last_updated": "2026-06-03 18:40:58 (UTC)",
     "live_leagues": [
         {
-            "name": "World - Tournoi Maurice Revello, Group B",
+            "name": "Morocco - Botola Pro",
             "priority": 99,
             "matches": [
                 {
-                    "time": "20:00",
-                    "home": "Japan U19",
-                    "away": "Portugal U19",
-                    "score": "1 - 4",
+                    "time": "01:00",
+                    "home": "Ittihad Tanger",
+                    "away": "Wydad Casablanca",
+                    "score": "0 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "Sweden - Ettan, Norra",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "00:30",
+                    "home": "Vasalunds IF",
+                    "away": "FC Järfälla",
+                    "score": "2 - 1",
                     "status": "Hiệp 2",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "Sweden - Ettan, Sodra",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "00:00",
+                    "home": "BK Olympic",
+                    "away": "Lunds BK",
+                    "score": "1 - 2",
+                    "status": "Hiệp 2",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "World - Int. Friendly Games",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "00:00",
+                    "home": "Gibraltar",
+                    "away": "British Virgin Islands",
+                    "score": "4 - 0",
+                    "status": "Hiệp 2",
+                    "is_live": true
+                },
+                {
+                    "time": "01:00",
+                    "home": "Albania",
+                    "away": "Israel",
+                    "score": "0 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                },
+                {
+                    "time": "01:00",
+                    "home": "Denmark",
+                    "away": "DR Congo",
+                    "score": "0 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "World - U21 Friendly Games",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "00:00",
+                    "home": "Türkiye U21",
+                    "away": "Kosovo U21",
+                    "score": "0 - 0",
+                    "status": "Hiệp 2",
+                    "is_live": true
+                },
+                {
+                    "time": "01:30",
+                    "home": "Portugal U21",
+                    "away": "Northern Ireland U21",
+                    "score": "0 - 0",
+                    "status": "Hiệp 1",
                     "is_live": true
                 }
             ]
@@ -58,53 +138,9 @@
             "priority": 99,
             "matches": [
                 {
-                    "time": "01:00",
-                    "home": "Ittihad Tanger",
-                    "away": "Wydad Casablanca",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
                     "time": "03:00",
                     "home": "Raja Club Athletic",
                     "away": "RS Berkane",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "23:00",
-                    "home": "Renaissance Zemamra",
-                    "away": "Union Sportive Yacoub El Mansour",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
-            "name": "Sweden - Ettan, Norra",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "00:30",
-                    "home": "Vasalunds IF",
-                    "away": "FC Järfälla",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
-            "name": "Sweden - Ettan, Sodra",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "00:00",
-                    "home": "BK Olympic",
-                    "away": "Lunds BK",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
@@ -160,30 +196,6 @@
             "priority": 99,
             "matches": [
                 {
-                    "time": "00:00",
-                    "home": "Gibraltar",
-                    "away": "British Virgin Islands",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "01:00",
-                    "home": "Albania",
-                    "away": "Israel",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "01:00",
-                    "home": "Denmark",
-                    "away": "DR Congo",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
                     "time": "01:45",
                     "home": "Luxembourg",
                     "away": "Italy",
@@ -227,56 +239,6 @@
                     "time": "18:00",
                     "home": "Maldives",
                     "away": "Pakistan",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
-            "name": "World - International Friendly Games, Women",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "22:00",
-                    "home": "Jordan",
-                    "away": "Malaysia",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
-            "name": "World - Tournoi Maurice Revello, Group B",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "23:30",
-                    "home": "Côte d'Ivoire U23",
-                    "away": "Venezuela U23",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
-            "name": "World - U21 Friendly Games",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "00:00",
-                    "home": "Türkiye U21",
-                    "away": "Kosovo U21",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "01:30",
-                    "home": "Portugal U21",
-                    "away": "Northern Ireland U21",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
