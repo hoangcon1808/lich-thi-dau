@@ -1,96 +1,16 @@
 {
-    "last_updated": "2026-06-03 18:40:58 (UTC)",
+    "last_updated": "2026-06-03 21:38:21 (UTC)",
     "live_leagues": [
         {
             "name": "Morocco - Botola Pro",
             "priority": 99,
             "matches": [
                 {
-                    "time": "01:00",
-                    "home": "Ittihad Tanger",
-                    "away": "Wydad Casablanca",
-                    "score": "0 - 0",
-                    "status": "Hiệp 1",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "Sweden - Ettan, Norra",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "00:30",
-                    "home": "Vasalunds IF",
-                    "away": "FC Järfälla",
-                    "score": "2 - 1",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "Sweden - Ettan, Sodra",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "00:00",
-                    "home": "BK Olympic",
-                    "away": "Lunds BK",
-                    "score": "1 - 2",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "World - Int. Friendly Games",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "00:00",
-                    "home": "Gibraltar",
-                    "away": "British Virgin Islands",
-                    "score": "4 - 0",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                },
-                {
-                    "time": "01:00",
-                    "home": "Albania",
-                    "away": "Israel",
-                    "score": "0 - 0",
-                    "status": "Hiệp 1",
-                    "is_live": true
-                },
-                {
-                    "time": "01:00",
-                    "home": "Denmark",
-                    "away": "DR Congo",
-                    "score": "0 - 0",
-                    "status": "Hiệp 1",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "World - U21 Friendly Games",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "00:00",
-                    "home": "Türkiye U21",
-                    "away": "Kosovo U21",
+                    "time": "03:00",
+                    "home": "Raja Club Athletic",
+                    "away": "RS Berkane",
                     "score": "0 - 0",
                     "status": "Hiệp 2",
-                    "is_live": true
-                },
-                {
-                    "time": "01:30",
-                    "home": "Portugal U21",
-                    "away": "Northern Ireland U21",
-                    "score": "0 - 0",
-                    "status": "Hiệp 1",
                     "is_live": true
                 }
             ]
@@ -127,20 +47,6 @@
                     "time": "07:00",
                     "home": "Real Potosí",
                     "away": "Academia de Balompié Boliviano",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
-            "name": "Morocco - Botola Pro",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "03:00",
-                    "home": "Raja Club Athletic",
-                    "away": "RS Berkane",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
@@ -195,30 +101,6 @@
             "name": "World - Int. Friendly Games",
             "priority": 99,
             "matches": [
-                {
-                    "time": "01:45",
-                    "home": "Luxembourg",
-                    "away": "Italy",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "01:45",
-                    "home": "Netherlands",
-                    "away": "Algeria",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "01:45",
-                    "home": "Poland",
-                    "away": "Nigeria",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
                 {
                     "time": "07:45",
                     "home": "Panama",
