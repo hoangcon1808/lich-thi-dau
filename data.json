@@ -1,21 +1,6 @@
 {
-    "last_updated": "2026-06-03 21:38:21 (UTC)",
-    "live_leagues": [
-        {
-            "name": "Morocco - Botola Pro",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "03:00",
-                    "home": "Raja Club Athletic",
-                    "away": "RS Berkane",
-                    "score": "0 - 0",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                }
-            ]
-        }
-    ],
+    "last_updated": "2026-06-03 23:21:19 (UTC)",
+    "live_leagues": [],
     "upcoming_leagues": [
         {
             "name": "Europe - U17 European Championship, Knockout stage",
@@ -35,14 +20,6 @@
             "name": "Bolivia - División Profesional",
             "priority": 99,
             "matches": [
-                {
-                    "time": "05:00",
-                    "home": "GV San José",
-                    "away": "CD Real Tomayapo",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
                 {
                     "time": "07:00",
                     "home": "Real Potosí",
