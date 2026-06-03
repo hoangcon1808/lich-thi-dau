@@ -1,6 +1,21 @@
 {
-    "last_updated": "2026-06-03 05:12:01 (UTC)",
-    "live_leagues": [],
+    "last_updated": "2026-06-03 10:05:24 (UTC)",
+    "live_leagues": [
+        {
+            "name": "Australia - Queensland Premier League 1",
+            "priority": 5,
+            "matches": [
+                {
+                    "time": "16:30",
+                    "home": "Sunshine Coast Wanderers",
+                    "away": "St. George Willawong FC",
+                    "score": "1 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                }
+            ]
+        }
+    ],
     "upcoming_leagues": [
         {
             "name": "Europe - U17 European Championship, Knockout stage",
@@ -10,20 +25,6 @@
                     "time": "18:30",
                     "home": "Belgium U17",
                     "away": "France U17",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
-            "name": "Australia - Queensland Premier League 1",
-            "priority": 5,
-            "matches": [
-                {
-                    "time": "16:30",
-                    "home": "Sunshine Coast Wanderers",
-                    "away": "St. George Willawong FC",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
