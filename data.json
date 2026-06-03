@@ -1,16 +1,16 @@
 {
-    "last_updated": "2026-06-03 10:05:24 (UTC)",
+    "last_updated": "2026-06-03 14:56:40 (UTC)",
     "live_leagues": [
         {
-            "name": "Australia - Queensland Premier League 1",
-            "priority": 5,
+            "name": "World - Tournoi Maurice Revello, Group B",
+            "priority": 99,
             "matches": [
                 {
-                    "time": "16:30",
-                    "home": "Sunshine Coast Wanderers",
-                    "away": "St. George Willawong FC",
-                    "score": "1 - 0",
-                    "status": "Hiệp 1",
+                    "time": "20:00",
+                    "home": "Japan U19",
+                    "away": "Portugal U19",
+                    "score": "1 - 4",
+                    "status": "Hiệp 2",
                     "is_live": true
                 }
             ]
@@ -25,20 +25,6 @@
                     "time": "18:30",
                     "home": "Belgium U17",
                     "away": "France U17",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
-            "name": "South Africa - Premier League, Relegation/Promotion Playoffs",
-            "priority": 5,
-            "matches": [
-                {
-                    "time": "20:00",
-                    "home": "Milford FC",
-                    "away": "Magesi FC",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
@@ -244,22 +230,6 @@
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
-                },
-                {
-                    "time": "18:30",
-                    "home": "Philippines",
-                    "away": "Guam",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "19:30",
-                    "home": "Kyrgyzstan",
-                    "away": "Kenya",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
                 }
             ]
         },
@@ -267,38 +237,6 @@
             "name": "World - International Friendly Games, Women",
             "priority": 99,
             "matches": [
-                {
-                    "time": "17:30",
-                    "home": "Myanmar",
-                    "away": "Uzbekistan",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "18:35",
-                    "home": "China",
-                    "away": "Russia",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "19:00",
-                    "home": "Indonesia",
-                    "away": "Singapore",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "19:00",
-                    "home": "Tanzania",
-                    "away": "Malawi",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
                 {
                     "time": "22:00",
                     "home": "Jordan",
@@ -313,14 +251,6 @@
             "name": "World - Tournoi Maurice Revello, Group B",
             "priority": 99,
             "matches": [
-                {
-                    "time": "20:00",
-                    "home": "Japan U19",
-                    "away": "Portugal U19",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
                 {
                     "time": "23:30",
                     "home": "Côte d'Ivoire U23",
