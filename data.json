@@ -1,35 +1,6 @@
 {
-    "last_updated": "2026-06-03 00:10:06 (UTC)",
-    "live_leagues": [
-        {
-            "name": "Argentina - Copa Argentina",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "07:10",
-                    "home": "Barracas Central",
-                    "away": "Huracán",
-                    "score": "0 - 0",
-                    "status": "Hiệp 1",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "Brazil - Copa do Nordeste, Knockout stage",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "07:00",
-                    "home": "Fortaleza",
-                    "away": "Vitória",
-                    "score": "0 - 0",
-                    "status": "Hiệp 1",
-                    "is_live": true
-                }
-            ]
-        }
-    ],
+    "last_updated": "2026-06-03 05:12:01 (UTC)",
+    "live_leagues": [],
     "upcoming_leagues": [
         {
             "name": "Europe - U17 European Championship, Knockout stage",
@@ -89,20 +60,6 @@
                     "time": "07:00",
                     "home": "Real Potosí",
                     "away": "Academia de Balompié Boliviano",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
-            "name": "Colombia - Liga DIMAYOR, Apertura, Playoffs",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "07:30",
-                    "home": "Junior Barranquilla",
-                    "away": "Atlético Nacional",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
@@ -259,14 +216,6 @@
                     "time": "01:45",
                     "home": "Poland",
                     "away": "Nigeria",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "07:00",
-                    "home": "Haiti",
-                    "away": "New Zealand",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
