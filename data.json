@@ -1,43 +1,6 @@
 {
-    "last_updated": "2026-06-04 02:00:53 (UTC)",
-    "live_leagues": [
-        {
-            "name": "USA - USL, League One",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "07:30",
-                    "home": "Corpus Christi FC",
-                    "away": "Portland Hearts of Pine",
-                    "score": "1 - 1",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "World - Int. Friendly Games",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "07:45",
-                    "home": "Panama",
-                    "away": "Dominican Republic",
-                    "score": "2 - 0",
-                    "status": "Nghỉ HT",
-                    "is_live": true
-                },
-                {
-                    "time": "08:00",
-                    "home": "South Korea",
-                    "away": "El Salvador",
-                    "score": "0 - 0",
-                    "status": "Nghỉ HT",
-                    "is_live": true
-                }
-            ]
-        }
-    ],
+    "last_updated": "2026-06-04 06:48:13 (UTC)",
+    "live_leagues": [],
     "upcoming_leagues": [
         {
             "name": "Europe - U17 European Championship, Knockout stage",
@@ -283,6 +246,14 @@
                 },
                 {
                     "time": "23:00",
+                    "home": "Afghanistan",
+                    "away": "Bangladesh U23",
+                    "score": "vs",
+                    "status": "Sắp diễn ra",
+                    "is_live": false
+                },
+                {
+                    "time": "23:00",
                     "home": "Northern Ireland",
                     "away": "Guinea",
                     "score": "vs",
@@ -307,6 +278,20 @@
                     "time": "22:00",
                     "home": "Bulgaria U19",
                     "away": "Albania U19",
+                    "score": "vs",
+                    "status": "Sắp diễn ra",
+                    "is_live": false
+                }
+            ]
+        },
+        {
+            "name": "World - U19 Friendly Games Women",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "22:30",
+                    "home": "Slovenia U19",
+                    "away": "Bosnia & Herzegovina U19",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
