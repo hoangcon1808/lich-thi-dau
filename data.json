@@ -1,58 +1,16 @@
 {
-    "last_updated": "2026-06-04 18:36:45 (UTC)",
+    "last_updated": "2026-06-04 20:36:20 (UTC)",
     "live_leagues": [
-        {
-            "name": "Europe - U17 European Championship, Knockout stage",
-            "priority": 2,
-            "matches": [
-                {
-                    "time": "00:00",
-                    "home": "Italy U17",
-                    "away": "Spain U17",
-                    "score": "1 - 0",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                }
-            ]
-        },
         {
             "name": "Morocco - Botola Pro",
             "priority": 99,
             "matches": [
                 {
-                    "time": "01:00",
-                    "home": "Hassania d'Agadir",
-                    "away": "Fath Union Sport",
-                    "score": "0 - 0",
+                    "time": "03:00",
+                    "home": "AS FAR Rabat",
+                    "away": "Difaâ Hassani El-Jadidi",
+                    "score": "1 - 0",
                     "status": "Hiệp 1",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "Sweden - Ettan, Norra",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "00:30",
-                    "home": "AFC Eskilstuna",
-                    "away": "Karlbergs BK",
-                    "score": "0 - 1",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "Sweden - Ettan, Sodra",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "00:00",
-                    "home": "Laholms FK",
-                    "away": "Hässleholms IF",
-                    "score": "1 - 2",
-                    "status": "Hiệp 2",
                     "is_live": true
                 }
             ]
@@ -62,18 +20,18 @@
             "priority": 99,
             "matches": [
                 {
-                    "time": "00:00",
-                    "home": "Andorra",
-                    "away": "Liechtenstein",
-                    "score": "2 - 0",
+                    "time": "02:00",
+                    "home": "Spain",
+                    "away": "Iraq",
+                    "score": "1 - 1",
                     "status": "Hiệp 2",
                     "is_live": true
                 },
                 {
-                    "time": "00:00",
-                    "home": "Sweden",
-                    "away": "Greece",
-                    "score": "2 - 1",
+                    "time": "02:10",
+                    "home": "France",
+                    "away": "Côte d'Ivoire",
+                    "score": "1 - 1",
                     "status": "Hiệp 2",
                     "is_live": true
                 }
@@ -103,20 +61,6 @@
                     "time": "17:00",
                     "home": "Kamatamare Sanuki",
                     "away": "AC Nagano Parceiro",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
-            "name": "Morocco - Botola Pro",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "03:00",
-                    "home": "AS FAR Rabat",
-                    "away": "Difaâ Hassani El-Jadidi",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
@@ -157,22 +101,6 @@
             "name": "World - Int. Friendly Games",
             "priority": 99,
             "matches": [
-                {
-                    "time": "02:00",
-                    "home": "Spain",
-                    "away": "Iraq",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "02:10",
-                    "home": "France",
-                    "away": "Côte d'Ivoire",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
                 {
                     "time": "07:00",
                     "home": "Czechia",
