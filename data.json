@@ -1,76 +1,17 @@
 {
-    "last_updated": "2026-06-03 23:21:19 (UTC)",
-    "live_leagues": [],
-    "upcoming_leagues": [
-        {
-            "name": "Europe - U17 European Championship, Knockout stage",
-            "priority": 2,
-            "matches": [
-                {
-                    "time": "18:30",
-                    "home": "Belgium U17",
-                    "away": "France U17",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
-            "name": "Bolivia - División Profesional",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "07:00",
-                    "home": "Real Potosí",
-                    "away": "Academia de Balompié Boliviano",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
-            "name": "USA - USL Championship",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "07:00",
-                    "home": "Birmingham Legion FC",
-                    "away": "Louisville City FC",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
+    "last_updated": "2026-06-04 02:00:53 (UTC)",
+    "live_leagues": [
         {
             "name": "USA - USL, League One",
             "priority": 99,
             "matches": [
                 {
-                    "time": "06:30",
-                    "home": "FC Naples",
-                    "away": "Charlotte Independence",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "06:30",
-                    "home": "Greenville Triumph SC",
-                    "away": "Forward Madison FC",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
                     "time": "07:30",
                     "home": "Corpus Christi FC",
                     "away": "Portland Hearts of Pine",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
+                    "score": "1 - 1",
+                    "status": "Hiệp 2",
+                    "is_live": true
                 }
             ]
         },
@@ -82,14 +23,228 @@
                     "time": "07:45",
                     "home": "Panama",
                     "away": "Dominican Republic",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
+                    "score": "2 - 0",
+                    "status": "Nghỉ HT",
+                    "is_live": true
                 },
                 {
                     "time": "08:00",
                     "home": "South Korea",
                     "away": "El Salvador",
+                    "score": "0 - 0",
+                    "status": "Nghỉ HT",
+                    "is_live": true
+                }
+            ]
+        }
+    ],
+    "upcoming_leagues": [
+        {
+            "name": "Europe - U17 European Championship, Knockout stage",
+            "priority": 2,
+            "matches": [
+                {
+                    "time": "00:00",
+                    "home": "Italy U17",
+                    "away": "Spain U17",
+                    "score": "vs",
+                    "status": "Sắp diễn ra",
+                    "is_live": false
+                },
+                {
+                    "time": "18:30",
+                    "home": "Belgium U17",
+                    "away": "France U17",
+                    "score": "vs",
+                    "status": "Sắp diễn ra",
+                    "is_live": false
+                }
+            ]
+        },
+        {
+            "name": "Australia - Queensland Premier League 1",
+            "priority": 5,
+            "matches": [
+                {
+                    "time": "17:30",
+                    "home": "Logan Lightning",
+                    "away": "Capalaba Bulldogs",
+                    "score": "vs",
+                    "status": "Sắp diễn ra",
+                    "is_live": false
+                }
+            ]
+        },
+        {
+            "name": "Algeria - Ligue 1",
+            "priority": 9,
+            "matches": [
+                {
+                    "time": "23:00",
+                    "home": "ES Ben Aknoun",
+                    "away": "USM Alger",
+                    "score": "vs",
+                    "status": "Sắp diễn ra",
+                    "is_live": false
+                }
+            ]
+        },
+        {
+            "name": "Asia - AFC Asian Cup, Qualification Group B",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "23:00",
+                    "home": "Lebanon",
+                    "away": "Yemen",
+                    "score": "vs",
+                    "status": "Sắp diễn ra",
+                    "is_live": false
+                }
+            ]
+        },
+        {
+            "name": "Japan - J2/J3 League, Placement Matches",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "17:00",
+                    "home": "Kamatamare Sanuki",
+                    "away": "AC Nagano Parceiro",
+                    "score": "vs",
+                    "status": "Sắp diễn ra",
+                    "is_live": false
+                }
+            ]
+        },
+        {
+            "name": "Morocco - Botola Pro",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "01:00",
+                    "home": "Hassania d'Agadir",
+                    "away": "Fath Union Sport",
+                    "score": "vs",
+                    "status": "Sắp diễn ra",
+                    "is_live": false
+                },
+                {
+                    "time": "03:00",
+                    "home": "AS FAR Rabat",
+                    "away": "Difaâ Hassani El-Jadidi",
+                    "score": "vs",
+                    "status": "Sắp diễn ra",
+                    "is_live": false
+                }
+            ]
+        },
+        {
+            "name": "South Korea - K-League 2",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "17:30",
+                    "home": "Busan I Park",
+                    "away": "Chungnam Asan FC",
+                    "score": "vs",
+                    "status": "Sắp diễn ra",
+                    "is_live": false
+                },
+                {
+                    "time": "17:30",
+                    "home": "Daegu FC",
+                    "away": "Paju Frontier FC",
+                    "score": "vs",
+                    "status": "Sắp diễn ra",
+                    "is_live": false
+                },
+                {
+                    "time": "17:30",
+                    "home": "Seongnam FC",
+                    "away": "Gimhae City FC",
+                    "score": "vs",
+                    "status": "Sắp diễn ra",
+                    "is_live": false
+                }
+            ]
+        },
+        {
+            "name": "Sweden - Ettan, Norra",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "00:30",
+                    "home": "AFC Eskilstuna",
+                    "away": "Karlbergs BK",
+                    "score": "vs",
+                    "status": "Sắp diễn ra",
+                    "is_live": false
+                }
+            ]
+        },
+        {
+            "name": "Sweden - Ettan, Sodra",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "00:00",
+                    "home": "Laholms FK",
+                    "away": "Hässleholms IF",
+                    "score": "vs",
+                    "status": "Sắp diễn ra",
+                    "is_live": false
+                }
+            ]
+        },
+        {
+            "name": "World - Int. Friendly Games",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "00:00",
+                    "home": "Andorra",
+                    "away": "Liechtenstein",
+                    "score": "vs",
+                    "status": "Sắp diễn ra",
+                    "is_live": false
+                },
+                {
+                    "time": "00:00",
+                    "home": "Sweden",
+                    "away": "Greece",
+                    "score": "vs",
+                    "status": "Sắp diễn ra",
+                    "is_live": false
+                },
+                {
+                    "time": "02:00",
+                    "home": "Spain",
+                    "away": "Iraq",
+                    "score": "vs",
+                    "status": "Sắp diễn ra",
+                    "is_live": false
+                },
+                {
+                    "time": "02:10",
+                    "home": "France",
+                    "away": "Côte d'Ivoire",
+                    "score": "vs",
+                    "status": "Sắp diễn ra",
+                    "is_live": false
+                },
+                {
+                    "time": "07:00",
+                    "home": "Czechia",
+                    "away": "Guatemala",
+                    "score": "vs",
+                    "status": "Sắp diễn ra",
+                    "is_live": false
+                },
+                {
+                    "time": "09:00",
+                    "home": "Mexico",
+                    "away": "Serbia",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
@@ -98,6 +253,74 @@
                     "time": "18:00",
                     "home": "Maldives",
                     "away": "Pakistan",
+                    "score": "vs",
+                    "status": "Sắp diễn ra",
+                    "is_live": false
+                },
+                {
+                    "time": "18:30",
+                    "home": "Singapore",
+                    "away": "China",
+                    "score": "vs",
+                    "status": "Sắp diễn ra",
+                    "is_live": false
+                },
+                {
+                    "time": "19:00",
+                    "home": "Cambodia",
+                    "away": "Bhutan",
+                    "score": "vs",
+                    "status": "Sắp diễn ra",
+                    "is_live": false
+                },
+                {
+                    "time": "20:00",
+                    "home": "Lesotho",
+                    "away": "Kenya",
+                    "score": "vs",
+                    "status": "Sắp diễn ra",
+                    "is_live": false
+                },
+                {
+                    "time": "23:00",
+                    "home": "Northern Ireland",
+                    "away": "Guinea",
+                    "score": "vs",
+                    "status": "Sắp diễn ra",
+                    "is_live": false
+                },
+                {
+                    "time": "23:00",
+                    "home": "Slovenia",
+                    "away": "Cyprus",
+                    "score": "vs",
+                    "status": "Sắp diễn ra",
+                    "is_live": false
+                }
+            ]
+        },
+        {
+            "name": "World - U19 Friendly Games",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "22:00",
+                    "home": "Bulgaria U19",
+                    "away": "Albania U19",
+                    "score": "vs",
+                    "status": "Sắp diễn ra",
+                    "is_live": false
+                }
+            ]
+        },
+        {
+            "name": "World - U21 Friendly Games",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "23:00",
+                    "home": "Moldova U21",
+                    "away": "Malta U21",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
