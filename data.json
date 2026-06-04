@@ -1,23 +1,109 @@
 {
-    "last_updated": "2026-06-04 13:41:02 (UTC)",
+    "last_updated": "2026-06-04 16:34:52 (UTC)",
     "live_leagues": [
+        {
+            "name": "Algeria - Ligue 1",
+            "priority": 9,
+            "matches": [
+                {
+                    "time": "23:00",
+                    "home": "ES Ben Aknoun",
+                    "away": "USM Alger",
+                    "score": "0 - 1",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "Asia - AFC Asian Cup, Qualification Group B",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "23:00",
+                    "home": "Lebanon",
+                    "away": "Yemen",
+                    "score": "0 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                }
+            ]
+        },
         {
             "name": "World - Int. Friendly Games",
             "priority": 99,
             "matches": [
                 {
-                    "time": "19:00",
-                    "home": "Cambodia",
-                    "away": "Bhutan",
-                    "score": "3 - 0",
+                    "time": "23:00",
+                    "home": "Afghanistan",
+                    "away": "Bangladesh U23",
+                    "score": "0 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                },
+                {
+                    "time": "23:00",
+                    "home": "Northern Ireland",
+                    "away": "Guinea",
+                    "score": "1 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                },
+                {
+                    "time": "23:00",
+                    "home": "Slovenia",
+                    "away": "Cyprus",
+                    "score": "0 - 1",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "World - U19 Friendly Games",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "22:00",
+                    "home": "Bulgaria U19",
+                    "away": "Albania U19",
+                    "score": "1 - 0",
+                    "status": "Hiệp 2",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "World - U19 Friendly Games Women",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "22:30",
+                    "home": "Slovenia U19",
+                    "away": "Bosnia & Herzegovina U19",
+                    "score": "0 - 0",
+                    "status": "Nghỉ HT",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "World - U21 Friendly Games",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "22:00",
+                    "home": "Sweden U21",
+                    "away": "Finland U21",
+                    "score": "1 - 3",
                     "status": "Hiệp 2",
                     "is_live": true
                 },
                 {
-                    "time": "20:00",
-                    "home": "Lesotho",
-                    "away": "Kenya",
-                    "score": "0 - 1",
+                    "time": "23:00",
+                    "home": "Moldova U21",
+                    "away": "Malta U21",
+                    "score": "1 - 0",
                     "status": "Hiệp 1",
                     "is_live": true
                 }
@@ -47,34 +133,6 @@
                     "time": "17:30",
                     "home": "Logan Lightning",
                     "away": "Capalaba Bulldogs",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
-            "name": "Algeria - Ligue 1",
-            "priority": 9,
-            "matches": [
-                {
-                    "time": "23:00",
-                    "home": "ES Ben Aknoun",
-                    "away": "USM Alger",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
-            "name": "Asia - AFC Asian Cup, Qualification Group B",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "23:00",
-                    "home": "Lebanon",
-                    "away": "Yemen",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
@@ -231,72 +289,6 @@
                     "time": "18:30",
                     "home": "Singapore",
                     "away": "China",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "23:00",
-                    "home": "Afghanistan",
-                    "away": "Bangladesh U23",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "23:00",
-                    "home": "Northern Ireland",
-                    "away": "Guinea",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "23:00",
-                    "home": "Slovenia",
-                    "away": "Cyprus",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
-            "name": "World - U19 Friendly Games",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "22:00",
-                    "home": "Bulgaria U19",
-                    "away": "Albania U19",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
-            "name": "World - U19 Friendly Games Women",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "22:30",
-                    "home": "Slovenia U19",
-                    "away": "Bosnia & Herzegovina U19",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
-            "name": "World - U21 Friendly Games",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "23:00",
-                    "home": "Moldova U21",
-                    "away": "Malta U21",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
