@@ -1,15 +1,127 @@
 {
-    "last_updated": "2026-06-05 12:48:07 (UTC)",
+    "last_updated": "2026-06-05 15:41:23 (UTC)",
     "live_leagues": [
+        {
+            "name": "Europe - FIFA World Cup, Women, Qualification, UEFA, Gr. B1",
+            "priority": 1,
+            "matches": [
+                {
+                    "time": "22:30",
+                    "home": "Czechia",
+                    "away": "Albania",
+                    "score": "0 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "Europe - FIFA World Cup, Women, Qualification, UEFA, Gr. B3",
+            "priority": 1,
+            "matches": [
+                {
+                    "time": "21:00",
+                    "home": "Slovakia",
+                    "away": "Finland",
+                    "score": "0 - 4",
+                    "status": "Hiệp 2",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "Europe - FIFA World Cup, Women, Qualification, UEFA, Gr. C1",
+            "priority": 1,
+            "matches": [
+                {
+                    "time": "22:00",
+                    "home": "Bosnia & Herzegovina",
+                    "away": "Lithuania",
+                    "score": "0 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "Europe - FIFA World Cup, Women, Qualification, UEFA, Gr. C2",
+            "priority": 1,
+            "matches": [
+                {
+                    "time": "22:00",
+                    "home": "Bulgaria",
+                    "away": "Gibraltar",
+                    "score": "1 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "Europe - FIFA World Cup, Women, Qualification, UEFA, Gr. C3",
+            "priority": 1,
+            "matches": [
+                {
+                    "time": "21:00",
+                    "home": "Azerbaijan",
+                    "away": "Hungary",
+                    "score": "1 - 1",
+                    "status": "Hiệp 2",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "Europe - FIFA World Cup, Women, Qualification, UEFA, Gr. C5",
+            "priority": 1,
+            "matches": [
+                {
+                    "time": "22:00",
+                    "home": "Moldova",
+                    "away": "Romania",
+                    "score": "0 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "Europe - FIFA World Cup, Women, Qualification, UEFA, Gr. C6",
+            "priority": 1,
+            "matches": [
+                {
+                    "time": "21:00",
+                    "home": "Armenia",
+                    "away": "Kazakhstan",
+                    "score": "1 - 1",
+                    "status": "Hiệp 2",
+                    "is_live": true
+                }
+            ]
+        },
         {
             "name": "Ukraine - Premier League, Relegation/Promotion Playoffs",
             "priority": 5,
             "matches": [
                 {
-                    "time": "19:30",
-                    "home": "Oleksandria",
-                    "away": "FC Livyi Bereh Kyiv",
+                    "time": "22:00",
+                    "home": "Kudrivka",
+                    "away": "Ahrobiznes Volochysk",
                     "score": "0 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "Finland - Ykkosliiga",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "22:30",
+                    "home": "FC Haka",
+                    "away": "JäPS",
+                    "score": "1 - 0",
                     "status": "Hiệp 1",
                     "is_live": true
                 }
@@ -20,26 +132,32 @@
             "priority": 99,
             "matches": [
                 {
-                    "time": "18:30",
-                    "home": "Singapore",
-                    "away": "China",
-                    "score": "0 - 2",
+                    "time": "22:00",
+                    "home": "Tajikistan",
+                    "away": "India",
+                    "score": "1 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "World - U21 Friendly Games",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "21:00",
+                    "home": "Belarus U21",
+                    "away": "Kazakhstan U21",
+                    "score": "2 - 0",
                     "status": "Hiệp 2",
                     "is_live": true
                 },
                 {
-                    "time": "19:00",
-                    "home": "Hong Kong",
-                    "away": "Mongolia",
-                    "score": "1 - 0",
-                    "status": "Hiệp 1",
-                    "is_live": true
-                },
-                {
-                    "time": "19:30",
-                    "home": "Thailand",
-                    "away": "Kuwait",
-                    "score": "0 - 0",
+                    "time": "22:00",
+                    "home": "Montenegro U21",
+                    "away": "Cyprus U21",
+                    "score": "1 - 1",
                     "status": "Hiệp 1",
                     "is_live": true
                 }
@@ -140,14 +258,6 @@
             "priority": 1,
             "matches": [
                 {
-                    "time": "22:30",
-                    "home": "Czechia",
-                    "away": "Albania",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
                     "time": "23:00",
                     "home": "Montenegro",
                     "away": "Wales",
@@ -190,14 +300,6 @@
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
-                },
-                {
-                    "time": "21:00",
-                    "home": "Slovakia",
-                    "away": "Finland",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
                 }
             ]
         },
@@ -234,14 +336,6 @@
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
-                },
-                {
-                    "time": "22:00",
-                    "home": "Bosnia & Herzegovina",
-                    "away": "Lithuania",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
                 }
             ]
         },
@@ -256,14 +350,6 @@
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
-                },
-                {
-                    "time": "22:00",
-                    "home": "Bulgaria",
-                    "away": "Gibraltar",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
                 }
             ]
         },
@@ -275,56 +361,6 @@
                     "time": "00:30",
                     "home": "Andorra",
                     "away": "North Macedonia",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "21:00",
-                    "home": "Azerbaijan",
-                    "away": "Hungary",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
-            "name": "Europe - FIFA World Cup, Women, Qualification, UEFA, Gr. C4",
-            "priority": 1,
-            "matches": [
-                {
-                    "time": "20:30",
-                    "home": "Georgia",
-                    "away": "Faroe Islands",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
-            "name": "Europe - FIFA World Cup, Women, Qualification, UEFA, Gr. C5",
-            "priority": 1,
-            "matches": [
-                {
-                    "time": "22:00",
-                    "home": "Moldova",
-                    "away": "Romania",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
-            "name": "Europe - FIFA World Cup, Women, Qualification, UEFA, Gr. C6",
-            "priority": 1,
-            "matches": [
-                {
-                    "time": "21:00",
-                    "home": "Armenia",
-                    "away": "Kazakhstan",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
@@ -377,20 +413,6 @@
                     "time": "09:00",
                     "home": "Vancouver FC",
                     "away": "Atlético Ottawa",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
-            "name": "Ukraine - Premier League, Relegation/Promotion Playoffs",
-            "priority": 5,
-            "matches": [
-                {
-                    "time": "22:00",
-                    "home": "Kudrivka",
-                    "away": "Ahrobiznes Volochysk",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
@@ -541,14 +563,6 @@
             "name": "Finland - Ykkosliiga",
             "priority": 99,
             "matches": [
-                {
-                    "time": "22:30",
-                    "home": "FC Haka",
-                    "away": "JäPS",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
                 {
                     "time": "23:00",
                     "home": "KäPa",
@@ -916,22 +930,6 @@
                     "is_live": false
                 },
                 {
-                    "time": "20:00",
-                    "home": "Indonesia",
-                    "away": "Oman",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "22:00",
-                    "home": "Tajikistan",
-                    "away": "India",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
                     "time": "23:00",
                     "home": "Belarus",
                     "away": "Syria",
@@ -1003,6 +1001,14 @@
                 },
                 {
                     "time": "23:00",
+                    "home": "Egypt",
+                    "away": "Tunisia",
+                    "score": "vs",
+                    "status": "Sắp diễn ra",
+                    "is_live": false
+                },
+                {
+                    "time": "23:00",
                     "home": "New Zealand",
                     "away": "Haiti",
                     "score": "vs",
@@ -1015,14 +1021,6 @@
             "name": "World - Tournoi Maurice Revello, Group A",
             "priority": 99,
             "matches": [
-                {
-                    "time": "20:00",
-                    "home": "Colombia U19",
-                    "away": "China U22",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
                 {
                     "time": "23:30",
                     "home": "Saudi Arabia U23",
@@ -1041,22 +1039,6 @@
                     "time": "01:15",
                     "home": "Slovenia U21",
                     "away": "Albania U21",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "21:00",
-                    "home": "Belarus U21",
-                    "away": "Kazakhstan U21",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "22:00",
-                    "home": "Montenegro U21",
-                    "away": "Cyprus U21",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
