@@ -1,6 +1,21 @@
 {
-    "last_updated": "2026-06-05 20:58:27 (UTC)",
-    "live_leagues": [],
+    "last_updated": "2026-06-05 22:14:14 (UTC)",
+    "live_leagues": [
+        {
+            "name": "Uruguay - Liga AUF Uruguaya, Intermedio, Serie B",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "05:00",
+                    "home": "Montevideo Wanderers",
+                    "away": "Danubio",
+                    "score": "0 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                }
+            ]
+        }
+    ],
     "upcoming_leagues": [
         {
             "name": "Australia - Queensland Premier League 1",
@@ -386,20 +401,6 @@
                     "time": "17:30",
                     "home": "Hwaseong FC",
                     "away": "Suwon Samsung Bluewings",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
-            "name": "Uruguay - Liga AUF Uruguaya, Intermedio, Serie B",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "05:00",
-                    "home": "Montevideo Wanderers",
-                    "away": "Danubio",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
