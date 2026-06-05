@@ -1,290 +1,6 @@
 {
-    "last_updated": "2026-06-05 17:30:32 (UTC)",
+    "last_updated": "2026-06-05 19:19:06 (UTC)",
     "live_leagues": [
-        {
-            "name": "Europe - FIFA World Cup, Women, Qualification, UEFA, Gr. A1",
-            "priority": 1,
-            "matches": [
-                {
-                    "time": "00:15",
-                    "home": "Denmark",
-                    "away": "Sweden",
-                    "score": "0 - 0",
-                    "status": "Hiệp 1",
-                    "is_live": true
-                },
-                {
-                    "time": "23:15",
-                    "home": "Italy",
-                    "away": "Serbia",
-                    "score": "0 - 0",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "Europe - FIFA World Cup, Women, Qualification, UEFA, Gr. A2",
-            "priority": 1,
-            "matches": [
-                {
-                    "time": "23:00",
-                    "home": "Poland",
-                    "away": "France",
-                    "score": "0 - 2",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "Europe - FIFA World Cup, Women, Qualification, UEFA, Gr. A3",
-            "priority": 1,
-            "matches": [
-                {
-                    "time": "23:00",
-                    "home": "Ukraine",
-                    "away": "Iceland",
-                    "score": "0 - 1",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "Europe - FIFA World Cup, Women, Qualification, UEFA, Gr. A4",
-            "priority": 1,
-            "matches": [
-                {
-                    "time": "23:00",
-                    "home": "Austria",
-                    "away": "Slovenia",
-                    "score": "1 - 0",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "Europe - FIFA World Cup, Women, Qualification, UEFA, Gr. B1",
-            "priority": 1,
-            "matches": [
-                {
-                    "time": "23:00",
-                    "home": "Montenegro",
-                    "away": "Wales",
-                    "score": "0 - 1",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "Europe - FIFA World Cup, Women, Qualification, UEFA, Gr. B2",
-            "priority": 1,
-            "matches": [
-                {
-                    "time": "00:00",
-                    "home": "Türkiye",
-                    "away": "Northern Ireland",
-                    "score": "1 - 0",
-                    "status": "Hiệp 1",
-                    "is_live": true
-                },
-                {
-                    "time": "00:30",
-                    "home": "Switzerland",
-                    "away": "Malta",
-                    "score": "0 - 0",
-                    "status": "Hiệp 1",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "Europe - FIFA World Cup, Women, Qualification, UEFA, Gr. B4",
-            "priority": 1,
-            "matches": [
-                {
-                    "time": "23:00",
-                    "home": "Scotland",
-                    "away": "Israel",
-                    "score": "4 - 0",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "Europe - FIFA World Cup, Women, Qualification, UEFA, Gr. C1",
-            "priority": 1,
-            "matches": [
-                {
-                    "time": "00:00",
-                    "home": "Liechtenstein",
-                    "away": "Estonia",
-                    "score": "0 - 2",
-                    "status": "Hiệp 1",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "Europe - FIFA World Cup, Women, Qualification, UEFA, Gr. C2",
-            "priority": 1,
-            "matches": [
-                {
-                    "time": "00:00",
-                    "home": "Kosovo",
-                    "away": "Croatia",
-                    "score": "0 - 1",
-                    "status": "Hiệp 1",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "Algeria - Ligue 1",
-            "priority": 9,
-            "matches": [
-                {
-                    "time": "23:00",
-                    "home": "ES Mostaganem",
-                    "away": "MC El Bayadh",
-                    "score": "2 - 1",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                },
-                {
-                    "time": "23:00",
-                    "home": "Paradou AC",
-                    "away": "ES Sétif",
-                    "score": "0 - 2",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                },
-                {
-                    "time": "23:00",
-                    "home": "USM Khenchela",
-                    "away": "MB Rouissat",
-                    "score": "0 - 0",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "Finland - Ykkosliiga",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "23:00",
-                    "home": "KäPa",
-                    "away": "KTP",
-                    "score": "1 - 2",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "Sweden - Ettan, Norra",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "00:00",
-                    "home": "FBK Karlstad",
-                    "away": "IF Karlstad Fotboll",
-                    "score": "1 - 1",
-                    "status": "Hiệp 1",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "World - Int. Friendly Games",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "00:00",
-                    "home": "Moldova",
-                    "away": "Bulgaria",
-                    "score": "0 - 1",
-                    "status": "Hiệp 1",
-                    "is_live": true
-                },
-                {
-                    "time": "00:00",
-                    "home": "Russia",
-                    "away": "Burkina Faso",
-                    "score": "2 - 0",
-                    "status": "Hiệp 1",
-                    "is_live": true
-                },
-                {
-                    "time": "00:00",
-                    "home": "San Marino",
-                    "away": "Bangladesh",
-                    "score": "0 - 1",
-                    "status": "Hiệp 1",
-                    "is_live": true
-                },
-                {
-                    "time": "23:00",
-                    "home": "Belarus",
-                    "away": "Syria",
-                    "score": "3 - 0",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                },
-                {
-                    "time": "23:00",
-                    "home": "Georgia",
-                    "away": "Bahrain",
-                    "score": "1 - 0",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                },
-                {
-                    "time": "23:30",
-                    "home": "Slovakia",
-                    "away": "Montenegro",
-                    "score": "1 - 1",
-                    "status": "Nghỉ HT",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "World - International Friendly Games, Women",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "23:00",
-                    "home": "Egypt",
-                    "away": "Tunisia",
-                    "score": "1 - 0",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "World - Tournoi Maurice Revello, Group A",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "23:30",
-                    "home": "Saudi Arabia U23",
-                    "away": "Tunisia U20",
-                    "score": "1 - 1",
-                    "status": "Nghỉ HT",
-                    "is_live": true
-                }
-            ]
-        }
-    ],
-    "upcoming_leagues": [
         {
             "name": "Europe - FIFA World Cup, Women, Qualification, UEFA, Gr. A2",
             "priority": 1,
@@ -293,9 +9,9 @@
                     "time": "01:30",
                     "home": "Ireland",
                     "away": "Netherlands",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
+                    "score": "1 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
                 }
             ]
         },
@@ -307,9 +23,9 @@
                     "time": "02:00",
                     "home": "Spain",
                     "away": "England",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
+                    "score": "0 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
                 }
             ]
         },
@@ -321,9 +37,23 @@
                     "time": "01:35",
                     "home": "Germany",
                     "away": "Norway",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
+                    "score": "2 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "Europe - FIFA World Cup, Women, Qualification, UEFA, Gr. B2",
+            "priority": 1,
+            "matches": [
+                {
+                    "time": "00:30",
+                    "home": "Switzerland",
+                    "away": "Malta",
+                    "score": "6 - 1",
+                    "status": "Hiệp 2",
+                    "is_live": true
                 }
             ]
         },
@@ -335,9 +65,9 @@
                     "time": "02:00",
                     "home": "Portugal",
                     "away": "Latvia",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
+                    "score": "0 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
                 }
             ]
         },
@@ -349,9 +79,9 @@
                     "time": "01:15",
                     "home": "Belgium",
                     "away": "Luxembourg",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
+                    "score": "2 - 0",
+                    "status": "Nghỉ HT",
+                    "is_live": true
                 }
             ]
         },
@@ -363,12 +93,88 @@
                     "time": "00:30",
                     "home": "Andorra",
                     "away": "North Macedonia",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
+                    "score": "0 - 1",
+                    "status": "Hiệp 2",
+                    "is_live": true
                 }
             ]
         },
+        {
+            "name": "Algeria - Ligue 1",
+            "priority": 9,
+            "matches": [
+                {
+                    "time": "00:30",
+                    "home": "MC Alger",
+                    "away": "ASO Chlef",
+                    "score": "1 - 0",
+                    "status": "Hiệp 2",
+                    "is_live": true
+                },
+                {
+                    "time": "02:00",
+                    "home": "JS Kabylie",
+                    "away": "CR Belouizdad",
+                    "score": "0 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                },
+                {
+                    "time": "02:00",
+                    "home": "JS Saoura",
+                    "away": "CS Constantine",
+                    "score": "1 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "World - Int. Friendly Games",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "00:45",
+                    "home": "Hungary",
+                    "away": "Finland",
+                    "score": "2 - 1",
+                    "status": "Hiệp 2",
+                    "is_live": true
+                },
+                {
+                    "time": "01:00",
+                    "home": "Azerbaijan",
+                    "away": "Malta",
+                    "score": "0 - 0",
+                    "status": "Hiệp 2",
+                    "is_live": true
+                },
+                {
+                    "time": "01:00",
+                    "home": "Benin",
+                    "away": "Niger",
+                    "score": "1 - 0",
+                    "status": "Hiệp 2",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "World - U21 Friendly Games",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "01:15",
+                    "home": "Slovenia U21",
+                    "away": "Albania U21",
+                    "score": "0 - 1",
+                    "status": "Nghỉ HT",
+                    "is_live": true
+                }
+            ]
+        }
+    ],
+    "upcoming_leagues": [
         {
             "name": "Australia - Queensland Premier League 1",
             "priority": 5,
@@ -415,36 +221,6 @@
                     "time": "09:00",
                     "home": "Vancouver FC",
                     "away": "Atlético Ottawa",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
-            "name": "Algeria - Ligue 1",
-            "priority": 9,
-            "matches": [
-                {
-                    "time": "00:30",
-                    "home": "MC Alger",
-                    "away": "ASO Chlef",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "02:00",
-                    "home": "JS Kabylie",
-                    "away": "CR Belouizdad",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "02:00",
-                    "home": "JS Saoura",
-                    "away": "CS Constantine",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
@@ -808,30 +584,6 @@
             "priority": 99,
             "matches": [
                 {
-                    "time": "00:45",
-                    "home": "Hungary",
-                    "away": "Finland",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "01:00",
-                    "home": "Azerbaijan",
-                    "away": "Malta",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "01:00",
-                    "home": "Benin",
-                    "away": "Niger",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
                     "time": "06:30",
                     "home": "Canada",
                     "away": "Ireland",
@@ -897,28 +649,6 @@
                     "time": "18:00",
                     "home": "Singapore",
                     "away": "Cambodia",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "23:00",
-                    "home": "New Zealand",
-                    "away": "Haiti",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
-            "name": "World - U21 Friendly Games",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "01:15",
-                    "home": "Slovenia U21",
-                    "away": "Albania U21",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
