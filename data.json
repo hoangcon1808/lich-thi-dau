@@ -1,6 +1,72 @@
 {
-    "last_updated": "2026-06-05 22:14:14 (UTC)",
+    "last_updated": "2026-06-05 23:38:28 (UTC)",
     "live_leagues": [
+        {
+            "name": "USA - MLS Next Pro",
+            "priority": 12,
+            "matches": [
+                {
+                    "time": "06:00",
+                    "home": "Crown Legacy FC",
+                    "away": "Philadelphia Union II",
+                    "score": "1 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                },
+                {
+                    "time": "06:00",
+                    "home": "Toronto FC II",
+                    "away": "Huntsville City FC",
+                    "score": "1 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "Brazil - Brasileirão Série B",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "06:00",
+                    "home": "Operário-PR",
+                    "away": "Juventude",
+                    "score": "0 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "South America - CONMEBOL Nations League Women",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "06:00",
+                    "home": "Argentina",
+                    "away": "Peru",
+                    "score": "0 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                },
+                {
+                    "time": "06:00",
+                    "home": "Bolivia",
+                    "away": "Paraguay",
+                    "score": "0 - 2",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                },
+                {
+                    "time": "06:00",
+                    "home": "Chile",
+                    "away": "Ecuador",
+                    "score": "0 - 1",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                }
+            ]
+        },
         {
             "name": "Uruguay - Liga AUF Uruguaya, Intermedio, Serie B",
             "priority": 99,
@@ -10,7 +76,7 @@
                     "home": "Montevideo Wanderers",
                     "away": "Danubio",
                     "score": "0 - 0",
-                    "status": "Hiệp 1",
+                    "status": "Hiệp 2",
                     "is_live": true
                 }
             ]
@@ -74,22 +140,6 @@
             "priority": 12,
             "matches": [
                 {
-                    "time": "06:00",
-                    "home": "Crown Legacy FC",
-                    "away": "Philadelphia Union II",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "06:00",
-                    "home": "Toronto FC II",
-                    "away": "Huntsville City FC",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
                     "time": "08:00",
                     "home": "Vancouver Whitecaps FC II",
                     "away": "Portland Timbers II",
@@ -107,20 +157,6 @@
                     "time": "07:30",
                     "home": "Gimnasia y Tiro de Salta",
                     "away": "Ferrocarril Midland",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
-            "name": "Brazil - Brasileirão Série B",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "06:00",
-                    "home": "Operário-PR",
-                    "away": "Juventude",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
@@ -349,36 +385,6 @@
                     "time": "12:00",
                     "home": "Vegalta Sendai",
                     "away": "Kataller Toyama",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
-            "name": "South America - CONMEBOL Nations League Women",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "06:00",
-                    "home": "Argentina",
-                    "away": "Peru",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "06:00",
-                    "home": "Bolivia",
-                    "away": "Paraguay",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "06:00",
-                    "home": "Chile",
-                    "away": "Ecuador",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
