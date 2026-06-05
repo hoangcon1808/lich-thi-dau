@@ -1,21 +1,6 @@
 {
-    "last_updated": "2026-06-05 01:33:06 (UTC)",
-    "live_leagues": [
-        {
-            "name": "World - Int. Friendly Games",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "07:00",
-                    "home": "Czechia",
-                    "away": "Guatemala",
-                    "score": "2 - 1",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                }
-            ]
-        }
-    ],
+    "last_updated": "2026-06-05 06:02:47 (UTC)",
+    "live_leagues": [],
     "upcoming_leagues": [
         {
             "name": "Europe - FIFA World Cup, Women, Qualification, UEFA, Gr. A1",
@@ -910,14 +895,6 @@
                     "is_live": false
                 },
                 {
-                    "time": "05:15",
-                    "home": "Paraguay",
-                    "away": "Nicaragua",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
                     "time": "06:30",
                     "home": "Canada",
                     "away": "Ireland",
@@ -929,14 +906,6 @@
                     "time": "07:00",
                     "home": "Haiti",
                     "away": "Peru",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "09:00",
-                    "home": "Mexico",
-                    "away": "Serbia",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
