@@ -1,6 +1,21 @@
 {
-    "last_updated": "2026-06-05 06:02:47 (UTC)",
-    "live_leagues": [],
+    "last_updated": "2026-06-05 10:07:32 (UTC)",
+    "live_leagues": [
+        {
+            "name": "Japan - J2/J3 League, Placement Matches",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "17:00",
+                    "home": "Kamatamare Sanuki",
+                    "away": "AC Nagano Parceiro",
+                    "score": "0 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                }
+            ]
+        }
+    ],
     "upcoming_leagues": [
         {
             "name": "Europe - FIFA World Cup, Women, Qualification, UEFA, Gr. A1",
@@ -694,14 +709,6 @@
                     "time": "14:00",
                     "home": "Jubilo Iwata",
                     "away": "FC Osaka",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "17:00",
-                    "home": "Kamatamare Sanuki",
-                    "away": "AC Nagano Parceiro",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
