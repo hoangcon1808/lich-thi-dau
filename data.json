@@ -1,14 +1,44 @@
 {
-    "last_updated": "2026-06-05 10:07:32 (UTC)",
+    "last_updated": "2026-06-05 12:48:07 (UTC)",
     "live_leagues": [
         {
-            "name": "Japan - J2/J3 League, Placement Matches",
+            "name": "Ukraine - Premier League, Relegation/Promotion Playoffs",
+            "priority": 5,
+            "matches": [
+                {
+                    "time": "19:30",
+                    "home": "Oleksandria",
+                    "away": "FC Livyi Bereh Kyiv",
+                    "score": "0 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "World - Int. Friendly Games",
             "priority": 99,
             "matches": [
                 {
-                    "time": "17:00",
-                    "home": "Kamatamare Sanuki",
-                    "away": "AC Nagano Parceiro",
+                    "time": "18:30",
+                    "home": "Singapore",
+                    "away": "China",
+                    "score": "0 - 2",
+                    "status": "Hiệp 2",
+                    "is_live": true
+                },
+                {
+                    "time": "19:00",
+                    "home": "Hong Kong",
+                    "away": "Mongolia",
+                    "score": "1 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                },
+                {
+                    "time": "19:30",
+                    "home": "Thailand",
+                    "away": "Kuwait",
                     "score": "0 - 0",
                     "status": "Hiệp 1",
                     "is_live": true
@@ -336,14 +366,6 @@
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
-                },
-                {
-                    "time": "17:30",
-                    "home": "Logan Lightning",
-                    "away": "Capalaba Bulldogs",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
                 }
             ]
         },
@@ -365,14 +387,6 @@
             "name": "Ukraine - Premier League, Relegation/Promotion Playoffs",
             "priority": 5,
             "matches": [
-                {
-                    "time": "19:30",
-                    "home": "Oleksandria",
-                    "away": "FC Livyi Bereh Kyiv",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
                 {
                     "time": "22:00",
                     "home": "Kudrivka",
@@ -781,30 +795,6 @@
             "matches": [
                 {
                     "time": "17:30",
-                    "home": "Busan I Park",
-                    "away": "Chungnam Asan FC",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "17:30",
-                    "home": "Daegu FC",
-                    "away": "Paju Frontier FC",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "17:30",
-                    "home": "Seongnam FC",
-                    "away": "Gimhae City FC",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "17:30",
                     "home": "Gyeongnam FC",
                     "away": "Yongin City FC",
                     "score": "vs",
@@ -919,32 +909,8 @@
                 },
                 {
                     "time": "18:30",
-                    "home": "Singapore",
-                    "away": "China",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "18:30",
                     "home": "Myanmar",
                     "away": "Guam",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "19:00",
-                    "home": "Hong Kong",
-                    "away": "Mongolia",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "19:30",
-                    "home": "Thailand",
-                    "away": "Kuwait",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
