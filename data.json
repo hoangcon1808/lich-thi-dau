@@ -1,6 +1,42 @@
 {
-    "last_updated": "2026-06-06 22:17:52 (UTC)",
+    "last_updated": "2026-06-06 23:18:40 (UTC)",
     "live_leagues": [
+        {
+            "name": "Canada - Canadian Premier League",
+            "priority": 5,
+            "matches": [
+                {
+                    "time": "06:00",
+                    "home": "Cavalry FC",
+                    "away": "HFX Wanderers FC",
+                    "score": "0 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "USA - MLS Next Pro",
+            "priority": 12,
+            "matches": [
+                {
+                    "time": "06:00",
+                    "home": "Atlanta United 2",
+                    "away": "Chicago Fire FC II",
+                    "score": "0 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                },
+                {
+                    "time": "06:00",
+                    "home": "Chattanooga FC",
+                    "away": "New York Red Bulls II",
+                    "score": "2 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                }
+            ]
+        },
         {
             "name": "Argentina - Primera B Nacional",
             "priority": 99,
@@ -10,7 +46,7 @@
                     "home": "Tristán Suárez",
                     "away": "Almagro",
                     "score": "0 - 0",
-                    "status": "Hiệp 1",
+                    "status": "Hiệp 2",
                     "is_live": true
                 }
             ]
@@ -23,14 +59,74 @@
                     "time": "05:00",
                     "home": "Universidad Católica",
                     "away": "Cobresal",
-                    "score": "0 - 0",
-                    "status": "Hiệp 1",
+                    "score": "3 - 1",
+                    "status": "Hiệp 2",
                     "is_live": true
                 },
                 {
                     "time": "05:00",
                     "home": "Ñublense",
                     "away": "Universidad de Concepción",
+                    "score": "1 - 1",
+                    "status": "Hiệp 2",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "USA - USL Cup",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "05:00",
+                    "home": "Loudoun United FC",
+                    "away": "Richmond Kickers",
+                    "score": "0 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                },
+                {
+                    "time": "06:00",
+                    "home": "Charleston Battery",
+                    "away": "Pittsburgh Riverhounds",
+                    "score": "0 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                },
+                {
+                    "time": "06:00",
+                    "home": "New York Cosmos",
+                    "away": "Hartford Athletic",
+                    "score": "0 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                },
+                {
+                    "time": "06:00",
+                    "home": "SC Jacksonville",
+                    "away": "FC Tampa Bay Rowdies",
+                    "score": "0 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "USA - USL Cup, Group 4",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "06:00",
+                    "home": "Detroit City FC",
+                    "away": "Lexington SC",
+                    "score": "0 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                },
+                {
+                    "time": "06:00",
+                    "home": "Indy Eleven",
+                    "away": "Forward Madison FC",
                     "score": "0 - 0",
                     "status": "Hiệp 1",
                     "is_live": true
@@ -45,8 +141,8 @@
                     "time": "04:30",
                     "home": "Nacional",
                     "away": "Juventud de Las Piedras",
-                    "score": "0 - 1",
-                    "status": "Nghỉ HT",
+                    "score": "2 - 1",
+                    "status": "Hiệp 2",
                     "is_live": true
                 }
             ]
@@ -60,15 +156,15 @@
                     "home": "Brazil",
                     "away": "Egypt",
                     "score": "1 - 1",
-                    "status": "Hiệp 1",
+                    "status": "Hiệp 2",
                     "is_live": true
                 },
                 {
                     "time": "05:00",
                     "home": "Venezuela",
                     "away": "Türkiye",
-                    "score": "1 - 0",
-                    "status": "Hiệp 1",
+                    "score": "1 - 2",
+                    "status": "Hiệp 2",
                     "is_live": true
                 }
             ]
@@ -82,7 +178,7 @@
                     "home": "Brazil",
                     "away": "USA",
                     "score": "2 - 1",
-                    "status": "Hiệp 1",
+                    "status": "Hiệp 2",
                     "is_live": true
                 }
             ]
@@ -107,14 +203,6 @@
             "name": "Canada - Canadian Premier League",
             "priority": 5,
             "matches": [
-                {
-                    "time": "06:00",
-                    "home": "Cavalry FC",
-                    "away": "HFX Wanderers FC",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
                 {
                     "time": "06:00",
                     "home": "FC Supra Du Quebec",
@@ -195,22 +283,6 @@
                     "time": "04:00",
                     "home": "Inter Miami CF II",
                     "away": "New York City FC II",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "06:00",
-                    "home": "Atlanta United 2",
-                    "away": "Chicago Fire FC II",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "06:00",
-                    "home": "Chattanooga FC",
-                    "away": "New York Red Bulls II",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
@@ -396,30 +468,6 @@
             "priority": 99,
             "matches": [
                 {
-                    "time": "06:00",
-                    "home": "Charleston Battery",
-                    "away": "Pittsburgh Riverhounds",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "06:00",
-                    "home": "New York Cosmos",
-                    "away": "Hartford Athletic",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "06:00",
-                    "home": "SC Jacksonville",
-                    "away": "FC Tampa Bay Rowdies",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
                     "time": "06:30",
                     "home": "FC Naples",
                     "away": "Sarasota Paradise",
@@ -515,22 +563,6 @@
             "name": "USA - USL Cup, Group 4",
             "priority": 99,
             "matches": [
-                {
-                    "time": "06:00",
-                    "home": "Detroit City FC",
-                    "away": "Lexington SC",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "06:00",
-                    "home": "Indy Eleven",
-                    "away": "Forward Madison FC",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
                 {
                     "time": "07:00",
                     "home": "Union Omaha SC",
