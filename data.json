@@ -1,32 +1,30 @@
 {
-    "last_updated": "2026-06-06 18:58:52 (UTC)",
+    "last_updated": "2026-06-06 20:08:40 (UTC)",
     "live_leagues": [
+        {
+            "name": "Spain - LaLiga 2, Promotion Playoffs",
+            "priority": 6,
+            "matches": [
+                {
+                    "time": "02:00",
+                    "home": "CD Castellón",
+                    "away": "Almería",
+                    "score": "1 - 0",
+                    "status": "Hiệp 2",
+                    "is_live": true
+                }
+            ]
+        },
         {
             "name": "Argentina - Primera B Nacional",
             "priority": 99,
             "matches": [
                 {
-                    "time": "00:00",
-                    "home": "Atlanta",
-                    "away": "Gimnasia Jujuy",
-                    "score": "3 - 0",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                },
-                {
-                    "time": "01:00",
-                    "home": "Los Andes",
-                    "away": "Estudiantes de Buenos Aires",
-                    "score": "0 - 0",
-                    "status": "Nghỉ HT",
-                    "is_live": true
-                },
-                {
                     "time": "01:30",
                     "home": "Acassuso",
                     "away": "Central Norte de Salta",
-                    "score": "0 - 1",
-                    "status": "Hiệp 1",
+                    "score": "2 - 1",
+                    "status": "Hiệp 2",
                     "is_live": true
                 },
                 {
@@ -34,6 +32,22 @@
                     "home": "San Miguel",
                     "away": "Defensores de Belgrano",
                     "score": "0 - 0",
+                    "status": "Hiệp 2",
+                    "is_live": true
+                },
+                {
+                    "time": "02:00",
+                    "home": "San Martín de San Juan",
+                    "away": "Nueva Chicago",
+                    "score": "1 - 0",
+                    "status": "Nghỉ HT",
+                    "is_live": true
+                },
+                {
+                    "time": "02:30",
+                    "home": "Atlético de Rafaela",
+                    "away": "Colegiales",
+                    "score": "1 - 0",
                     "status": "Hiệp 1",
                     "is_live": true
                 }
@@ -47,16 +61,16 @@
                     "time": "02:00",
                     "home": "Imperatriz",
                     "away": "Tuna Luso",
-                    "score": "0 - 0",
-                    "status": "Hiệp 1",
+                    "score": "2 - 0",
+                    "status": "Nghỉ HT",
                     "is_live": true
                 },
                 {
                     "time": "02:00",
                     "home": "Tocantinópolis",
                     "away": "Oratório RC",
-                    "score": "0 - 0",
-                    "status": "Hiệp 1",
+                    "score": "3 - 0",
+                    "status": "Nghỉ HT",
                     "is_live": true
                 },
                 {
@@ -64,20 +78,20 @@
                     "home": "Trem",
                     "away": "Águia de Marabá FC",
                     "score": "0 - 0",
-                    "status": "Hiệp 1",
+                    "status": "Hiệp 2",
                     "is_live": true
                 }
             ]
         },
         {
-            "name": "Uruguay - Liga AUF Uruguaya, Intermedio, Serie B",
+            "name": "Brazil - Copa do Nordeste, Knockout stage",
             "priority": 99,
             "matches": [
                 {
-                    "time": "01:00",
-                    "home": "Montevideo City Torque",
-                    "away": "Deportivo Maldonado",
-                    "score": "1 - 2",
+                    "time": "02:00",
+                    "home": "Vitória",
+                    "away": "Fortaleza",
+                    "score": "0 - 1",
                     "status": "Nghỉ HT",
                     "is_live": true
                 }
@@ -88,34 +102,50 @@
             "priority": 99,
             "matches": [
                 {
-                    "time": "00:45",
-                    "home": "Portugal",
-                    "away": "Chile",
-                    "score": "0 - 0",
+                    "time": "01:30",
+                    "home": "USA",
+                    "away": "Germany",
+                    "score": "1 - 2",
+                    "status": "Hiệp 2",
+                    "is_live": true
+                },
+                {
+                    "time": "02:00",
+                    "home": "Panama",
+                    "away": "Bosnia & Herzegovina",
+                    "score": "1 - 1",
                     "status": "Nghỉ HT",
                     "is_live": true
                 },
                 {
-                    "time": "00:45",
-                    "home": "Romania",
-                    "away": "Wales",
+                    "time": "02:00",
+                    "home": "Switzerland",
+                    "away": "Australia",
                     "score": "1 - 0",
                     "status": "Hiệp 2",
                     "is_live": true
                 },
                 {
-                    "time": "01:00",
-                    "home": "Albania",
-                    "away": "Luxembourg",
-                    "score": "0 - 1",
-                    "status": "Nghỉ HT",
+                    "time": "03:00",
+                    "home": "Bolivia",
+                    "away": "Scotland",
+                    "score": "0 - 0",
+                    "status": "Hiệp 1",
                     "is_live": true
                 },
                 {
-                    "time": "01:30",
-                    "home": "USA",
-                    "away": "Germany",
-                    "score": "0 - 1",
+                    "time": "03:00",
+                    "home": "England",
+                    "away": "New Zealand",
+                    "score": "0 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                },
+                {
+                    "time": "03:00",
+                    "home": "Qatar",
+                    "away": "El Salvador",
+                    "score": "0 - 0",
                     "status": "Hiệp 1",
                     "is_live": true
                 }
@@ -153,20 +183,6 @@
                     "time": "06:00",
                     "home": "FC Supra Du Quebec",
                     "away": "Pacific FC",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
-            "name": "Spain - LaLiga 2, Promotion Playoffs",
-            "priority": 6,
-            "matches": [
-                {
-                    "time": "02:00",
-                    "home": "CD Castellón",
-                    "away": "Almería",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
@@ -286,22 +302,6 @@
             "priority": 99,
             "matches": [
                 {
-                    "time": "02:00",
-                    "home": "San Martín de San Juan",
-                    "away": "Nueva Chicago",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "02:30",
-                    "home": "Atlético de Rafaela",
-                    "away": "Colegiales",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
                     "time": "05:00",
                     "home": "Tristán Suárez",
                     "away": "Almagro",
@@ -327,20 +327,6 @@
                     "time": "06:30",
                     "home": "CDT Real Oruro",
                     "away": "Club FC Universitario",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
-            "name": "Brazil - Copa do Nordeste, Knockout stage",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "02:00",
-                    "home": "Vitória",
-                    "away": "Fortaleza",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
@@ -681,46 +667,6 @@
             "name": "World - Int. Friendly Games",
             "priority": 99,
             "matches": [
-                {
-                    "time": "02:00",
-                    "home": "Panama",
-                    "away": "Bosnia & Herzegovina",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "02:00",
-                    "home": "Switzerland",
-                    "away": "Australia",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "03:00",
-                    "home": "Bolivia",
-                    "away": "Scotland",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "03:00",
-                    "home": "England",
-                    "away": "New Zealand",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "03:00",
-                    "home": "Qatar",
-                    "away": "El Salvador",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
                 {
                     "time": "04:00",
                     "home": "Jamaica",
