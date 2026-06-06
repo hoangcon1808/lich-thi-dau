@@ -1,16 +1,38 @@
 {
-    "last_updated": "2026-06-06 15:46:07 (UTC)",
+    "last_updated": "2026-06-06 16:48:37 (UTC)",
     "live_leagues": [
         {
-            "name": "Brazil - Brasileirão Série B",
+            "name": "Algeria - Ligue 1",
+            "priority": 9,
+            "matches": [
+                {
+                    "time": "23:00",
+                    "home": "Olympique Akbou",
+                    "away": "ES Ben Aknoun",
+                    "score": "0 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "Chile - Liga de Ascenso",
             "priority": 99,
             "matches": [
                 {
-                    "time": "21:00",
-                    "home": "Criciúma",
-                    "away": "Londrina",
-                    "score": "1 - 0",
-                    "status": "Hiệp 2",
+                    "time": "23:30",
+                    "home": "Deportes Copiapó",
+                    "away": "Santiago Wanderers",
+                    "score": "0 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                },
+                {
+                    "time": "23:30",
+                    "home": "Deportes Puerto Montt",
+                    "away": "CD Cobreloa",
+                    "score": "0 - 0",
+                    "status": "Hiệp 1",
                     "is_live": true
                 }
             ]
@@ -23,49 +45,7 @@
                     "time": "22:00",
                     "home": "Estonia",
                     "away": "Faroe Islands",
-                    "score": "0 - 0",
-                    "status": "Hiệp 1",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "Sweden - Ettan, Norra",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "21:00",
-                    "home": "Gefle IF",
-                    "away": "Hammarby Talang FF",
-                    "score": "0 - 3",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "Sweden - Ettan, Sodra",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "21:00",
-                    "home": "Jönköpings Södra",
-                    "away": "FC Trollhättan",
-                    "score": "4 - 1",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "World - Int. Friendly Games",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "21:00",
-                    "home": "Armenia",
-                    "away": "Kazakhstan",
-                    "score": "1 - 1",
+                    "score": "1 - 0",
                     "status": "Hiệp 2",
                     "is_live": true
                 }
@@ -79,6 +59,20 @@
                     "time": "22:00",
                     "home": "Palestine",
                     "away": "Malaysia",
+                    "score": "2 - 0",
+                    "status": "Hiệp 2",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "World - Tournoi Maurice Revello, Group B",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "23:30",
+                    "home": "Portugal U19",
+                    "away": "Côte d'Ivoire U23",
                     "score": "0 - 0",
                     "status": "Hiệp 1",
                     "is_live": true
@@ -94,15 +88,15 @@
                     "home": "Kosovo U21",
                     "away": "Luxembourg U21",
                     "score": "0 - 0",
-                    "status": "Hiệp 1",
+                    "status": "Hiệp 2",
                     "is_live": true
                 },
                 {
                     "time": "22:30",
                     "home": "Croatia U21",
                     "away": "Ireland U21",
-                    "score": "1 - 0",
-                    "status": "Hiệp 1",
+                    "score": "1 - 1",
+                    "status": "Hiệp 2",
                     "is_live": true
                 }
             ]
@@ -167,14 +161,6 @@
                     "time": "00:00",
                     "home": "MC Oran",
                     "away": "USM Alger",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "23:00",
-                    "home": "Olympique Akbou",
-                    "away": "ES Ben Aknoun",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
@@ -455,22 +441,6 @@
                     "time": "07:30",
                     "home": "Rangers de Talca",
                     "away": "Deportes Santa Cruz",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "23:30",
-                    "home": "Deportes Copiapó",
-                    "away": "Santiago Wanderers",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "23:30",
-                    "home": "Deportes Puerto Montt",
-                    "away": "CD Cobreloa",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
@@ -913,20 +883,6 @@
                     "time": "18:00",
                     "home": "China",
                     "away": "Russia",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
-            "name": "World - Tournoi Maurice Revello, Group B",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "23:30",
-                    "home": "Portugal U19",
-                    "away": "Côte d'Ivoire U23",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
