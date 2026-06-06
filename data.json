@@ -1,24 +1,16 @@
 {
-    "last_updated": "2026-06-06 10:17:35 (UTC)",
+    "last_updated": "2026-06-06 11:46:25 (UTC)",
     "live_leagues": [
         {
             "name": "Japan - J1 League, Placement Matches",
             "priority": 99,
             "matches": [
                 {
-                    "time": "16:00",
-                    "home": "Kashiwa Reysol",
-                    "away": "Kyoto Sanga FC",
-                    "score": "0 - 0",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                },
-                {
                     "time": "17:00",
                     "home": "Kawasaki Frontale",
                     "away": "Sanfrecce Hiroshima",
-                    "score": "0 - 0",
-                    "status": "Hiệp 1",
+                    "score": "0 - 1",
+                    "status": "Hiệp 2",
                     "is_live": true
                 }
             ]
@@ -32,6 +24,42 @@
                     "home": "Sagan Tosu",
                     "away": "Shonan Bellmare",
                     "score": "0 - 0",
+                    "status": "Hiệp 2",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "South Korea - K-League 2",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "17:30",
+                    "home": "Gyeongnam FC",
+                    "away": "Yongin City FC",
+                    "score": "1 - 0",
+                    "status": "Hiệp 2",
+                    "is_live": true
+                },
+                {
+                    "time": "17:30",
+                    "home": "Hwaseong FC",
+                    "away": "Suwon Samsung Bluewings",
+                    "score": "1 - 0",
+                    "status": "Hiệp 2",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "World - Int. Friendly Games",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "18:30",
+                    "home": "Myanmar",
+                    "away": "Guam",
+                    "score": "0 - 0",
                     "status": "Hiệp 1",
                     "is_live": true
                 }
@@ -42,11 +70,11 @@
             "priority": 99,
             "matches": [
                 {
-                    "time": "16:15",
-                    "home": "Australia",
-                    "away": "Mexico",
-                    "score": "0 - 0",
-                    "status": "Nghỉ HT",
+                    "time": "17:30",
+                    "home": "Zimbabwe",
+                    "away": "Lesotho",
+                    "score": "1 - 1",
+                    "status": "Hiệp 2",
                     "is_live": true
                 }
             ]
@@ -627,22 +655,6 @@
             "matches": [
                 {
                     "time": "17:30",
-                    "home": "Gyeongnam FC",
-                    "away": "Yongin City FC",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "17:30",
-                    "home": "Hwaseong FC",
-                    "away": "Suwon Samsung Bluewings",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "17:30",
                     "home": "Cheonan City FC",
                     "away": "Suwon FC",
                     "score": "vs",
@@ -1016,14 +1028,6 @@
                     "is_live": false
                 },
                 {
-                    "time": "18:30",
-                    "home": "Myanmar",
-                    "away": "Guam",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
                     "time": "20:00",
                     "home": "Belgium",
                     "away": "Tunisia",
@@ -1049,14 +1053,6 @@
                     "time": "04:30",
                     "home": "Brazil",
                     "away": "USA",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "17:30",
-                    "home": "Zimbabwe",
-                    "away": "Lesotho",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
