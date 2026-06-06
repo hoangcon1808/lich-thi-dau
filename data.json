@@ -1,16 +1,38 @@
 {
-    "last_updated": "2026-06-06 16:48:37 (UTC)",
+    "last_updated": "2026-06-06 17:53:40 (UTC)",
     "live_leagues": [
         {
             "name": "Algeria - Ligue 1",
             "priority": 9,
             "matches": [
                 {
+                    "time": "00:00",
+                    "home": "MC Oran",
+                    "away": "USM Alger",
+                    "score": "0 - 2",
+                    "status": "Nghỉ HT",
+                    "is_live": true
+                },
+                {
                     "time": "23:00",
                     "home": "Olympique Akbou",
                     "away": "ES Ben Aknoun",
+                    "score": "1 - 1",
+                    "status": "Hiệp 2",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "Argentina - Primera B Nacional",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "00:00",
+                    "home": "Atlanta",
+                    "away": "Gimnasia Jujuy",
                     "score": "0 - 0",
-                    "status": "Hiệp 1",
+                    "status": "Nghỉ HT",
                     "is_live": true
                 }
             ]
@@ -23,44 +45,46 @@
                     "time": "23:30",
                     "home": "Deportes Copiapó",
                     "away": "Santiago Wanderers",
-                    "score": "0 - 0",
-                    "status": "Hiệp 1",
+                    "score": "1 - 0",
+                    "status": "Hiệp 2",
                     "is_live": true
                 },
                 {
                     "time": "23:30",
                     "home": "Deportes Puerto Montt",
                     "away": "CD Cobreloa",
+                    "score": "1 - 1",
+                    "status": "Hiệp 2",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "World - Int. Friendly Games",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "00:00",
+                    "home": "Gibraltar",
+                    "away": "Cayman Islands",
+                    "score": "1 - 1",
+                    "status": "Nghỉ HT",
+                    "is_live": true
+                },
+                {
+                    "time": "00:45",
+                    "home": "Portugal",
+                    "away": "Chile",
                     "score": "0 - 0",
                     "status": "Hiệp 1",
                     "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "Europe - Baltic Cup",
-            "priority": 99,
-            "matches": [
+                },
                 {
-                    "time": "22:00",
-                    "home": "Estonia",
-                    "away": "Faroe Islands",
-                    "score": "1 - 0",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "World - International Friendly Games, Women",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "22:00",
-                    "home": "Palestine",
-                    "away": "Malaysia",
-                    "score": "2 - 0",
-                    "status": "Hiệp 2",
+                    "time": "00:45",
+                    "home": "Romania",
+                    "away": "Wales",
+                    "score": "0 - 0",
+                    "status": "Hiệp 1",
                     "is_live": true
                 }
             ]
@@ -74,28 +98,6 @@
                     "home": "Portugal U19",
                     "away": "Côte d'Ivoire U23",
                     "score": "0 - 0",
-                    "status": "Hiệp 1",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "World - U21 Friendly Games",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "22:00",
-                    "home": "Kosovo U21",
-                    "away": "Luxembourg U21",
-                    "score": "0 - 0",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                },
-                {
-                    "time": "22:30",
-                    "home": "Croatia U21",
-                    "away": "Ireland U21",
-                    "score": "1 - 1",
                     "status": "Hiệp 2",
                     "is_live": true
                 }
@@ -147,20 +149,6 @@
                     "time": "02:00",
                     "home": "CD Castellón",
                     "away": "Almería",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
-            "name": "Algeria - Ligue 1",
-            "priority": 9,
-            "matches": [
-                {
-                    "time": "00:00",
-                    "home": "MC Oran",
-                    "away": "USM Alger",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
@@ -279,14 +267,6 @@
             "name": "Argentina - Primera B Nacional",
             "priority": 99,
             "matches": [
-                {
-                    "time": "00:00",
-                    "home": "Atlanta",
-                    "away": "Gimnasia Jujuy",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
                 {
                     "time": "01:00",
                     "home": "Los Andes",
@@ -745,30 +725,6 @@
             "name": "World - Int. Friendly Games",
             "priority": 99,
             "matches": [
-                {
-                    "time": "00:00",
-                    "home": "Gibraltar",
-                    "away": "Cayman Islands",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "00:45",
-                    "home": "Portugal",
-                    "away": "Chile",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "00:45",
-                    "home": "Romania",
-                    "away": "Wales",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
                 {
                     "time": "01:00",
                     "home": "Albania",
