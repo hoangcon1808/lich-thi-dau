@@ -1,62 +1,100 @@
 {
-    "last_updated": "2026-06-06 12:55:44 (UTC)",
+    "last_updated": "2026-06-06 14:24:33 (UTC)",
     "live_leagues": [
         {
-            "name": "Denmark - CampoBet 2 Division, Promotion Group",
-            "priority": 99,
+            "name": "South Africa - Premier League, Relegation/Promotion Playoffs",
+            "priority": 5,
             "matches": [
                 {
-                    "time": "19:00",
-                    "home": "AB",
-                    "away": "Thisted",
-                    "score": "1 - 0",
-                    "status": "Nghỉ HT",
-                    "is_live": true
-                },
-                {
-                    "time": "19:00",
-                    "home": "FC Roskilde",
-                    "away": "HIK",
-                    "score": "0 - 1",
-                    "status": "Nghỉ HT",
-                    "is_live": true
-                },
-                {
-                    "time": "19:00",
-                    "home": "Vendsyssel FF",
-                    "away": "Næstved Boldklub",
-                    "score": "2 - 1",
-                    "status": "Nghỉ HT",
+                    "time": "20:00",
+                    "home": "Milford FC",
+                    "away": "Cape Town City FC",
+                    "score": "0 - 0",
+                    "status": "Hiệp 2",
                     "is_live": true
                 }
             ]
         },
         {
-            "name": "Denmark - CampoBet 2 Division, Relegation",
+            "name": "Uruguay - Liga AUF Uruguaya, Intermedio, Serie A",
+            "priority": 7,
+            "matches": [
+                {
+                    "time": "20:00",
+                    "home": "Central Español",
+                    "away": "Racing de Montevideo",
+                    "score": "0 - 0",
+                    "status": "Hiệp 2",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "Brazil - Brasileirão Série B",
             "priority": 99,
             "matches": [
                 {
-                    "time": "19:00",
-                    "home": "Brabrand",
-                    "away": "Fremad Amager",
-                    "score": "0 - 0",
-                    "status": "Nghỉ HT",
+                    "time": "21:00",
+                    "home": "Criciúma",
+                    "away": "Londrina",
+                    "score": "1 - 0",
+                    "status": "Hiệp 1",
                     "is_live": true
-                },
+                }
+            ]
+        },
+        {
+            "name": "Europe - Baltic Cup",
+            "priority": 99,
+            "matches": [
                 {
-                    "time": "19:00",
-                    "home": "Skive",
-                    "away": "Ishøj IF",
-                    "score": "0 - 1",
-                    "status": "Nghỉ HT",
-                    "is_live": true
-                },
-                {
-                    "time": "19:00",
-                    "home": "VSK Aarhus",
-                    "away": "FC Helsingør",
+                    "time": "20:00",
+                    "home": "Lithuania",
+                    "away": "Latvia",
                     "score": "1 - 1",
-                    "status": "Nghỉ HT",
+                    "status": "Hiệp 2",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "Finland - Ykkosliiga",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "20:00",
+                    "home": "EIF",
+                    "away": "MP",
+                    "score": "0 - 0",
+                    "status": "Hiệp 2",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "Sweden - Ettan, Norra",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "21:00",
+                    "home": "Gefle IF",
+                    "away": "Hammarby Talang FF",
+                    "score": "0 - 1",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "Sweden - Ettan, Sodra",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "21:00",
+                    "home": "Jönköpings Södra",
+                    "away": "FC Trollhättan",
+                    "score": "1 - 0",
+                    "status": "Hiệp 1",
                     "is_live": true
                 }
             ]
@@ -66,10 +104,46 @@
             "priority": 99,
             "matches": [
                 {
-                    "time": "18:30",
-                    "home": "Myanmar",
-                    "away": "Guam",
-                    "score": "5 - 0",
+                    "time": "20:00",
+                    "home": "Belgium",
+                    "away": "Tunisia",
+                    "score": "2 - 0",
+                    "status": "Hiệp 2",
+                    "is_live": true
+                },
+                {
+                    "time": "21:00",
+                    "home": "Armenia",
+                    "away": "Kazakhstan",
+                    "score": "0 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "World - International Friendly Games, Women",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "20:00",
+                    "home": "Tanzania",
+                    "away": "Malawi",
+                    "score": "0 - 0",
+                    "status": "Hiệp 2",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "World - Tournoi Maurice Revello, Group B",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "20:00",
+                    "home": "Japan U19",
+                    "away": "Canada U20",
+                    "score": "0 - 0",
                     "status": "Hiệp 2",
                     "is_live": true
                 }
@@ -114,20 +188,6 @@
             ]
         },
         {
-            "name": "South Africa - Premier League, Relegation/Promotion Playoffs",
-            "priority": 5,
-            "matches": [
-                {
-                    "time": "20:00",
-                    "home": "Milford FC",
-                    "away": "Cape Town City FC",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
             "name": "Spain - LaLiga 2, Promotion Playoffs",
             "priority": 6,
             "matches": [
@@ -135,20 +195,6 @@
                     "time": "02:00",
                     "home": "CD Castellón",
                     "away": "Almería",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
-            "name": "Uruguay - Liga AUF Uruguaya, Intermedio, Serie A",
-            "priority": 7,
-            "matches": [
-                {
-                    "time": "20:00",
-                    "home": "Central Español",
-                    "away": "Racing de Montevideo",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
@@ -370,20 +416,6 @@
             ]
         },
         {
-            "name": "Brazil - Brasileirão Série B",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "21:00",
-                    "home": "Criciúma",
-                    "away": "Londrina",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
             "name": "Brazil - Brasileirão Série D, Group A5",
             "priority": 99,
             "matches": [
@@ -492,31 +524,9 @@
             "priority": 99,
             "matches": [
                 {
-                    "time": "20:00",
-                    "home": "Lithuania",
-                    "away": "Latvia",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
                     "time": "22:00",
                     "home": "Estonia",
                     "away": "Faroe Islands",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
-            "name": "Finland - Ykkosliiga",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "20:00",
-                    "home": "EIF",
-                    "away": "MP",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
@@ -616,20 +626,6 @@
             ]
         },
         {
-            "name": "Sweden - Ettan, Norra",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "21:00",
-                    "home": "Gefle IF",
-                    "away": "Hammarby Talang FF",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
             "name": "Sweden - Ettan, Sodra",
             "priority": 99,
             "matches": [
@@ -645,14 +641,6 @@
                     "time": "18:00",
                     "home": "Kristianstad FC",
                     "away": "Lunds BK",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "21:00",
-                    "home": "Jönköpings Södra",
-                    "away": "FC Trollhättan",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
@@ -962,22 +950,6 @@
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
-                },
-                {
-                    "time": "20:00",
-                    "home": "Belgium",
-                    "away": "Tunisia",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "21:00",
-                    "home": "Armenia",
-                    "away": "Kazakhstan",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
                 }
             ]
         },
@@ -1015,14 +987,6 @@
             "name": "World - Tournoi Maurice Revello, Group B",
             "priority": 99,
             "matches": [
-                {
-                    "time": "20:00",
-                    "home": "Japan U19",
-                    "away": "Canada U20",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
                 {
                     "time": "23:30",
                     "home": "Portugal U19",
