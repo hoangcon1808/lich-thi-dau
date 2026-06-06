@@ -1,14 +1,30 @@
 {
-    "last_updated": "2026-06-06 05:32:18 (UTC)",
+    "last_updated": "2026-06-06 08:07:36 (UTC)",
     "live_leagues": [
         {
-            "name": "Japan - J1 League, Final",
-            "priority": 99,
+            "name": "Australia - Queensland Premier League 1",
+            "priority": 5,
             "matches": [
                 {
-                    "time": "12:00",
-                    "home": "Kashima Antlers",
-                    "away": "Vissel Kobe",
+                    "time": "14:00",
+                    "home": "Brisbane Strikers",
+                    "away": "Robina City",
+                    "score": "1 - 0",
+                    "status": "Hiệp 2",
+                    "is_live": true
+                },
+                {
+                    "time": "15:00",
+                    "home": "Broadbeach United",
+                    "away": "Holland Park Hawks",
+                    "score": "1 - 0",
+                    "status": "Hiệp 1",
+                    "is_live": true
+                },
+                {
+                    "time": "15:00",
+                    "home": "Sunshine Coast Wanderers",
+                    "away": "North Star FC",
                     "score": "0 - 0",
                     "status": "Hiệp 1",
                     "is_live": true
@@ -20,17 +36,33 @@
             "priority": 99,
             "matches": [
                 {
-                    "time": "12:00",
-                    "home": "FC Tokyo",
-                    "away": "Cerezo Osaka",
-                    "score": "0 - 1",
-                    "status": "Hiệp 1",
+                    "time": "13:00",
+                    "home": "Machida Zelvia",
+                    "away": "Nagoya Grampus",
+                    "score": "0 - 0",
+                    "status": "Đang đá",
                     "is_live": true
                 },
                 {
-                    "time": "12:00",
-                    "home": "JEF United Chiba",
-                    "away": "Avispa Fukuoka",
+                    "time": "14:00",
+                    "home": "Tokyo Verdy",
+                    "away": "Gamba Osaka",
+                    "score": "1 - 1",
+                    "status": "Hiệp 2",
+                    "is_live": true
+                },
+                {
+                    "time": "14:00",
+                    "home": "Urawa Red Diamonds",
+                    "away": "Fagiano Okayama",
+                    "score": "0 - 1",
+                    "status": "Hiệp 2",
+                    "is_live": true
+                },
+                {
+                    "time": "15:00",
+                    "home": "Yokohama F. Marinos",
+                    "away": "Shimizu S-Pulse",
                     "score": "0 - 0",
                     "status": "Hiệp 1",
                     "is_live": true
@@ -42,81 +74,33 @@
             "priority": 99,
             "matches": [
                 {
-                    "time": "12:00",
-                    "home": "Albirex Niigata",
-                    "away": "Hokkaido Consadole Sapporo",
+                    "time": "13:00",
+                    "home": "FC Gifu",
+                    "away": "Gainare Tottori",
+                    "score": "1 - 1",
+                    "status": "Đang đá",
+                    "is_live": true
+                },
+                {
+                    "time": "14:00",
+                    "home": "Jubilo Iwata",
+                    "away": "FC Osaka",
                     "score": "0 - 0",
-                    "status": "Hiệp 1",
-                    "is_live": true
-                },
-                {
-                    "time": "12:00",
-                    "home": "Fujieda MYFC",
-                    "away": "Ehime FC",
-                    "score": "0 - 0",
-                    "status": "Hiệp 1",
-                    "is_live": true
-                },
-                {
-                    "time": "12:00",
-                    "home": "Matsumoto Yamaga FC",
-                    "away": "Nara Club",
-                    "score": "0 - 1",
-                    "status": "Hiệp 1",
-                    "is_live": true
-                },
-                {
-                    "time": "12:00",
-                    "home": "RB Omiya Ardija",
-                    "away": "Kochi United SC",
-                    "score": "0 - 0",
-                    "status": "Hiệp 1",
-                    "is_live": true
-                },
-                {
-                    "time": "12:00",
-                    "home": "SC Sagamihara",
-                    "away": "Roasso Kumamoto",
-                    "score": "0 - 0",
-                    "status": "Hiệp 1",
-                    "is_live": true
-                },
-                {
-                    "time": "12:00",
-                    "home": "Tochigi City FC",
-                    "away": "Reilac Shiga FC",
-                    "score": "0 - 0",
-                    "status": "Hiệp 1",
-                    "is_live": true
-                },
-                {
-                    "time": "12:00",
-                    "home": "Yokohama FC",
-                    "away": "Renofa Yamaguchi FC",
-                    "score": "1 - 0",
-                    "status": "Hiệp 1",
+                    "status": "Hiệp 2",
                     "is_live": true
                 }
             ]
         },
         {
-            "name": "Japan - J2/J3 League, Playoffs",
+            "name": "World - International Friendly Games, Women",
             "priority": 99,
             "matches": [
                 {
-                    "time": "12:00",
-                    "home": "Tegevajaro Miyazaki",
-                    "away": "Ventforet Kofu",
-                    "score": "0 - 0",
-                    "status": "Hiệp 1",
-                    "is_live": true
-                },
-                {
-                    "time": "12:00",
-                    "home": "Vegalta Sendai",
-                    "away": "Kataller Toyama",
-                    "score": "0 - 0",
-                    "status": "Hiệp 1",
+                    "time": "13:50",
+                    "home": "Japan",
+                    "away": "South Africa",
+                    "score": "4 - 0",
+                    "status": "Hiệp 2",
                     "is_live": true
                 }
             ]
@@ -136,33 +120,9 @@
                     "is_live": false
                 },
                 {
-                    "time": "14:00",
-                    "home": "Brisbane Strikers",
-                    "away": "Robina City",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "15:00",
-                    "home": "Broadbeach United",
-                    "away": "Holland Park Hawks",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
                     "time": "15:00",
                     "home": "Caboolture FC",
                     "away": "Ipswich FC",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "15:00",
-                    "home": "Sunshine Coast Wanderers",
-                    "away": "North Star FC",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
@@ -666,46 +626,6 @@
             "priority": 99,
             "matches": [
                 {
-                    "time": "13:00",
-                    "home": "Machida Zelvia",
-                    "away": "Nagoya Grampus",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "13:00",
-                    "home": "Mito Hollyhock",
-                    "away": "V-Varen Nagasaki",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "14:00",
-                    "home": "Tokyo Verdy",
-                    "away": "Gamba Osaka",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "14:00",
-                    "home": "Urawa Red Diamonds",
-                    "away": "Fagiano Okayama",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "15:00",
-                    "home": "Yokohama F. Marinos",
-                    "away": "Shimizu S-Pulse",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
                     "time": "16:00",
                     "home": "Kashiwa Reysol",
                     "away": "Kyoto Sanga FC",
@@ -771,22 +691,6 @@
                     "time": "12:00",
                     "home": "Zweigen Kanazawa",
                     "away": "Thespa Gunma",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "13:00",
-                    "home": "FC Gifu",
-                    "away": "Gainare Tottori",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "14:00",
-                    "home": "Jubilo Iwata",
-                    "away": "FC Osaka",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
@@ -1237,14 +1141,6 @@
                     "time": "04:30",
                     "home": "Brazil",
                     "away": "USA",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "13:50",
-                    "home": "Japan",
-                    "away": "South Africa",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
