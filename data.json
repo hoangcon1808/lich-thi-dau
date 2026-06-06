@@ -1,52 +1,62 @@
 {
-    "last_updated": "2026-06-06 11:46:25 (UTC)",
+    "last_updated": "2026-06-06 12:55:44 (UTC)",
     "live_leagues": [
         {
-            "name": "Japan - J1 League, Placement Matches",
+            "name": "Denmark - CampoBet 2 Division, Promotion Group",
             "priority": 99,
             "matches": [
                 {
-                    "time": "17:00",
-                    "home": "Kawasaki Frontale",
-                    "away": "Sanfrecce Hiroshima",
-                    "score": "0 - 1",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "Japan - J2/J3 League, Placement Matches",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "17:00",
-                    "home": "Sagan Tosu",
-                    "away": "Shonan Bellmare",
-                    "score": "0 - 0",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "South Korea - K-League 2",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "17:30",
-                    "home": "Gyeongnam FC",
-                    "away": "Yongin City FC",
+                    "time": "19:00",
+                    "home": "AB",
+                    "away": "Thisted",
                     "score": "1 - 0",
-                    "status": "Hiệp 2",
+                    "status": "Nghỉ HT",
                     "is_live": true
                 },
                 {
-                    "time": "17:30",
-                    "home": "Hwaseong FC",
-                    "away": "Suwon Samsung Bluewings",
-                    "score": "1 - 0",
-                    "status": "Hiệp 2",
+                    "time": "19:00",
+                    "home": "FC Roskilde",
+                    "away": "HIK",
+                    "score": "0 - 1",
+                    "status": "Nghỉ HT",
+                    "is_live": true
+                },
+                {
+                    "time": "19:00",
+                    "home": "Vendsyssel FF",
+                    "away": "Næstved Boldklub",
+                    "score": "2 - 1",
+                    "status": "Nghỉ HT",
+                    "is_live": true
+                }
+            ]
+        },
+        {
+            "name": "Denmark - CampoBet 2 Division, Relegation",
+            "priority": 99,
+            "matches": [
+                {
+                    "time": "19:00",
+                    "home": "Brabrand",
+                    "away": "Fremad Amager",
+                    "score": "0 - 0",
+                    "status": "Nghỉ HT",
+                    "is_live": true
+                },
+                {
+                    "time": "19:00",
+                    "home": "Skive",
+                    "away": "Ishøj IF",
+                    "score": "0 - 1",
+                    "status": "Nghỉ HT",
+                    "is_live": true
+                },
+                {
+                    "time": "19:00",
+                    "home": "VSK Aarhus",
+                    "away": "FC Helsingør",
+                    "score": "1 - 1",
+                    "status": "Nghỉ HT",
                     "is_live": true
                 }
             ]
@@ -59,21 +69,7 @@
                     "time": "18:30",
                     "home": "Myanmar",
                     "away": "Guam",
-                    "score": "0 - 0",
-                    "status": "Hiệp 1",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "World - International Friendly Games, Women",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "17:30",
-                    "home": "Zimbabwe",
-                    "away": "Lesotho",
-                    "score": "1 - 1",
+                    "score": "5 - 0",
                     "status": "Hiệp 2",
                     "is_live": true
                 }
@@ -485,66 +481,6 @@
                     "time": "23:30",
                     "home": "Deportes Puerto Montt",
                     "away": "CD Cobreloa",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
-            "name": "Denmark - CampoBet 2 Division, Promotion Group",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "19:00",
-                    "home": "AB",
-                    "away": "Thisted",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "19:00",
-                    "home": "FC Roskilde",
-                    "away": "HIK",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "19:00",
-                    "home": "Vendsyssel FF",
-                    "away": "Næstved Boldklub",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
-            "name": "Denmark - CampoBet 2 Division, Relegation",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "19:00",
-                    "home": "Brabrand",
-                    "away": "Fremad Amager",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "19:00",
-                    "home": "Skive",
-                    "away": "Ishøj IF",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "19:00",
-                    "home": "VSK Aarhus",
-                    "away": "FC Helsingør",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
