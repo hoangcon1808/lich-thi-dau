@@ -1,108 +1,40 @@
 {
-    "last_updated": "2026-06-07 01:33:42 (UTC)",
+    "last_updated": "2026-06-07 06:05:51 (UTC)",
     "live_leagues": [
         {
-            "name": "USA - MLS Next Pro",
-            "priority": 12,
-            "matches": [
-                {
-                    "time": "07:00",
-                    "home": "Colorado Rapids 2",
-                    "away": "Saint Louis City SC 2",
-                    "score": "1 - 1",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "Chile - Liga de Ascenso",
+            "name": "Japan - J2/J3 League, Placement Matches",
             "priority": 99,
             "matches": [
                 {
-                    "time": "07:30",
-                    "home": "Deportes Iquique",
-                    "away": "Deportes Recoleta",
-                    "score": "1 - 0",
+                    "time": "12:00",
+                    "home": "Blaublitz Akita",
+                    "away": "Kagoshima United",
+                    "score": "0 - 2",
                     "status": "Nghỉ HT",
                     "is_live": true
                 },
                 {
-                    "time": "07:30",
-                    "home": "Rangers de Talca",
-                    "away": "Deportes Santa Cruz",
-                    "score": "0 - 0",
+                    "time": "12:00",
+                    "home": "Fukushima United FC",
+                    "away": "FC Ryukyu",
+                    "score": "0 - 1",
                     "status": "Nghỉ HT",
                     "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "USA - USL Cup",
-            "priority": 99,
-            "matches": [
+                },
                 {
-                    "time": "06:00",
-                    "home": "New York Cosmos",
-                    "away": "Hartford Athletic",
-                    "score": "0 - 3",
-                    "status": "Hiệp 1",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "USA - USL Cup, Group 1",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "08:00",
-                    "home": "Spokane Velocity FC",
-                    "away": "AC Boise",
-                    "score": "0 - 0",
-                    "status": "Hiệp 1",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "USA - USL Cup, Group 3",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "07:30",
-                    "home": "FC Tulsa",
-                    "away": "San Antonio FC",
-                    "score": "1 - 0",
+                    "time": "12:00",
+                    "home": "Tochigi SC",
+                    "away": "Giravanz Kitakyushu",
+                    "score": "0 - 1",
                     "status": "Nghỉ HT",
                     "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "USA - USL Cup, Group 4",
-            "priority": 99,
-            "matches": [
+                },
                 {
-                    "time": "07:00",
-                    "home": "Union Omaha SC",
-                    "away": "Fort Wayne FC",
-                    "score": "2 - 2",
-                    "status": "Hiệp 2",
-                    "is_live": true
-                }
-            ]
-        },
-        {
-            "name": "World - Int. Friendly Games",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "07:00",
-                    "home": "Argentina",
-                    "away": "Honduras",
-                    "score": "2 - 0",
-                    "status": "Hiệp 2",
+                    "time": "12:00",
+                    "home": "Zweigen Kanazawa",
+                    "away": "Thespa Gunma",
+                    "score": "0 - 0",
+                    "status": "Nghỉ HT",
                     "is_live": true
                 }
             ]
@@ -284,14 +216,6 @@
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
-                },
-                {
-                    "time": "09:00",
-                    "home": "Ventura County FC",
-                    "away": "Houston Dynamo 2",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
                 }
             ]
         },
@@ -397,6 +321,14 @@
                     "time": "04:15",
                     "home": "The Strongest",
                     "away": "Oriente Petrolero",
+                    "score": "vs",
+                    "status": "Sắp diễn ra",
+                    "is_live": false
+                },
+                {
+                    "time": "06:30",
+                    "home": "Blooming",
+                    "away": "GV San José",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
@@ -598,54 +530,6 @@
             "priority": 99,
             "matches": [
                 {
-                    "time": "11:00",
-                    "home": "Vanraure Hachinohe",
-                    "away": "FC Imabari",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "11:05",
-                    "home": "Tokushima Vortis",
-                    "away": "Iwaki FC",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "12:00",
-                    "home": "Blaublitz Akita",
-                    "away": "Kagoshima United",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "12:00",
-                    "home": "Fukushima United FC",
-                    "away": "FC Ryukyu",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "12:00",
-                    "home": "Tochigi SC",
-                    "away": "Giravanz Kitakyushu",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "12:00",
-                    "home": "Zweigen Kanazawa",
-                    "away": "Thespa Gunma",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
                     "time": "14:00",
                     "home": "Oita Trinita",
                     "away": "Montedio Yamagata",
@@ -775,58 +659,6 @@
                     "time": "02:00",
                     "home": "Brooklyn FC",
                     "away": "Portland Hearts of Pine",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
-            "name": "USA - USL Cup, Group 1",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "09:30",
-                    "home": "Las Vegas Lights",
-                    "away": "Oakland Roots SC",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "10:00",
-                    "home": "Sacramento Republic FC",
-                    "away": "Monterey Bay FC",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                }
-            ]
-        },
-        {
-            "name": "USA - USL Cup, Group 2 ",
-            "priority": 99,
-            "matches": [
-                {
-                    "time": "08:00",
-                    "home": "Colorado Springs Switchbacks FC",
-                    "away": "El Paso Locomotive FC",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "08:30",
-                    "home": "New Mexico United",
-                    "away": "Phoenix Rising FC",
-                    "score": "vs",
-                    "status": "Sắp diễn ra",
-                    "is_live": false
-                },
-                {
-                    "time": "10:00",
-                    "home": "AV Alta FC",
-                    "away": "Orange County SC",
                     "score": "vs",
                     "status": "Sắp diễn ra",
                     "is_live": false
